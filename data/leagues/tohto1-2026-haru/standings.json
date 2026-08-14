@@ -1,0 +1,70 @@
+{
+ "総合": [
+  {
+   "rank": 1,
+   "team": "國學院大",
+   "slug": "kokugakuin",
+   "games": 14,
+   "wins": 10,
+   "losses": 4,
+   "draws": 0,
+   "points": 5,
+   "win_pct": ".714"
+  },
+  {
+   "rank": 2,
+   "team": "青学大",
+   "slug": "aoyamagakuin",
+   "games": 12,
+   "wins": 7,
+   "losses": 5,
+   "draws": 0,
+   "points": 3,
+   "win_pct": ".583"
+  },
+  {
+   "rank": 2,
+   "team": "亜細亜大",
+   "slug": "asia",
+   "games": 12,
+   "wins": 7,
+   "losses": 5,
+   "draws": 0,
+   "points": 3,
+   "win_pct": ".583"
+  },
+  {
+   "rank": 4,
+   "team": "中央大",
+   "slug": "chuo",
+   "games": 13,
+   "wins": 5,
+   "losses": 8,
+   "draws": 0,
+   "points": 2,
+   "win_pct": ".385"
+  },
+  {
+   "rank": 5,
+   "team": "立正大",
+   "slug": "rissho",
+   "games": 15,
+   "wins": 6,
+   "losses": 9,
+   "draws": 0,
+   "points": 1,
+   "win_pct": ".400"
+  },
+  {
+   "rank": 6,
+   "team": "東洋大",
+   "slug": "toyo",
+   "games": 14,
+   "wins": 5,
+   "losses": 9,
+   "draws": 0,
+   "points": 1,
+   "win_pct": ".357"
+  }
+ ]
+}

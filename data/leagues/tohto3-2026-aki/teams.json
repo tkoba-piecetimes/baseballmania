@@ -1,0 +1,32 @@
+{
+ "国士大": {
+  "team": "国士大",
+  "slug": "kokushikan",
+  "block": "総合"
+ },
+ "学習大": {
+  "team": "学習大",
+  "slug": "gakushuin",
+  "block": "総合"
+ },
+ "大正大": {
+  "team": "大正大",
+  "slug": "taisho",
+  "block": "総合"
+ },
+ "成蹊大": {
+  "team": "成蹊大",
+  "slug": "seikei",
+  "block": "総合"
+ },
+ "上智大": {
+  "team": "上智大",
+  "slug": "sophia",
+  "block": "総合"
+ },
+ "順大": {
+  "team": "順大",
+  "slug": "juntendo",
+  "block": "総合"
+ }
+}

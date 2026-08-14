@@ -1,0 +1,22 @@
+{
+ "芝工大": {
+  "team": "芝工大",
+  "slug": "shibaura",
+  "block": "総合"
+ },
+ "科学大": {
+  "team": "科学大",
+  "slug": "science-tokyo",
+  "block": "総合"
+ },
+ "一橋大": {
+  "team": "一橋大",
+  "slug": "hitotsubashi",
+  "block": "総合"
+ },
+ "都市大": {
+  "team": "都市大",
+  "slug": "tokyo-city",
+  "block": "総合"
+ }
+}
