@@ -31,6 +31,8 @@ jobs:
         run: pip install pykakasi
       - name: Fetch baseball data (東京六大学・東都大学)
         run: python pipeline/fetch_all.py
+      - name: Generate articles (節レビュー自動生成)
+        run: python pipeline/generate_articles.py
       - name: Generate site
         run: python pipeline/generate_site.py
       - name: Commit updated data & site
@@ -38,7 +40,7 @@ jobs:
         run: |
           git config user.name "baseballmania-bot"
           git config user.email "bot@piecetimes.jp"
-          git add data site
+          git add data site content
           git diff --cached --quiet || git commit -m "chore: auto-update baseball data"
           git push
       - uses: actions/configure-pages@v5
