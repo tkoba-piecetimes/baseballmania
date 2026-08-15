@@ -30,7 +30,26 @@ CONTENT = ROOT / "content" / "articles"
 SITE_BASE = "https://baseballmania.jp/"
 GA_MEASUREMENT_ID = "G-KZF979BFLV"  # GA4「ベースボールマニア」専用プロパティ（549901663）
 GSC_VERIFICATION = "0X77J6-cDQak8VJkyt1PGegqMjZwEI2HWAYjkwl3OF0"  # Search Console所有権確認トークン（アカウント共通）
-SPONSOR_CTA_URL = "https://tunakare.jp/?utm_source=baseballmania&utm_medium=referral&utm_campaign=sponsor"
+
+# ---- ツナカレ接続導線（部活メディア→ツナカレ接続設計 2026-08 D1〜D5）
+TUNAKARE_LINKS_FILE = DATA / "tunakare_links.json"
+_UTM = "utm_source=baseballmania&utm_medium=referral"
+SPONSOR_CTA_URL = f"https://tunakare.jp/?{_UTM}&utm_campaign=sponsor"  # マッピング無の「応援できる部活を探す」先（旧・唯一のCTA先。cv_sponsor_click後方互換）
+LISTING_LP_URL = f"https://lp.tunakare.jp/s01/?{_UTM}&utm_campaign=listing"  # 学生団体向けLP（協賛募集の無料掲載）
+MEDIA_CONTACT_URL = f"https://media.tunakare.jp/contact/student/?{_UTM}&utm_campaign=media-pr"  # 取材依頼（汎用問い合わせ）
+SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{_UTM}&utm_campaign=shukatsu"  # 学生個人の就活相談
+CAREER_URL = f"https://career.tunakare.jp/?{_UTM}&utm_campaign=career"  # OB/OG向け転職・キャリア相談
+
+
+def sponsorship_detail_url(slug):
+    """特定団体の協賛募集詳細ページへのslug直リンク（tunakare_links.json でマッピング済みの場合）。"""
+    return f"https://tunakare.jp/sponsorship/search/p/{slug}?{_UTM}&utm_campaign=sponsor"
+
+
+def load_tunakare_links():
+    if not TUNAKARE_LINKS_FILE.exists():
+        return {}
+    return json.loads(TUNAKARE_LINKS_FILE.read_text(encoding="utf-8"))
 
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
 SEASON_YEAR = 2026
@@ -405,6 +424,54 @@ def article_card(a, rel):
             f'<p class="note">{escape(a["description"])}</p></div>')
 
 
+# ---------------------------------------------------------------- tunakare CTA components
+
+def cta_lane(label, url, event, *, outline=False):
+    """ツナカレ系リンク1本分（「PR」表記・rel=noopener sponsored・GA4イベント発火）。"""
+    cls = "cta cta-outline" if outline else "cta"
+    return (f'<p class="sponsor-lane"><span class="pr-tag">PR</span>'
+            f'<a class="{cls}" href="{escape(url)}" target="_blank" rel="noopener sponsored" '
+            f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">{escape(label)} →</a></p>')
+
+
+def sponsor_block(slug, community):
+    """D2: チームページの応援ブロック（マッピング有無で導線を出し分け）。"""
+    links = load_tunakare_links()
+    entry = links.get(slug)
+    body = '<section class="sponsor"><h2>この部活を応援する</h2>'
+    if entry and entry.get("sponsorship_slug"):
+        name = entry.get("community") or community
+        body += cta_lane(f'{name}の協賛募集を見る',
+                          sponsorship_detail_url(entry["sponsorship_slug"]), "cv_sponsor_click")
+    else:
+        body += cta_lane("応援できる部活を探す", SPONSOR_CTA_URL, "cv_sponsor_click")
+        body += cta_lane("この部の関係者の方へ: 協賛募集を無料で掲載", LISTING_LP_URL,
+                          "cv_listing_click", outline=True)
+    body += cta_lane("取材してほしい部活を募集中", MEDIA_CONTACT_URL, "cv_media_pr_click", outline=True)
+    body += '</section>'
+    return body
+
+
+CTA_BANDS = {
+    "shukatsu": ("部活と就活の両立、ひとりで悩まない", "体育会学生向けの無料就活相談。", SHUKATSU_URL, "cv_shukatsu_click"),
+    "career": ("体育会出身の転職・キャリア相談", "OB・OG向けのキャリア相談。", CAREER_URL, "cv_career_click"),
+    "listing": ("遠征費・運営資金に。協賛募集を無料掲載", "部活の運営者の方へ。", LISTING_LP_URL, "cv_listing_click"),
+    "sponsor": ("この部活・競技を応援したい方へ", "協賛・応援はこちらから。", SPONSOR_CTA_URL, "cv_sponsor_click"),
+}
+
+
+def cta_band(cta_value):
+    """D3: 記事frontmatterの cta: フィールドに応じた記事末尾CTA帯（none/未指定は非表示）。"""
+    info = CTA_BANDS.get((cta_value or "").strip())
+    if not info:
+        return ""
+    heading, sub, url, event = info
+    return ('<section class="cta-band"><span class="pr-tag">PR</span>'
+            f'<p class="cta-band-text"><strong>{escape(heading)}</strong><br>{escape(sub)}</p>'
+            f'<a class="cta" href="{escape(url)}" target="_blank" rel="noopener sponsored" '
+            f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">詳しく見る →</a></section>')
+
+
 def h2h_section(m, matches):
     pair = [x for x in h2h_list(m["home"], m["away"], matches) if x["id"] != m["id"]]
     if not pair:
@@ -499,6 +566,26 @@ def build_portal(leagues, articles, meta):
         body += ('<section><h2>読みもの</h2><div class="digest">'
                  + "".join(article_card(a, rel) for a in articles[:3])
                  + f'</div><p class="more"><a class="cta" href="articles/index.html">読みもの一覧へ →</a></p></section>')
+    body += (
+        '<section class="support"><h2>ツナカレとつながる</h2>'
+        '<div class="digest">'
+        '<div class="digest-card support-card"><span class="pr-tag">PR</span>'
+        '<h3>部活を応援する</h3>'
+        '<p class="note">気になる大学野球部への協賛・応援はこちらから。</p>'
+        f'<a class="cta" href="{SPONSOR_CTA_URL}" target="_blank" rel="noopener sponsored" '
+        'onclick="window.gtag&&gtag(\'event\',\'cv_sponsor_click\')">応援できる部活を探す →</a></div>'
+        '<div class="digest-card support-card"><span class="pr-tag">PR</span>'
+        '<h3>協賛募集を無料で掲載</h3>'
+        '<p class="note">部活の運営者の方へ。協賛募集ページを無料で開設できます。</p>'
+        f'<a class="cta cta-outline" href="{LISTING_LP_URL}" target="_blank" rel="noopener sponsored" '
+        'onclick="window.gtag&&gtag(\'event\',\'cv_listing_click\')">掲載について問い合わせる →</a></div>'
+        '<div class="digest-card support-card"><span class="pr-tag">PR</span>'
+        '<h3>取材してほしい部活を募集</h3>'
+        '<p class="note">あなたの部活・チームを取材してほしい方はこちらから。</p>'
+        f'<a class="cta cta-outline" href="{MEDIA_CONTACT_URL}" target="_blank" rel="noopener sponsored" '
+        'onclick="window.gtag&&gtag(\'event\',\'cv_media_pr_click\')">取材を依頼する →</a></div>'
+        '</div></section>'
+    )
     write_page("", page(rel, "ベースボールマニア | 大学野球の試合結果・順位・データ", body, meta,
                         path="",
                         desc=f"{kicker}の試合結果・日程・順位表を毎日更新する大学野球情報メディア。"))
@@ -617,10 +704,7 @@ def build_league(lg, articles):
                 for a in articles[:3])
             body += (f'<section><h2>読みもの</h2><ul>{art_links}</ul>'
                      f'<p class="more"><a href="{R}articles/index.html">読みもの一覧へ →</a></p></section>')
-        body += ('<section class="sponsor"><h2>この部活を応援する企業</h2>'
-                 '<p class="todo">（協賛メニュー連携枠：スポンサー企業ロゴ・リンクをここに配置）</p>'
-                 f'<p><a class="cta" href="{SPONSOR_CTA_URL}" target="_blank" rel="noopener" '
-                 'onclick="window.gtag&&gtag(\'event\',\'cv_sponsor_click\')">協賛について問い合わせる →</a></p></section>')
+        body += sponsor_block(slug, name)
         write_page(f"{code}/clubs/{slug}",
                    page(R, f'{name} 試合結果・日程・戦績 | ベースボールマニア', body, meta,
                         path=f"{code}/clubs/{slug}/",
@@ -681,6 +765,7 @@ def build_articles(articles, meta):
                  f' <span class="note">{escape(a["date"])}</span></p>')
         body += f'<h1>{escape(a["title"])}</h1>'
         body += f'<div class="article">{md_to_html(a["body"])}</div>'
+        body += cta_band(a.get("cta"))
         body += f'<section><h2>あわせて読む</h2><ul>{related}</ul></section>'
         write_page(f"articles/{a['slug']}",
                    page(rel, f'{a["title"]} | ベースボールマニア', body, meta,
@@ -928,8 +1013,23 @@ table.detail td { white-space:normal; }
 .team-list { list-style:none; margin:0; padding:0; columns:2; font-size:.9rem; }
 .team-list li { margin:.25em 0; break-inside:avoid; }
 
-.sponsor .todo { color:var(--sub); background:var(--surface);
-  border:1px dashed var(--line); border-radius:10px; padding:.8rem; font-size:.85rem; }
+.pr-tag { display:inline-block; background:var(--navy); color:#fff; font-size:.62rem;
+  font-weight:800; letter-spacing:.05em; padding:.15em .5em; border-radius:4px;
+  vertical-align:middle; margin-right:.55em; }
+.sponsor-lane { margin:.7rem 0; }
+.cta-outline { background:transparent; color:var(--accent-dark); border:1.5px solid var(--accent); }
+.cta-outline:hover { background:var(--accent); color:#fff; }
+
+.support-card { display:flex; flex-direction:column; align-items:flex-start; gap:.3rem; }
+.support-card .pr-tag { margin:0 0 .2rem; }
+.support-card h3 { margin:0; font-size:.95rem; }
+.support-card .note { margin:0 0 .3rem; }
+.support-card .cta { margin-top:auto; }
+
+.cta-band { display:flex; flex-wrap:wrap; align-items:center; gap:.6rem 1.2rem;
+  background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--navy);
+  border-radius:10px; padding:1rem 1.2rem; margin-top:1.6rem; }
+.cta-band-text { margin:0; font-size:.85rem; flex:1 1 220px; }
 
 .cat-line { font-size:.8rem; margin:.4rem 0; }
 .article { background:var(--surface); border:1px solid var(--line); border-radius:10px;

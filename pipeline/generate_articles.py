@@ -227,6 +227,7 @@ def build_article(item):
         f"description: {description}\n"
         f"date: {rep.isoformat()}\n"
         "category: 週末レビュー\n"
+        "cta: sponsor\n"
         "---\n"
     )
     return frontmatter + body
