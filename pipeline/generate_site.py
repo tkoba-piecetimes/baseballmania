@@ -31,25 +31,13 @@ SITE_BASE = "https://baseballmania.jp/"
 GA_MEASUREMENT_ID = "G-KZF979BFLV"  # GA4「ベースボールマニア」専用プロパティ（549901663）
 GSC_VERIFICATION = "0X77J6-cDQak8VJkyt1PGegqMjZwEI2HWAYjkwl3OF0"  # Search Console所有権確認トークン（アカウント共通）
 
-# ---- ツナカレ接続導線（部活メディア→ツナカレ接続設計 2026-08 D1〜D5）
-TUNAKARE_LINKS_FILE = DATA / "tunakare_links.json"
+# ---- ツナカレ接続導線（部活メディア→ツナカレ接続設計 2026-08 D2改訂版）
 _UTM = "utm_source=baseballmania&utm_medium=referral"
-SPONSOR_CTA_URL = f"https://tunakare.jp/?{_UTM}&utm_campaign=sponsor"  # マッピング無の「応援できる部活を探す」先（旧・唯一のCTA先。cv_sponsor_click後方互換）
+SPONSOR_CTA_URL = f"https://tunakare.jp/?{_UTM}&utm_campaign=sponsor"  # 「応援できる部活を探す」先（cv_sponsor_click後方互換）
 LISTING_LP_URL = f"https://lp.tunakare.jp/s01/?{_UTM}&utm_campaign=listing"  # 学生団体向けLP（協賛募集の無料掲載）
 MEDIA_CONTACT_URL = f"https://media.tunakare.jp/contact/student/?{_UTM}&utm_campaign=media-pr"  # 取材依頼（汎用問い合わせ）
 SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{_UTM}&utm_campaign=shukatsu"  # 学生個人の就活相談
 CAREER_URL = f"https://career.tunakare.jp/?{_UTM}&utm_campaign=career"  # OB/OG向け転職・キャリア相談
-
-
-def sponsorship_detail_url(slug):
-    """特定団体の協賛募集詳細ページへのslug直リンク（tunakare_links.json でマッピング済みの場合）。"""
-    return f"https://tunakare.jp/sponsorship/search/p/{slug}?{_UTM}&utm_campaign=sponsor"
-
-
-def load_tunakare_links():
-    if not TUNAKARE_LINKS_FILE.exists():
-        return {}
-    return json.loads(TUNAKARE_LINKS_FILE.read_text(encoding="utf-8"))
 
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
 SEASON_YEAR = 2026
@@ -434,19 +422,17 @@ def cta_lane(label, url, event, *, outline=False):
             f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">{escape(label)} →</a></p>')
 
 
-def sponsor_block(slug, community):
-    """D2: チームページの応援ブロック（マッピング有無で導線を出し分け）。"""
-    links = load_tunakare_links()
-    entry = links.get(slug)
+def sponsor_block():
+    """D2改訂版: チームページの応援ブロック。全チーム共通の汎用3導線を表示する。
+
+    個別部活への協賛ページ直リンク・団体名表示は行わない（募集中の部活はツナカレに
+    遷移して初めてわかる設計。案件には締切・停止があり静的サイト側に募集状況を持つと
+    管理不能になるため）。
+    """
     body = '<section class="sponsor"><h2>この部活を応援する</h2>'
-    if entry and entry.get("sponsorship_slug"):
-        name = entry.get("community") or community
-        body += cta_lane(f'{name}の協賛募集を見る',
-                          sponsorship_detail_url(entry["sponsorship_slug"]), "cv_sponsor_click")
-    else:
-        body += cta_lane("応援できる部活を探す", SPONSOR_CTA_URL, "cv_sponsor_click")
-        body += cta_lane("この部の関係者の方へ: 協賛募集を無料で掲載", LISTING_LP_URL,
-                          "cv_listing_click", outline=True)
+    body += cta_lane("この部活・競技を応援したい方へ: ツナカレで協賛募集中の部活を探す", SPONSOR_CTA_URL, "cv_sponsor_click")
+    body += cta_lane("この部の関係者の方へ: 協賛募集を無料で掲載", LISTING_LP_URL,
+                      "cv_listing_click", outline=True)
     body += cta_lane("取材してほしい部活を募集中", MEDIA_CONTACT_URL, "cv_media_pr_click", outline=True)
     body += '</section>'
     return body
@@ -704,7 +690,7 @@ def build_league(lg, articles):
                 for a in articles[:3])
             body += (f'<section><h2>読みもの</h2><ul>{art_links}</ul>'
                      f'<p class="more"><a href="{R}articles/index.html">読みもの一覧へ →</a></p></section>')
-        body += sponsor_block(slug, name)
+        body += sponsor_block()
         write_page(f"{code}/clubs/{slug}",
                    page(R, f'{name} 試合結果・日程・戦績 | ベースボールマニア', body, meta,
                         path=f"{code}/clubs/{slug}/",
