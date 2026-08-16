@@ -173,15 +173,61 @@ def badge(mark):
     return f'<span class="mk mk-{cls}">{mark}</span>'
 
 
+def jsonld_start_end(m):
+    """開始日時（判明していれば）と、それを基準に約3時間後と推定した終了日時を返す。
+    時刻が不明・未定の場合は日付のみ（startDate=endDate=試合日）とする。"""
+    if m["date"] and m["time"] and m["time"] not in ("未定", "第1試合終了後"):
+        try:
+            from datetime import datetime, timedelta
+            h, mi = m["time"].split(":")
+            start_dt = datetime.fromisoformat(m["date"]).replace(hour=int(h), minute=int(mi))
+            end_dt = start_dt + timedelta(hours=3)
+            return start_dt.strftime("%Y-%m-%dT%H:%M:00+09:00"), end_dt.strftime("%Y-%m-%dT%H:%M:00+09:00")
+        except (ValueError, TypeError):
+            pass
+    return m["date"], m["date"]
+
+
+def jsonld_description(m, league_name):
+    """JSON-LD用の簡潔な試合説明文。match_report()のロジックを簡略化したもの。"""
+    d = date_jp(m["date"], with_year=True) if m["date"] else "日程未定"
+    if m["status"] != "played":
+        if m["time"] not in ("未定", "第1試合終了後"):
+            return (f'{d}、{m["venue"]}にて{league_name}の'
+                    f'{m["home"]}対{m["away"]}が{m["time"]}に行われる予定です。')
+        return (f'{d}、{m["venue"]}にて{league_name}の'
+                f'{m["home"]}対{m["away"]}が行われる予定です。')
+    hs, as_ = m["home_score"], m["away_score"]
+    base = (f'{d}、{m["venue"]}にて{league_name}の'
+            f'{m["home"]}対{m["away"]}が行われました。')
+    if hs == as_:
+        result = f'試合は{hs}-{as_}で引き分けとなりました。'
+    else:
+        winner = m["home"] if hs > as_ else m["away"]
+        loser = m["away"] if hs > as_ else m["home"]
+        result = f'試合は{winner}が{max(hs, as_)}-{min(hs, as_)}で{loser}を下しました。'
+    return base + result
+
+
 def jsonld_sports_event(m, league_name):
+    start_date, end_date = jsonld_start_end(m)
+    home_team = {"@type": "SportsTeam", "name": club_label(m["home"])}
+    away_team = {"@type": "SportsTeam", "name": club_label(m["away"])}
     data = {
         "@context": "https://schema.org",
         "@type": "SportsEvent",
         "name": f'{league_name} {m["home"]} vs {m["away"]}',
-        "startDate": m["date"],
-        "location": {"@type": "Place", "name": m["venue"]},
-        "homeTeam": {"@type": "SportsTeam", "name": club_label(m["home"])},
-        "awayTeam": {"@type": "SportsTeam", "name": club_label(m["away"])},
+        "startDate": start_date,
+        "endDate": end_date,
+        "description": jsonld_description(m, league_name),
+        "location": {
+            "@type": "Place",
+            "name": m["venue"],
+            "address": {"@type": "PostalAddress", "addressCountry": "JP"},
+        },
+        "homeTeam": home_team,
+        "awayTeam": away_team,
+        "performer": [home_team, away_team],
         "sport": "Baseball",
     }
     return ('<script type="application/ld+json">'
