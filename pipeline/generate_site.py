@@ -62,12 +62,18 @@ def load_leagues():
         d = DATA / "leagues" / code
         if not (d / "matches.json").exists():
             continue
+        players = None
+        if (d / "players.json").exists():
+            players = json.loads((d / "players.json").read_text(encoding="utf-8"))
+            if not players.get("batting") and not players.get("pitching"):
+                players = None
         lg = {
             "code": code,
             "matches": json.loads((d / "matches.json").read_text(encoding="utf-8")),
             "standings": json.loads((d / "standings.json").read_text(encoding="utf-8")),
             "teams": json.loads((d / "teams.json").read_text(encoding="utf-8")),
             "meta": json.loads((d / "meta.json").read_text(encoding="utf-8")),
+            "players": players,
         }
         lg["label"] = lg["meta"]["league"]
         leagues.append(lg)
@@ -147,6 +153,23 @@ def match_report(m, standings, league_name):
         if hs != as_ and e["team"] == (m["home"] if hs > as_ else m["away"]):
             ctx = f'この結果、{e["team"]}は{league_name}で{e["rank"]}位（勝ち点{e["points"]}）につけています。'
     return base + result + ctx
+
+
+def compute_run_totals(matches):
+    """試合結果（スコア）からチームごとの総得点・総失点を自前集計する。
+    順位・勝ち点・勝率は連盟公式の勝ち点制の値をそのまま使うが（common.py参照）、
+    得点・失点は連盟の順位表に含まれないため、このサイト側でmatches.jsonから
+    追加集計している列。"""
+    totals: dict[str, dict] = {}
+    for m in matches:
+        if m["status"] != "played" or m["home_score"] is None or m["away_score"] is None:
+            continue
+        for team, gf, ga in ((m["home"], m["home_score"], m["away_score"]),
+                              (m["away"], m["away_score"], m["home_score"])):
+            t = totals.setdefault(team, {"runs_for": 0, "runs_against": 0})
+            t["runs_for"] += gf
+            t["runs_against"] += ga
+    return totals
 
 
 def h2h_list(a, b, matches):
@@ -326,6 +349,8 @@ NAV_ITEMS = [
 def league_subnav(lg, L):
     items = [("index.html", "リーグトップ"), ("schedule/index.html", "日程・結果"),
              ("standings/index.html", "順位表"), ("teams/index.html", "チーム")]
+    if lg.get("players"):
+        items.append(("players/index.html", "個人成績"))
     links = "".join(f'<a href="{L}{href}">{label}</a>' for href, label in items)
     season_html = ""
     sib = lg.get("siblings") or {}
@@ -440,14 +465,54 @@ def match_table(rows, with_league=False):
 
 
 def standings_table(entries, L):
+    has_runs = all("run_diff" in e for e in entries)
+    runs_th = "<th>得点</th><th>失点</th><th>得失点差</th>" if has_runs else ""
+
+    def runs_cells(e):
+        if not has_runs:
+            return ""
+        diff = e["run_diff"]
+        diff_str = f'+{diff}' if diff > 0 else str(diff)
+        return f'<td>{e["runs_for"]}</td><td>{e["runs_against"]}</td><td>{diff_str}</td>'
+
     rows = "".join(
         f'<tr><td class="rank">{e["rank"]}</td>'
         f'<td><a href="{L}clubs/{e["slug"]}/index.html">{escape(e["team"])}</a></td>'
         f'<td>{e["games"]}</td><td>{e["wins"]}</td><td>{e["losses"]}</td><td>{e["draws"]}</td>'
-        f'<td><strong>{e["points"]}</strong></td><td>{escape(e["win_pct"])}</td></tr>'
+        f'<td><strong>{e["points"]}</strong></td><td>{escape(e["win_pct"])}</td>{runs_cells(e)}</tr>'
         for e in entries)
     return ('<div class="tbl"><table><thead><tr><th>順位</th><th>チーム</th><th>試合</th>'
-            '<th>勝</th><th>敗</th><th>分</th><th>勝点</th><th>勝率</th></tr></thead>'
+            f'<th>勝</th><th>敗</th><th>分</th><th>勝点</th><th>勝率</th>{runs_th}</tr></thead>'
+            f'<tbody>{rows}</tbody></table></div>')
+
+
+def batting_table(entries, L):
+    rows = "".join(
+        f'<tr><td class="rank">{e["rank"]}</td>'
+        f'<td><a href="{L}clubs/{e["slug"]}/index.html">{escape(e["team"])}</a></td>'
+        f'<td>{escape(e["name"])}</td>'
+        f'<td>{e["games"]}</td><td>{e["at_bats"]}</td><td>{e["hits"]}</td>'
+        f'<td>{e["home_runs"]}</td><td>{e["rbi"]}</td>'
+        f'<td><strong>{escape(e["avg"])}</strong></td></tr>'
+        for e in entries)
+    return ('<div class="tbl"><table><thead><tr><th>順位</th><th>チーム</th><th>選手</th>'
+            '<th>試合</th><th>打数</th><th>安打</th><th>本塁打</th><th>打点</th>'
+            '<th>打率</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table></div>')
+
+
+def pitching_table(entries, L):
+    rows = "".join(
+        f'<tr><td class="rank">{e["rank"]}</td>'
+        f'<td><a href="{L}clubs/{e["slug"]}/index.html">{escape(e["team"])}</a></td>'
+        f'<td>{escape(e["name"])}</td>'
+        f'<td>{e["games"]}</td><td>{e["wins"]}</td><td>{e["losses"]}</td>'
+        f'<td>{escape(e["innings"])}</td><td>{e["strikeouts"]}</td>'
+        f'<td><strong>{escape(e["era"])}</strong></td></tr>'
+        for e in entries)
+    return ('<div class="tbl"><table><thead><tr><th>順位</th><th>チーム</th><th>選手</th>'
+            '<th>試合</th><th>勝</th><th>敗</th><th>投球回</th><th>奪三振</th>'
+            '<th>防御率</th></tr></thead>'
             f'<tbody>{rows}</tbody></table></div>')
 
 
@@ -634,6 +699,16 @@ def build_league(lg, articles):
     league_name = meta["league"]
     today = date.today().isoformat()
 
+    # 順位表に得点・失点・得失点差を追加（連盟公式の順位・勝ち点・勝率はそのまま、
+    # 集計列のみmatches.jsonから自前で付加する）
+    run_totals = compute_run_totals(matches)
+    for entries in standings.values():
+        for e in entries:
+            rt = run_totals.get(e["team"], {"runs_for": 0, "runs_against": 0})
+            e["runs_for"] = rt["runs_for"]
+            e["runs_against"] = rt["runs_against"]
+            e["run_diff"] = rt["runs_for"] - rt["runs_against"]
+
     # ---- league top
     R, L = "../", ""
     sub = league_subnav(lg, L)
@@ -687,7 +762,7 @@ def build_league(lg, articles):
     for block, entries in standings.items():
         if entries:
             body += standings_table(entries, L)
-    body += '<p class="note">※順位表は連盟公式サイトの発表をそのまま掲載しています（大学野球は同一カード2先勝で勝ち点1がつく勝ち点制のため）。</p>'
+    body += '<p class="note">※順位・勝ち点・勝率は連盟公式サイトの発表をそのまま掲載しています（大学野球は同一カード2先勝で勝ち点1がつく勝ち点制のため）。得点・失点・得失点差は試合結果から当サイトが独自に集計した参考値です。</p>'
     write_page(f"{code}/standings",
                page(R, f'順位表 | {league_name} | ベースボールマニア', body, meta,
                     path=f"{code}/standings/", desc=f'{league_name}の順位表。勝点・勝率を毎日更新。',
@@ -702,6 +777,24 @@ def build_league(lg, articles):
                page(R, f'チーム一覧 | {league_name} | ベースボールマニア', body, meta,
                     path=f"{code}/teams/", desc=f'{league_name}参加全チームの一覧。',
                     subnav=sub))
+
+    if lg.get("players"):
+        batting = lg["players"].get("batting") or []
+        pitching = lg["players"].get("pitching") or []
+        body = f'<h1>個人成績</h1><p class="lead">{escape(league_name)}</p>'
+        if batting:
+            body += ('<section><h2>打撃成績ランキング</h2>' + batting_table(batting, L)
+                     + '</section>')
+        if pitching:
+            body += ('<section><h2>投手成績ランキング</h2>' + pitching_table(pitching, L)
+                     + '</section>')
+        body += ('<p class="note">※規定打席・規定投球回に到達した選手を対象にした'
+                 '連盟公式サイトのランキング（上位10位まで）をそのまま掲載しています。</p>')
+        write_page(f"{code}/players",
+                   page(R, f'個人成績 | {league_name} | ベースボールマニア', body, meta,
+                        path=f"{code}/players/",
+                        desc=f'{league_name}の打撃成績・投手成績ランキング（規定到達選手）。',
+                        subnav=sub))
 
     # ---- club pages
     R, L = "../../../", "../../"
