@@ -39,6 +39,10 @@ MEDIA_CONTACT_URL = f"https://media.tunakare.jp/contact/student/?{_UTM}&utm_camp
 SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{_UTM}&utm_campaign=shukatsu"  # 学生個人の就活相談
 CAREER_URL = f"https://career.tunakare.jp/?{_UTM}&utm_campaign=career"  # OB/OG向け転職・キャリア相談
 
+# ---- お問い合わせ（中立リレーAPI経由・運営元秘匿。メディアSNS統合要件定義_2026-08 §3-1）
+CONTACT_MEDIA_KEY = "baseball"
+CONTACT_RELAY_URL = "https://mania-contact.vercel.app/api/contact"
+
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
 SEASON_YEAR = 2026
 LEAGUE_ORDER = [
@@ -343,6 +347,7 @@ def md_to_html(md):
 
 NAV_ITEMS = [
     ("index.html", "トップ"),
+    ("contact/index.html", "お問い合わせ"),
 ]
 
 
@@ -923,6 +928,101 @@ def build_glossary(meta):
                     desc="大学野球の用語を分野別に解説。観戦・新入生・保護者向けの用語集。"))
 
 
+# ---------------------------------------------------------------- contact
+
+CONTACT_FORM_HTML = """<noscript><p class="form-message">このフォームのご利用にはJavaScriptの有効化が必要です。</p></noscript>
+<form id="contact-form" class="contact-form">
+  <div class="form-row">
+    <label for="cf-name">お名前<span class="req">必須</span></label>
+    <input type="text" id="cf-name" name="name" required autocomplete="name">
+  </div>
+  <div class="form-row">
+    <label for="cf-affiliation">ご所属</label>
+    <input type="text" id="cf-affiliation" name="affiliation" autocomplete="organization">
+  </div>
+  <div class="form-row">
+    <label for="cf-email">メールアドレス<span class="req">必須</span></label>
+    <input type="email" id="cf-email" name="email" required autocomplete="email">
+  </div>
+  <div class="form-row">
+    <label for="cf-type">種別<span class="req">必須</span></label>
+    <select id="cf-type" name="type" required>
+      <option value="">選択してください</option>
+      <option value="取材・情報提供">取材・情報提供</option>
+      <option value="掲載・広告のご相談">掲載・広告のご相談</option>
+      <option value="その他">その他</option>
+    </select>
+  </div>
+  <div class="form-row">
+    <label for="cf-body">内容<span class="req">必須</span></label>
+    <textarea id="cf-body" name="body" rows="7" required></textarea>
+  </div>
+  <div class="hp-field" aria-hidden="true">
+    <label for="cf-website">ウェブサイト</label>
+    <input type="text" id="cf-website" name="website" tabindex="-1" autocomplete="off">
+  </div>
+  <button type="submit" id="cf-submit" class="cta">送信する</button>
+</form>
+<p id="cf-message" class="form-message" role="status" aria-live="polite"></p>"""
+
+CONTACT_FORM_JS = """<script>
+(function () {
+  var form = document.getElementById('contact-form');
+  if (!form) return;
+  var msg = document.getElementById('cf-message');
+  form.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var payload = {
+      mediaKey: '__MEDIA_KEY__',
+      name: form.name.value,
+      affiliation: form.affiliation.value,
+      email: form.email.value,
+      type: form.type.value,
+      body: form.body.value,
+      website: form.website.value
+    };
+    var elements = form.elements;
+    var i;
+    for (i = 0; i < elements.length; i++) { elements[i].disabled = true; }
+    msg.textContent = '';
+    msg.className = 'form-message';
+    fetch('__RELAY_URL__', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(function (res) {
+      return res.json().catch(function () { return { ok: false }; });
+    }).then(function (data) {
+      if (data && data.ok) {
+        form.style.display = 'none';
+        msg.textContent = '送信しました。3営業日以内にご返信します。';
+        msg.className = 'form-message form-message-ok';
+      } else {
+        throw new Error('failed');
+      }
+    }).catch(function () {
+      msg.textContent = '送信に失敗しました。時間をおいてお試しください。';
+      msg.className = 'form-message form-message-error';
+      for (i = 0; i < elements.length; i++) { elements[i].disabled = false; }
+    });
+  });
+})();
+</script>"""
+
+
+def build_contact(meta):
+    rel = "../"
+    body = ('<h1>お問い合わせ</h1>'
+            '<p class="lead">取材・情報提供、掲載・広告のご相談を受け付けています。'
+            '3営業日以内にメールでご返信します。</p>')
+    body += CONTACT_FORM_HTML
+    body += CONTACT_FORM_JS.replace("__MEDIA_KEY__", CONTACT_MEDIA_KEY).replace("__RELAY_URL__", CONTACT_RELAY_URL)
+    write_page("contact",
+               page(rel, "お問い合わせ | ベースボールマニア", body, meta,
+                    path="contact/",
+                    desc="ベースボールマニアへの取材・情報提供、掲載・広告のご相談はこちらから。"))
+
+
 def build_videos(meta):
     vfile = DATA / "videos.json"
     if not vfile.exists():
@@ -1180,6 +1280,24 @@ table.detail td { white-space:normal; }
 .footer-nav { display:flex; gap:1rem; margin:.2rem 0 .8rem; }
 .footer-nav a { color:#c9d4e6; text-decoration:none; }
 .site-footer a { color:#c9d4e6; }
+
+.contact-form { max-width:32rem; margin-top:1.2rem; }
+.form-row { margin-bottom:1.1rem; display:flex; flex-direction:column; gap:.35rem; }
+.form-row label { font-weight:700; font-size:.85rem; color:var(--navy); }
+.form-row .req { display:inline-block; margin-left:.4em; font-size:.68rem; font-weight:700;
+  color:#fff; background:var(--accent-dark); border-radius:4px; padding:.05em .4em; vertical-align:middle; }
+.form-row input, .form-row select, .form-row textarea {
+  font:inherit; padding:.55em .7em; border:1px solid var(--line); border-radius:8px;
+  background:var(--surface); color:var(--ink); width:100%; }
+.form-row textarea { resize:vertical; }
+.form-row input:focus, .form-row select:focus, .form-row textarea:focus {
+  outline:2px solid var(--accent); outline-offset:1px; }
+.hp-field { position:absolute; left:-9999px; top:-9999px; width:1px; height:1px; overflow:hidden; }
+button.cta { border:none; font:inherit; cursor:pointer; }
+button.cta:disabled { opacity:.55; cursor:default; }
+.form-message { margin-top:1rem; font-weight:700; }
+.form-message-ok { color:var(--win, #15803d); }
+.form-message-error { color:var(--loss, #b91c1c); }
 """
 
 
@@ -1214,6 +1332,7 @@ def main():
     build_articles(articles, global_meta)
     build_videos(global_meta)
     build_glossary(global_meta)
+    build_contact(global_meta)
     build_dashboard(leagues, articles, global_meta)
     write_sitemap_and_robots()
 
