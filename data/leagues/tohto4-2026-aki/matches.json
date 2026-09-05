@@ -8,9 +8,9 @@
   "home_slug": "shibaura",
   "away_slug": "science-tokyo",
   "venue": "芝浦工業大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 10,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -22,9 +22,9 @@
   "home_slug": "hitotsubashi",
   "away_slug": "tokyo-city",
   "venue": "芝浦工業大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 6,
+  "away_score": 0,
   "note": ""
  },
  {
