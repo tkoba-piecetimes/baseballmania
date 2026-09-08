@@ -1,3 +1,70 @@
 {
- "総合": []
+ "総合": [
+  {
+   "rank": 1,
+   "team": "専修大",
+   "slug": "senshu",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "駒澤大",
+   "slug": "komazawa",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "日本大",
+   "slug": "nihon",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "拓殖大",
+   "slug": "takushoku",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "東農大",
+   "slug": "tokyo-nodai",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "帝平大",
+   "slug": "teikyo-heisei",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  }
+ ]
 }

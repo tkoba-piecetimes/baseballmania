@@ -1,3 +1,70 @@
 {
- "総合": []
+ "総合": [
+  {
+   "rank": 1,
+   "team": "国士大",
+   "slug": "kokushikan",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "大正大",
+   "slug": "taisho",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "上智大",
+   "slug": "sophia",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "成蹊大",
+   "slug": "seikei",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "学習大",
+   "slug": "gakushuin",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  },
+  {
+   "rank": 1,
+   "team": "順大",
+   "slug": "juntendo",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "-"
+  }
+ ]
 }
