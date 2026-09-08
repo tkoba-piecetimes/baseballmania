@@ -38,6 +38,7 @@ LISTING_LP_URL = f"https://lp.tunakare.jp/s01/?{_UTM}&utm_campaign=listing"  # �
 MEDIA_CONTACT_URL = f"https://media.tunakare.jp/contact/student/?{_UTM}&utm_campaign=media-pr"  # 取材依頼（汎用問い合わせ）
 SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{_UTM}&utm_campaign=shukatsu"  # 学生個人の就活相談
 CAREER_URL = f"https://career.tunakare.jp/?{_UTM}&utm_campaign=career"  # OB/OG向け転職・キャリア相談
+BIZ_GUIDE_URL = f"https://shukatsu.tunakare.jp/biz/guide?{_UTM}&utm_campaign=biz-guide"  # 企業向け採用ガイド資料DL
 
 # ---- お問い合わせ（中立リレーAPI経由・運営元秘匿。メディアSNS統合要件定義_2026-08 §3-1）
 CONTACT_MEDIA_KEY = "baseball"
@@ -547,6 +548,10 @@ def sponsor_block():
     """
     body = '<section class="sponsor"><h2>この部活を応援する</h2>'
     body += cta_lane("この部活・競技を応援したい方へ: ツナカレで協賛募集中の部活を探す", SPONSOR_CTA_URL, "cv_sponsor_click")
+    body += cta_lane("この部の学生の方へ: 部活と両立できる就活相談（無料・メールで回答）", SHUKATSU_URL,
+                      "cv_shukatsu_click")
+    body += cta_lane("体育会学生の採用を検討中の企業の方へ: 体育会学生採用ガイド2026（無料資料）", BIZ_GUIDE_URL,
+                      "cv_guide_click", outline=True)
     body += cta_lane("この部の関係者の方へ: 協賛募集を無料で掲載", LISTING_LP_URL,
                       "cv_listing_click", outline=True)
     body += cta_lane("取材してほしい部活を募集中", MEDIA_CONTACT_URL, "cv_media_pr_click", outline=True)
@@ -563,15 +568,27 @@ CTA_BANDS = {
 
 
 def cta_band(cta_value):
-    """D3: 記事frontmatterの cta: フィールドに応じた記事末尾CTA帯（none/未指定は非表示）。"""
-    info = CTA_BANDS.get((cta_value or "").strip())
+    """D3: 記事frontmatterの cta: フィールドに応じた記事末尾CTA帯（none/未指定は非表示）。
+
+    cta: sponsor の記事は読者の大半が学生・保護者・OBのため、sponsor帯の直後に
+    学生向け就活相談の副帯（outlineスタイル）を必ず追加する。
+    """
+    value = (cta_value or "").strip()
+    info = CTA_BANDS.get(value)
     if not info:
         return ""
     heading, sub, url, event = info
-    return ('<section class="cta-band"><span class="pr-tag">PR</span>'
+    band = ('<section class="cta-band"><span class="pr-tag">PR</span>'
             f'<p class="cta-band-text"><strong>{escape(heading)}</strong><br>{escape(sub)}</p>'
             f'<a class="cta" href="{escape(url)}" target="_blank" rel="noopener sponsored" '
             f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">詳しく見る →</a></section>')
+    if value == "sponsor":
+        s_heading, s_sub, s_url, s_event = CTA_BANDS["shukatsu"]
+        band += ('<section class="cta-band cta-band-sub"><span class="pr-tag">PR</span>'
+                 f'<p class="cta-band-text"><strong>{escape(s_heading)}</strong><br>{escape(s_sub)}</p>'
+                 f'<a class="cta cta-outline" href="{escape(s_url)}" target="_blank" rel="noopener sponsored" '
+                 f'onclick="window.gtag&&gtag(\'event\',\'{s_event}\')">詳しく見る →</a></section>')
+    return band
 
 
 def h2h_section(m, matches):
