@@ -50,9 +50,9 @@
   "home_slug": "senshu",
   "away_slug": "tokyo-nodai",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 6,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -64,9 +64,9 @@
   "home_slug": "komazawa",
   "away_slug": "takushoku",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 6,
   "note": ""
  },
  {
@@ -78,9 +78,9 @@
   "home_slug": "nihon",
   "away_slug": "teikyo-heisei",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 16,
+  "away_score": 4,
   "note": ""
  },
  {

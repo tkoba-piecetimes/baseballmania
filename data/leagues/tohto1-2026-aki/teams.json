@@ -1,12 +1,7 @@
 {
- "青学大": {
-  "team": "青学大",
-  "slug": "aoyamagakuin",
-  "block": "総合"
- },
- "立正大": {
-  "team": "立正大",
-  "slug": "rissho",
+ "亜細亜大": {
+  "team": "亜細亜大",
+  "slug": "asia",
   "block": "総合"
  },
  "國學院大": {
@@ -14,14 +9,19 @@
   "slug": "kokugakuin",
   "block": "総合"
  },
- "亜細亜大": {
-  "team": "亜細亜大",
-  "slug": "asia",
+ "青学大": {
+  "team": "青学大",
+  "slug": "aoyamagakuin",
   "block": "総合"
  },
  "中央大": {
   "team": "中央大",
   "slug": "chuo",
+  "block": "総合"
+ },
+ "立正大": {
+  "team": "立正大",
+  "slug": "rissho",
   "block": "総合"
  },
  "東洋大": {

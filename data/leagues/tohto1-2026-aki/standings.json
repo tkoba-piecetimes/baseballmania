@@ -2,69 +2,69 @@
  "総合": [
   {
    "rank": 1,
-   "team": "青学大",
-   "slug": "aoyamagakuin",
-   "games": 1,
-   "wins": 1,
-   "losses": 0,
-   "draws": 0,
-   "points": 0,
-   "win_pct": "1.000"
-  },
-  {
-   "rank": 1,
-   "team": "立正大",
-   "slug": "rissho",
-   "games": 1,
-   "wins": 1,
-   "losses": 0,
-   "draws": 0,
-   "points": 0,
-   "win_pct": "1.000"
-  },
-  {
-   "rank": 3,
-   "team": "國學院大",
-   "slug": "kokugakuin",
-   "games": 1,
-   "wins": 0,
-   "losses": 1,
-   "draws": 0,
-   "points": 0,
-   "win_pct": ".000"
-  },
-  {
-   "rank": 4,
    "team": "亜細亜大",
    "slug": "asia",
-   "games": 0,
-   "wins": 0,
+   "games": 1,
+   "wins": 1,
    "losses": 0,
    "draws": 0,
    "points": 0,
-   "win_pct": "-"
+   "win_pct": "1.000"
   },
   {
-   "rank": 5,
-   "team": "中央大",
-   "slug": "chuo",
-   "games": 1,
-   "wins": 0,
+   "rank": 2,
+   "team": "國學院大",
+   "slug": "kokugakuin",
+   "games": 2,
+   "wins": 1,
    "losses": 1,
    "draws": 0,
    "points": 0,
-   "win_pct": ".000"
+   "win_pct": ".500"
+  },
+  {
+   "rank": 2,
+   "team": "青学大",
+   "slug": "aoyamagakuin",
+   "games": 2,
+   "wins": 1,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".500"
+  },
+  {
+   "rank": 2,
+   "team": "中央大",
+   "slug": "chuo",
+   "games": 2,
+   "wins": 1,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".500"
+  },
+  {
+   "rank": 2,
+   "team": "立正大",
+   "slug": "rissho",
+   "games": 2,
+   "wins": 1,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".500"
   },
   {
    "rank": 6,
    "team": "東洋大",
    "slug": "toyo",
-   "games": 0,
+   "games": 1,
    "wins": 0,
-   "losses": 0,
+   "losses": 1,
    "draws": 0,
    "points": 0,
-   "win_pct": "-"
+   "win_pct": ".000"
   }
  ]
 }
