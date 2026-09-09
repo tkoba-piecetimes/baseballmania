@@ -38,7 +38,7 @@ LISTING_LP_URL = f"https://lp.tunakare.jp/s01/?{_UTM}&utm_campaign=listing"  # �
 MEDIA_CONTACT_URL = f"https://media.tunakare.jp/contact/student/?{_UTM}&utm_campaign=media-pr"  # 取材依頼（汎用問い合わせ）
 SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{_UTM}&utm_campaign=shukatsu"  # 学生個人の就活相談
 CAREER_URL = f"https://career.tunakare.jp/?{_UTM}&utm_campaign=career"  # OB/OG向け転職・キャリア相談
-BIZ_GUIDE_URL = f"https://shukatsu.tunakare.jp/biz/guide?{_UTM}&utm_campaign=biz-guide"  # 企業向け採用ガイド資料DL
+BIZ_GUIDE_URL = f"https://career.tunakare.jp/biz/guide?{_UTM}&utm_campaign=biz-guide"  # 企業向け採用ガイド資料DL
 
 # ---- お問い合わせ（中立リレーAPI経由・運営元秘匿。メディアSNS統合要件定義_2026-08 §3-1）
 CONTACT_MEDIA_KEY = "baseball"
