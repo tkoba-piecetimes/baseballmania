@@ -16,7 +16,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZF979BFLV"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-KZF979BFLV');</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
-<body>
+<body class="has-sticky-cta">
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="../../index.html"><span class="brand-tick"></span>ベースボールマニア<span class="brand-sub">JAPAN COLLEGE BASEBALL</span></a>
@@ -73,5 +73,37 @@
     <p>ベースボールマニアは大学野球の情報メディアです。掲載の日程・結果・順位表は各連盟公式サイトの発表に基づいています。最新の確定情報は各連盟公式サイトをご確認ください。</p>
   </div>
 </footer>
+<div class="sticky-cta" id="sticky-cta" data-cta="cv_gakuchika_click" data-position="sticky"><span class="pr-tag">PR</span><span class="sticky-cta-text">野球部のガクチカ テンプレ＆例文集（無料PDF）</span><a class="cta" href="https://shukatsu.tunakare.jp/download/gakuchika-template?utm_source=baseballmania&amp;utm_medium=referral&amp;utm_campaign=gakuchika-template" target="_blank" rel="noopener sponsored" onclick="window.gtag&&gtag('event','cv_gakuchika_click')">受け取る</a><button type="button" class="sticky-cta-close" aria-label="閉じる" onclick="window.__dismissStickyCta&&window.__dismissStickyCta()">×</button></div>
+<script>
+(function () {
+  var KEY = 'gakuchika_sticky_dismissed';
+  var bar = document.getElementById('sticky-cta');
+  function dismissStickyCta() {
+    if (!bar) return;
+    bar.style.display = 'none';
+    document.body.classList.remove('has-sticky-cta');
+    try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+  }
+  window.__dismissStickyCta = dismissStickyCta;
+  if (bar) {
+    var dismissed = false;
+    try { dismissed = sessionStorage.getItem(KEY) === '1'; } catch (e) {}
+    if (dismissed) { dismissStickyCta(); }
+  }
+  if ('IntersectionObserver' in window) {
+    var seen = new WeakSet();
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting && !seen.has(entry.target)) {
+          seen.add(entry.target);
+          var el = entry.target;
+          window.gtag && gtag('event', 'cta_view', { cta: el.dataset.cta, position: el.dataset.position });
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('[data-cta]').forEach(function (el) { observer.observe(el); });
+  }
+})();
+</script>
 </body>
 </html>

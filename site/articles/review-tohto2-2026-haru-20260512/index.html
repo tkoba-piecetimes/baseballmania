@@ -16,7 +16,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZF979BFLV"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-KZF979BFLV');</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
-<body>
+<body class="has-sticky-cta">
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="../../index.html"><span class="brand-tick"></span>ベースボールマニア<span class="brand-sub">JAPAN COLLEGE BASEBALL</span></a>
@@ -58,7 +58,7 @@
 <h2>出典</h2>
 <ul>
 <li><a href="http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&amp;SEASONID=01&amp;LEAGUEID=02">東都大学野球連盟</a></li>
-</ul></div><section class="cta-band"><span class="pr-tag">PR</span><p class="cta-band-text"><strong>この部活・競技を応援したい方へ</strong><br>協賛・応援はこちらから。</p><a class="cta" href="https://tunakare.jp/?utm_source=baseballmania&amp;utm_medium=referral&amp;utm_campaign=sponsor" target="_blank" rel="noopener sponsored" onclick="window.gtag&&gtag('event','cv_sponsor_click')">詳しく見る →</a></section><section class="cta-band cta-band-sub"><span class="pr-tag">PR</span><p class="cta-band-text"><strong>部活と就活の両立、ひとりで悩まない</strong><br>体育会学生向けの無料就活相談。</p><a class="cta cta-outline" href="https://shukatsu.tunakare.jp/?utm_source=baseballmania&amp;utm_medium=referral&amp;utm_campaign=shukatsu" target="_blank" rel="noopener sponsored" onclick="window.gtag&&gtag('event','cv_shukatsu_click')">詳しく見る →</a></section><section><h2>あわせて読む</h2><ul><li><a href="../waseda-keio-sokeisen-guide/index.html">早慶戦とは？東京六大学野球の伝統カードの歴史と見どころ、チケットの取り方</a></li><li><a href="../yakyubu-ob-tenshoku-gyokai-shokushu-guide/index.html">元野球部員の転職におすすめの業界・職種は？体育会経験が評価されやすい仕事の特徴</a></li><li><a href="../review-tohto1-2026-aki-20260907/index.html">【東都大学野球1部 2026年秋季リーグ戦】9月7日週の結果まとめ</a></li></ul></section>
+</ul></div><section class="cta-band" data-cta="cv_sponsor_click" data-position="cta_band"><span class="pr-tag">PR</span><p class="cta-band-text"><strong>この部活・競技を応援したい方へ</strong><br>協賛・応援はこちらから。</p><a class="cta" href="https://tunakare.jp/?utm_source=baseballmania&amp;utm_medium=referral&amp;utm_campaign=sponsor" target="_blank" rel="noopener sponsored" onclick="window.gtag&&gtag('event','cv_sponsor_click')">詳しく見る →</a></section><section class="cta-band cta-band-sub" data-cta="cv_media_pr_click" data-position="cta_band"><span class="pr-tag">PR</span><p class="cta-band-text"><strong>取材してほしい部活を募集中</strong><br>あなたの部活・チームを取材してほしい方はこちらから。</p><a class="cta cta-outline" href="https://media.tunakare.jp/contact/student/?utm_source=baseballmania&amp;utm_medium=referral&amp;utm_campaign=media-pr" target="_blank" rel="noopener sponsored" onclick="window.gtag&&gtag('event','cv_media_pr_click')">詳しく見る →</a></section><section><h2>あわせて読む</h2><ul><li><a href="../waseda-keio-sokeisen-guide/index.html">早慶戦とは？東京六大学野球の伝統カードの歴史と見どころ、チケットの取り方</a></li><li><a href="../yakyubu-ob-tenshoku-gyokai-shokushu-guide/index.html">元野球部員の転職におすすめの業界・職種は？体育会経験が評価されやすい仕事の特徴</a></li><li><a href="../review-tohto1-2026-aki-20260907/index.html">【東都大学野球1部 2026年秋季リーグ戦】9月7日週の結果まとめ</a></li></ul></section>
 </main>
 <footer class="site-footer">
   <div class="footer-inner">
@@ -69,5 +69,37 @@
     <p>ベースボールマニアは大学野球の情報メディアです。掲載の日程・結果・順位表は各連盟公式サイトの発表に基づいています。最新の確定情報は各連盟公式サイトをご確認ください。</p>
   </div>
 </footer>
+<div class="sticky-cta" id="sticky-cta" data-cta="cv_gakuchika_click" data-position="sticky"><span class="pr-tag">PR</span><span class="sticky-cta-text">野球部のガクチカ テンプレ＆例文集（無料PDF）</span><a class="cta" href="https://shukatsu.tunakare.jp/download/gakuchika-template?utm_source=baseballmania&amp;utm_medium=referral&amp;utm_campaign=gakuchika-template" target="_blank" rel="noopener sponsored" onclick="window.gtag&&gtag('event','cv_gakuchika_click')">受け取る</a><button type="button" class="sticky-cta-close" aria-label="閉じる" onclick="window.__dismissStickyCta&&window.__dismissStickyCta()">×</button></div>
+<script>
+(function () {
+  var KEY = 'gakuchika_sticky_dismissed';
+  var bar = document.getElementById('sticky-cta');
+  function dismissStickyCta() {
+    if (!bar) return;
+    bar.style.display = 'none';
+    document.body.classList.remove('has-sticky-cta');
+    try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+  }
+  window.__dismissStickyCta = dismissStickyCta;
+  if (bar) {
+    var dismissed = false;
+    try { dismissed = sessionStorage.getItem(KEY) === '1'; } catch (e) {}
+    if (dismissed) { dismissStickyCta(); }
+  }
+  if ('IntersectionObserver' in window) {
+    var seen = new WeakSet();
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting && !seen.has(entry.target)) {
+          seen.add(entry.target);
+          var el = entry.target;
+          window.gtag && gtag('event', 'cta_view', { cta: el.dataset.cta, position: el.dataset.position });
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('[data-cta]').forEach(function (el) { observer.observe(el); });
+  }
+})();
+</script>
 </body>
 </html>

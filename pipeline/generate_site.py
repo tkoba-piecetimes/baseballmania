@@ -39,6 +39,8 @@ MEDIA_CONTACT_URL = f"https://media.tunakare.jp/contact/student/?{_UTM}&utm_camp
 SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{_UTM}&utm_campaign=shukatsu"  # 学生個人の就活相談
 CAREER_URL = f"https://career.tunakare.jp/?{_UTM}&utm_campaign=career"  # OB/OG向け転職・キャリア相談
 BIZ_GUIDE_URL = f"https://career.tunakare.jp/biz/guide?{_UTM}&utm_campaign=biz-guide"  # 企業向け採用ガイド資料DL
+SPORT_NAME = "野球"  # 木場さん決定2026-09-09: 学生向け導線の競技名
+GAKUCHIKA_URL = f"https://shukatsu.tunakare.jp/download/gakuchika-template?{_UTM}&utm_campaign=gakuchika-template"  # 競技別ガクチカテンプレ資料DL
 
 # ---- お問い合わせ（中立リレーAPI経由・運営元秘匿。メディアSNS統合要件定義_2026-08 §3-1）
 CONTACT_MEDIA_KEY = "baseball"
@@ -380,7 +382,7 @@ def league_subnav(lg, L):
 
 
 def page(rel, title, body, meta, *, path="", desc="", extra_head="", og_type="website",
-         subnav="", sitemap=True):
+         subnav="", sitemap=True, sticky=""):
     if sitemap:
         _sitemap_paths.append(path)
     else:
@@ -399,6 +401,7 @@ def page(rel, title, body, meta, *, path="", desc="", extra_head="", og_type="we
     gsc = (f'<meta name="google-site-verification" content="{GSC_VERIFICATION}">\n'
            if GSC_VERIFICATION else "")
     nav = "".join(f'<a href="{rel}{href}">{label}</a>' for href, label in NAV_ITEMS)
+    body_class = ' class="has-sticky-cta"' if sticky else ""
     if "sources" in meta:
         src_html = " / ".join(
             f'<a href="{escape(s["url"])}">{escape(s["label"])}</a>' for s in meta["sources"])
@@ -421,7 +424,7 @@ def page(rel, title, body, meta, *, path="", desc="", extra_head="", og_type="we
 {extra_head}{ga}
 <link rel="stylesheet" href="{rel}style.css">
 </head>
-<body>
+<body{body_class}>
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="{rel}index.html"><span class="brand-tick"></span>ベースボールマニア<span class="brand-sub">JAPAN COLLEGE BASEBALL</span></a>
@@ -441,6 +444,8 @@ def page(rel, title, body, meta, *, path="", desc="", extra_head="", og_type="we
     <p>ベースボールマニアは大学野球の情報メディアです。掲載の日程・結果・順位表は各連盟公式サイトの発表に基づいています。最新の確定情報は各連盟公式サイトをご確認ください。</p>
   </div>
 </footer>
+{sticky}
+{CTA_VIEW_SCRIPT}
 </body>
 </html>"""
 
@@ -531,10 +536,12 @@ def article_card(a, rel):
 
 # ---------------------------------------------------------------- tunakare CTA components
 
-def cta_lane(label, url, event, *, outline=False):
-    """ツナカレ系リンク1本分（「PR」表記・rel=noopener sponsored・GA4イベント発火）。"""
+def cta_lane(label, url, event, *, outline=False, position="sponsor_block"):
+    """ツナカレ系リンク1本分（「PR」表記・rel=noopener sponsored・GA4イベント発火）。
+    data-cta/data-position はD: CTA表示回数計測（IntersectionObserver）用。"""
     cls = "cta cta-outline" if outline else "cta"
-    return (f'<p class="sponsor-lane"><span class="pr-tag">PR</span>'
+    return (f'<p class="sponsor-lane" data-cta="{escape(event)}" data-position="{escape(position)}">'
+            f'<span class="pr-tag">PR</span>'
             f'<a class="{cls}" href="{escape(url)}" target="_blank" rel="noopener sponsored" '
             f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">{escape(label)} →</a></p>')
 
@@ -548,8 +555,10 @@ def sponsor_block():
     """
     body = '<section class="sponsor"><h2>この部活を応援する</h2>'
     body += cta_lane("この部活・競技を応援したい方へ: ツナカレで協賛募集中の部活を探す", SPONSOR_CTA_URL, "cv_sponsor_click")
+    body += cta_lane(f"{SPORT_NAME}部のガクチカ、書き方テンプレ＆例文集（無料PDF）を受け取る", GAKUCHIKA_URL,
+                      "cv_gakuchika_click")
     body += cta_lane("この部の学生の方へ: 部活と両立できる就活相談（無料・メールで回答）", SHUKATSU_URL,
-                      "cv_shukatsu_click")
+                      "cv_shukatsu_click", outline=True)
     body += cta_lane("体育会学生の採用を検討中の企業の方へ: 体育会学生採用ガイド2026（無料資料）", BIZ_GUIDE_URL,
                       "cv_guide_click", outline=True)
     body += cta_lane("この部の関係者の方へ: 協賛募集を無料で掲載", LISTING_LP_URL,
@@ -560,35 +569,90 @@ def sponsor_block():
 
 
 CTA_BANDS = {
-    "shukatsu": ("部活と就活の両立、ひとりで悩まない", "体育会学生向けの無料就活相談。", SHUKATSU_URL, "cv_shukatsu_click"),
+    "shukatsu": (f"{SPORT_NAME}部のガクチカ、テンプレ＆例文集を受け取る", "書き方テンプレ＆例文集（無料PDF）をプレゼント。",
+                 GAKUCHIKA_URL, "cv_gakuchika_click"),
     "career": ("体育会出身の転職・キャリア相談", "OB・OG向けのキャリア相談。", CAREER_URL, "cv_career_click"),
     "listing": ("遠征費・運営資金に。協賛募集を無料掲載", "部活の運営者の方へ。", LISTING_LP_URL, "cv_listing_click"),
     "sponsor": ("この部活・競技を応援したい方へ", "協賛・応援はこちらから。", SPONSOR_CTA_URL, "cv_sponsor_click"),
 }
 
+# 木場さん決定2026-09-09 B: sponsor記事の副帯は学生向け就活相談ではなく取材募集にする。
+_MEDIA_PR_BAND = ("取材してほしい部活を募集中", "あなたの部活・チームを取材してほしい方はこちらから。",
+                   MEDIA_CONTACT_URL, "cv_media_pr_click")
+
 
 def cta_band(cta_value):
-    """D3: 記事frontmatterの cta: フィールドに応じた記事末尾CTA帯（none/未指定は非表示）。
+    """記事frontmatterの cta: フィールドに応じた記事末尾CTA帯（none/未指定は非表示）。
 
-    cta: sponsor の記事は読者の大半が学生・保護者・OBのため、sponsor帯の直後に
-    学生向け就活相談の副帯（outlineスタイル）を必ず追加する。
+    木場さん決定2026-09-09 B: 部活記事（自動生成・cta: sponsor）はプラットフォーム（協賛）
+    または取材の導線のみにする（学生向け就活相談の副帯は削除し、取材募集の副帯に置き換え）。
+    cta: shukatsu の記事は主帯が競技別ガクチカ資料DLになる（CTA_BANDS参照）。
     """
     value = (cta_value or "").strip()
     info = CTA_BANDS.get(value)
     if not info:
         return ""
     heading, sub, url, event = info
-    band = ('<section class="cta-band"><span class="pr-tag">PR</span>'
+    band = (f'<section class="cta-band" data-cta="{escape(event)}" data-position="cta_band">'
+            '<span class="pr-tag">PR</span>'
             f'<p class="cta-band-text"><strong>{escape(heading)}</strong><br>{escape(sub)}</p>'
             f'<a class="cta" href="{escape(url)}" target="_blank" rel="noopener sponsored" '
             f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">詳しく見る →</a></section>')
     if value == "sponsor":
-        s_heading, s_sub, s_url, s_event = CTA_BANDS["shukatsu"]
-        band += ('<section class="cta-band cta-band-sub"><span class="pr-tag">PR</span>'
+        s_heading, s_sub, s_url, s_event = _MEDIA_PR_BAND
+        band += (f'<section class="cta-band cta-band-sub" data-cta="{escape(s_event)}" data-position="cta_band">'
+                 '<span class="pr-tag">PR</span>'
                  f'<p class="cta-band-text"><strong>{escape(s_heading)}</strong><br>{escape(s_sub)}</p>'
                  f'<a class="cta cta-outline" href="{escape(s_url)}" target="_blank" rel="noopener sponsored" '
                  f'onclick="window.gtag&&gtag(\'event\',\'{s_event}\')">詳しく見る →</a></section>')
     return band
+
+
+def sticky_bar():
+    """C: スマホ幅（768px未満）専用の画面下固定バー。CSSで768px以上は非表示。
+    閉じるとsessionStorageに記録しそのセッション中は再表示しない（共通スクリプト側で処理）。
+    """
+    return ('<div class="sticky-cta" id="sticky-cta" data-cta="cv_gakuchika_click" data-position="sticky">'
+            '<span class="pr-tag">PR</span>'
+            f'<span class="sticky-cta-text">{escape(SPORT_NAME)}部のガクチカ テンプレ＆例文集（無料PDF）</span>'
+            f'<a class="cta" href="{escape(GAKUCHIKA_URL)}" target="_blank" rel="noopener sponsored" '
+            'onclick="window.gtag&&gtag(\'event\',\'cv_gakuchika_click\')">受け取る</a>'
+            '<button type="button" class="sticky-cta-close" aria-label="閉じる" '
+            'onclick="window.__dismissStickyCta&&window.__dismissStickyCta()">×</button>'
+            '</div>')
+
+
+CTA_VIEW_SCRIPT = """<script>
+(function () {
+  var KEY = 'gakuchika_sticky_dismissed';
+  var bar = document.getElementById('sticky-cta');
+  function dismissStickyCta() {
+    if (!bar) return;
+    bar.style.display = 'none';
+    document.body.classList.remove('has-sticky-cta');
+    try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+  }
+  window.__dismissStickyCta = dismissStickyCta;
+  if (bar) {
+    var dismissed = false;
+    try { dismissed = sessionStorage.getItem(KEY) === '1'; } catch (e) {}
+    if (dismissed) { dismissStickyCta(); }
+  }
+  if ('IntersectionObserver' in window) {
+    var seen = new WeakSet();
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting && !seen.has(entry.target)) {
+          seen.add(entry.target);
+          var el = entry.target;
+          window.gtag && gtag('event', 'cta_view', { cta: el.dataset.cta, position: el.dataset.position });
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('[data-cta]').forEach(function (el) { observer.observe(el); });
+  }
+})();
+</script>"""
 
 
 def h2h_section(m, matches):
@@ -859,7 +923,7 @@ def build_league(lg, articles):
                    page(R, f'{name} 試合結果・日程・戦績 | ベースボールマニア', body, meta,
                         path=f"{code}/clubs/{slug}/",
                         desc=f'{name}の試合結果・今後の日程・戦績。{league_name}所属。',
-                        subnav=sub))
+                        subnav=sub, sticky=sticky_bar()))
 
     # ---- match pages
     for m in matches:
@@ -919,7 +983,8 @@ def build_articles(articles, meta):
         body += f'<section><h2>あわせて読む</h2><ul>{related}</ul></section>'
         write_page(f"articles/{a['slug']}",
                    page(rel, f'{a["title"]} | ベースボールマニア', body, meta,
-                        path=f'articles/{a["slug"]}/', desc=a["description"], og_type="article"))
+                        path=f'articles/{a["slug"]}/', desc=a["description"], og_type="article",
+                        sticky=sticky_bar()))
 
 
 def build_glossary(meta):
@@ -1315,6 +1380,20 @@ button.cta:disabled { opacity:.55; cursor:default; }
 .form-message { margin-top:1rem; font-weight:700; }
 .form-message-ok { color:var(--win, #15803d); }
 .form-message-error { color:var(--loss, #b91c1c); }
+
+.sticky-cta { display:none; }
+@media (max-width:767px) {
+  body.has-sticky-cta { padding-bottom:3.8rem; }
+  .sticky-cta { display:flex; align-items:center; gap:.5rem; position:fixed; left:0; right:0;
+    bottom:0; z-index:60; background:var(--surface); border-top:1px solid var(--line);
+    padding:.55em .7em; box-shadow:0 -2px 10px rgba(7,26,51,.12); }
+  .sticky-cta .pr-tag { flex-shrink:0; margin-right:0; }
+  .sticky-cta-text { flex:1 1 auto; font-size:.72rem; font-weight:700; color:var(--navy);
+    line-height:1.3; }
+  .sticky-cta .cta { flex-shrink:0; padding:.45em .9em; font-size:.78rem; white-space:nowrap; }
+  .sticky-cta-close { flex-shrink:0; background:none; border:none; font-size:1.15rem;
+    line-height:1; color:var(--sub); cursor:pointer; padding:.2em .35em; }
+}
 """
 
 
