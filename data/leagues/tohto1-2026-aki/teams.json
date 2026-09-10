@@ -9,14 +9,14 @@
   "slug": "kokugakuin",
   "block": "総合"
  },
- "青学大": {
-  "team": "青学大",
-  "slug": "aoyamagakuin",
-  "block": "総合"
- },
  "中央大": {
   "team": "中央大",
   "slug": "chuo",
+  "block": "総合"
+ },
+ "青学大": {
+  "team": "青学大",
+  "slug": "aoyamagakuin",
   "block": "総合"
  },
  "立正大": {

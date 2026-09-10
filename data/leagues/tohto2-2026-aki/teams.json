@@ -9,14 +9,14 @@
   "slug": "nihon",
   "block": "総合"
  },
- "拓殖大": {
-  "team": "拓殖大",
-  "slug": "takushoku",
-  "block": "総合"
- },
  "駒澤大": {
   "team": "駒澤大",
   "slug": "komazawa",
+  "block": "総合"
+ },
+ "拓殖大": {
+  "team": "拓殖大",
+  "slug": "takushoku",
   "block": "総合"
  },
  "東農大": {
