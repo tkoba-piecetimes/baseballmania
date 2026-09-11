@@ -41,6 +41,7 @@ CAREER_URL = f"https://career.tunakare.jp/?{_UTM}&utm_campaign=career"  # OB/OG�
 BIZ_GUIDE_URL = f"https://career.tunakare.jp/biz/guide?{_UTM}&utm_campaign=biz-guide"  # 企業向け採用ガイド資料DL
 SPORT_NAME = "野球"  # 木場さん決定2026-09-09: 学生向け導線の競技名
 GAKUCHIKA_URL = f"https://shukatsu.tunakare.jp/download/gakuchika-template?{_UTM}&utm_campaign=gakuchika-template"  # 競技別ガクチカテンプレ資料DL
+INTERN_URL = "https://intern.tunakare.jp/assessment?utm_source=baseballmania&utm_medium=cta&utm_campaign=intern"  # ツナカレインターン16タイプ診断（学生集客戦略v2 §4 チャネル2・2026-09-12）
 
 # ---- お問い合わせ（中立リレーAPI経由・運営元秘匿。メディアSNS統合要件定義_2026-08 §3-1）
 CONTACT_MEDIA_KEY = "baseball"
@@ -608,6 +609,22 @@ def cta_band(cta_value):
     return band
 
 
+def intern_cta_band():
+    """記事末尾に常時1つ表示する、ツナカレインターン16タイプ診断への導線CTA帯。
+    cta_band()（記事frontmatterのcta:に応じた既存CTA）とは独立・常時表示で、その直後に置く。
+    学生集客の戦略設計v2（tsunakare-intern/docs/business/27_student-acquisition-v2.md）
+    §4 チャネル2（部活メディア）・§5 メッセージ体系（S2低学年向け）2026-09-12。
+    左の縦線装飾（cta-bandのborder-left）は使わず、紺地の帯で視覚的に区別する。
+    """
+    heading = "オフシーズン・引退後に、長期インターンという選択"
+    sub = "部活で培った力を実務で試す。16タイプ診断（30秒）で合う企業がわかります。"
+    return (f'<section class="intern-cta-band" data-cta="cv_intern_click" data-position="intern_cta_band">'
+            '<span class="pr-tag pr-tag-light">PR</span>'
+            f'<p class="intern-cta-band-text"><strong>{escape(heading)}</strong><br>{escape(sub)}</p>'
+            f'<a class="cta" href="{escape(INTERN_URL)}" rel="noopener" '
+            'onclick="window.gtag&&gtag(\'event\',\'cv_intern_click\')">16タイプ診断を受ける →</a></section>')
+
+
 def sticky_bar():
     """C: スマホ幅（768px未満）専用の画面下固定バー。CSSで768px以上は非表示。
     閉じるとsessionStorageに記録しそのセッション中は再表示しない（共通スクリプト側で処理）。
@@ -980,6 +997,7 @@ def build_articles(articles, meta):
         body += f'<h1>{escape(a["title"])}</h1>'
         body += f'<div class="article">{md_to_html(a["body"])}</div>'
         body += cta_band(a.get("cta"))
+        body += intern_cta_band()
         body += f'<section><h2>あわせて読む</h2><ul>{related}</ul></section>'
         write_page(f"articles/{a['slug']}",
                    page(rel, f'{a["title"]} | ベースボールマニア', body, meta,
@@ -1347,6 +1365,11 @@ table.detail td { white-space:normal; }
   background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--navy);
   border-radius:12px; padding:1rem 1.2rem; margin-top:1.6rem; box-shadow:0 1px 3px rgba(7,26,51,.06); }
 .cta-band-text { margin:0; font-size:.85rem; flex:1 1 220px; }
+
+.intern-cta-band { display:flex; flex-wrap:wrap; align-items:center; gap:.6rem 1.2rem;
+  background:var(--navy); border-radius:12px; padding:1.1rem 1.3rem; margin-top:1.6rem; }
+.intern-cta-band-text { margin:0; font-size:.85rem; flex:1 1 220px; color:#fff; }
+.pr-tag-light { background:var(--accent); color:var(--navy); }
 
 .cat-line { font-size:.8rem; margin:.4rem 0; }
 .article { background:var(--surface); border:1px solid var(--line); border-radius:12px;
