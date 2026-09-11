@@ -124,6 +124,11 @@ table.detail td { white-space:normal; }
   border-radius:12px; padding:1rem 1.2rem; margin-top:1.6rem; box-shadow:0 1px 3px rgba(7,26,51,.06); }
 .cta-band-text { margin:0; font-size:.85rem; flex:1 1 220px; }
 
+.intern-cta-band { display:flex; flex-wrap:wrap; align-items:center; gap:.6rem 1.2rem;
+  background:var(--navy); border-radius:12px; padding:1.1rem 1.3rem; margin-top:1.6rem; }
+.intern-cta-band-text { margin:0; font-size:.85rem; flex:1 1 220px; color:#fff; }
+.pr-tag-light { background:var(--accent); color:var(--navy); }
+
 .cat-line { font-size:.8rem; margin:.4rem 0; }
 .article { background:var(--surface); border:1px solid var(--line); border-radius:12px;
   padding:1.4rem 1.6rem 1.6rem; box-shadow:0 1px 3px rgba(7,26,51,.06); }
