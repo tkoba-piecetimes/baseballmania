@@ -1,0 +1,210 @@
+{
+ "batting": [
+  {
+   "rank": 1,
+   "team": "東大",
+   "slug": "todai",
+   "name": "樋口",
+   "games": 1,
+   "at_bats": 4,
+   "hits": 3,
+   "home_runs": 0,
+   "rbi": 0,
+   "avg": ".750"
+  },
+  {
+   "rank": 2,
+   "team": "慶大",
+   "slug": "keio",
+   "name": "一宮",
+   "games": 1,
+   "at_bats": 3,
+   "hits": 2,
+   "home_runs": 0,
+   "rbi": 1,
+   "avg": ".667"
+  },
+  {
+   "rank": 3,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "藤森",
+   "games": 1,
+   "at_bats": 4,
+   "hits": 2,
+   "home_runs": 0,
+   "rbi": 0,
+   "avg": ".500"
+  },
+  {
+   "rank": 3,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "熊谷",
+   "games": 1,
+   "at_bats": 4,
+   "hits": 2,
+   "home_runs": 0,
+   "rbi": 1,
+   "avg": ".500"
+  },
+  {
+   "rank": 3,
+   "team": "早大",
+   "slug": "waseda",
+   "name": "德丸",
+   "games": 1,
+   "at_bats": 4,
+   "hits": 2,
+   "home_runs": 0,
+   "rbi": 0,
+   "avg": ".500"
+  },
+  {
+   "rank": 3,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "小川大",
+   "games": 1,
+   "at_bats": 2,
+   "hits": 1,
+   "home_runs": 0,
+   "rbi": 0,
+   "avg": ".500"
+  },
+  {
+   "rank": 7,
+   "team": "早大",
+   "slug": "waseda",
+   "name": "尾形",
+   "games": 1,
+   "at_bats": 3,
+   "hits": 1,
+   "home_runs": 0,
+   "rbi": 1,
+   "avg": ".333"
+  },
+  {
+   "rank": 7,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "今泉秀",
+   "games": 1,
+   "at_bats": 3,
+   "hits": 1,
+   "home_runs": 0,
+   "rbi": 0,
+   "avg": ".333"
+  },
+  {
+   "rank": 7,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "井上和",
+   "games": 1,
+   "at_bats": 3,
+   "hits": 1,
+   "home_runs": 0,
+   "rbi": 1,
+   "avg": ".333"
+  },
+  {
+   "rank": 7,
+   "team": "慶大",
+   "slug": "keio",
+   "name": "林純",
+   "games": 1,
+   "at_bats": 3,
+   "hits": 1,
+   "home_runs": 0,
+   "rbi": 1,
+   "avg": ".333"
+  }
+ ],
+ "pitching": [
+  {
+   "rank": 1,
+   "team": "慶大",
+   "slug": "keio",
+   "name": "小宅",
+   "games": 1,
+   "wins": 0,
+   "losses": 0,
+   "innings": "2",
+   "strikeouts": 4,
+   "era": "0.00"
+  },
+  {
+   "rank": 2,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "助川",
+   "games": 1,
+   "wins": 0,
+   "losses": 0,
+   "innings": "6 2/3",
+   "strikeouts": 9,
+   "era": "2.70"
+  },
+  {
+   "rank": 3,
+   "team": "東大",
+   "slug": "todai",
+   "name": "前田",
+   "games": 1,
+   "wins": 0,
+   "losses": 0,
+   "innings": "3",
+   "strikeouts": 1,
+   "era": "3.00"
+  },
+  {
+   "rank": 4,
+   "team": "慶大",
+   "slug": "keio",
+   "name": "渡辺和",
+   "games": 1,
+   "wins": 1,
+   "losses": 0,
+   "innings": "5 1/3",
+   "strikeouts": 7,
+   "era": "3.38"
+  },
+  {
+   "rank": 5,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "山床",
+   "games": 1,
+   "wins": 1,
+   "losses": 0,
+   "innings": "2 1/3",
+   "strikeouts": 4,
+   "era": "3.86"
+  },
+  {
+   "rank": 6,
+   "team": "早大",
+   "slug": "waseda",
+   "name": "髙橋煌",
+   "games": 1,
+   "wins": 0,
+   "losses": 1,
+   "innings": "7",
+   "strikeouts": 3,
+   "era": "5.14"
+  },
+  {
+   "rank": 7,
+   "team": "東大",
+   "slug": "todai",
+   "name": "松本慎",
+   "games": 1,
+   "wins": 0,
+   "losses": 1,
+   "innings": "4 1/3",
+   "strikeouts": 1,
+   "era": "6.23"
+  }
+ ]
+}

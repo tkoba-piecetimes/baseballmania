@@ -4,16 +4,6 @@
   "slug": "keio",
   "block": "総合"
  },
- "明大": {
-  "team": "明大",
-  "slug": "meiji",
-  "block": "総合"
- },
- "立大": {
-  "team": "立大",
-  "slug": "rikkyo",
-  "block": "総合"
- },
  "法大": {
   "team": "法大",
   "slug": "hosei",
@@ -27,6 +17,16 @@
  "東大": {
   "team": "東大",
   "slug": "todai",
+  "block": "総合"
+ },
+ "明大": {
+  "team": "明大",
+  "slug": "meiji",
+  "block": "総合"
+ },
+ "立大": {
+  "team": "立大",
+  "slug": "rikkyo",
   "block": "総合"
  }
 }

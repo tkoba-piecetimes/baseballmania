@@ -8,9 +8,9 @@
   "home_slug": "keio",
   "away_slug": "todai",
   "venue": "明治神宮野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 6,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -22,9 +22,9 @@
   "home_slug": "waseda",
   "away_slug": "hosei",
   "venue": "明治神宮野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 6,
   "note": ""
  },
  {

@@ -58,15 +58,15 @@
  {
   "id": "2026-09-12-hitotsubashi-vs-science-tokyo",
   "date": "2026-09-12",
-  "time": "10:00",
+  "time": "11:00",
   "home": "一橋大",
   "away": "科学大",
   "home_slug": "hitotsubashi",
   "away_slug": "science-tokyo",
   "venue": "一橋大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 12,
+  "away_score": 4,
   "note": ""
  },
  {
