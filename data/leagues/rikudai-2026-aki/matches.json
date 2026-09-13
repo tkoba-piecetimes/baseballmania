@@ -36,9 +36,9 @@
   "home_slug": "hosei",
   "away_slug": "waseda",
   "venue": "明治神宮野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 6,
   "note": ""
  },
  {
@@ -49,6 +49,20 @@
   "away": "慶大",
   "home_slug": "todai",
   "away_slug": "keio",
+  "venue": "明治神宮野球場",
+  "status": "played",
+  "home_score": 1,
+  "away_score": 10,
+  "note": ""
+ },
+ {
+  "id": "2026-09-14-waseda-vs-hosei",
+  "date": "2026-09-14",
+  "time": "12:00",
+  "home": "早大",
+  "away": "法大",
+  "home_slug": "waseda",
+  "away_slug": "hosei",
   "venue": "明治神宮野球場",
   "status": "scheduled",
   "home_score": null,

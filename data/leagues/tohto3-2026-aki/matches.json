@@ -218,9 +218,9 @@
   "home_slug": "sophia",
   "away_slug": "gakushuin",
   "venue": "学習院大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 11,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -232,9 +232,9 @@
   "home_slug": "kokushikan",
   "away_slug": "seikei",
   "venue": "学習院大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 8,
+  "away_score": 0,
   "note": ""
  },
  {
