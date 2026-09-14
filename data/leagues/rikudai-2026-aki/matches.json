@@ -64,9 +64,9 @@
   "home_slug": "waseda",
   "away_slug": "hosei",
   "venue": "明治神宮野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 8,
+  "away_score": 9,
   "note": ""
  },
  {

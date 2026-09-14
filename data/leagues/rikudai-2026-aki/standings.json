@@ -15,23 +15,23 @@
    "rank": 2,
    "team": "法大",
    "slug": "hosei",
-   "games": 2,
-   "wins": 1,
+   "games": 3,
+   "wins": 2,
    "losses": 1,
    "draws": 0,
-   "points": 0,
-   "win_pct": ".500"
+   "points": 1,
+   "win_pct": ".667"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "team": "早大",
    "slug": "waseda",
-   "games": 2,
+   "games": 3,
    "wins": 1,
-   "losses": 1,
+   "losses": 2,
    "draws": 0,
    "points": 0,
-   "win_pct": ".500"
+   "win_pct": ".333"
   },
   {
    "rank": 4,
