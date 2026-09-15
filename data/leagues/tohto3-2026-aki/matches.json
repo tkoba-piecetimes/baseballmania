@@ -252,6 +252,20 @@
   "note": ""
  },
  {
+  "id": "2026-09-16-taisho-vs-juntendo",
+  "date": "2026-09-16",
+  "time": "12:00",
+  "home": "大正大",
+  "away": "順大",
+  "home_slug": "taisho",
+  "away_slug": "juntendo",
+  "venue": "等々力球場",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
   "id": "2026-10-17-juntendo-vs-taisho",
   "date": "2026-10-17",
   "time": "9:00",

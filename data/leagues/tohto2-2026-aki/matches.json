@@ -134,9 +134,9 @@
   "home_slug": "teikyo-heisei",
   "away_slug": "nihon",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 3,
   "note": ""
  },
  {
@@ -148,9 +148,9 @@
   "home_slug": "komazawa",
   "away_slug": "takushoku",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 12,
+  "away_score": 1,
   "note": ""
  },
  {
