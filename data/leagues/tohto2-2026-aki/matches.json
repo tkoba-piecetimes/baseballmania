@@ -1,47 +1,5 @@
 [
  {
-  "id": "2026-09-08-senshu-vs-tokyo-nodai",
-  "date": "2026-09-08",
-  "time": "9:00",
-  "home": "専修大",
-  "away": "東農大",
-  "home_slug": "senshu",
-  "away_slug": "tokyo-nodai",
-  "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
-  "id": "2026-09-08-komazawa-vs-takushoku",
-  "date": "2026-09-08",
-  "time": "11:30",
-  "home": "駒澤大",
-  "away": "拓殖大",
-  "home_slug": "komazawa",
-  "away_slug": "takushoku",
-  "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
-  "id": "2026-09-08-nihon-vs-teikyo-heisei",
-  "date": "2026-09-08",
-  "time": "14:00",
-  "home": "日本大",
-  "away": "帝平大",
-  "home_slug": "nihon",
-  "away_slug": "teikyo-heisei",
-  "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
   "id": "2026-09-09-senshu-vs-tokyo-nodai",
   "date": "2026-09-09",
   "time": "9:00",
@@ -109,20 +67,6 @@
   "status": "played",
   "home_score": 3,
   "away_score": 4,
-  "note": ""
- },
- {
-  "id": "2026-09-10-teikyo-heisei-vs-nihon",
-  "date": "2026-09-10",
-  "time": "15:00",
-  "home": "帝平大",
-  "away": "日本大",
-  "home_slug": "teikyo-heisei",
-  "away_slug": "nihon",
-  "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
   "note": ""
  },
  {
