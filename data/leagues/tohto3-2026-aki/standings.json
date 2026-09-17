@@ -13,8 +13,8 @@
   },
   {
    "rank": 1,
-   "team": "上智大",
-   "slug": "sophia",
+   "team": "大正大",
+   "slug": "taisho",
    "games": 1,
    "wins": 1,
    "losses": 0,
@@ -23,15 +23,15 @@
    "win_pct": "1.000"
   },
   {
-   "rank": 3,
-   "team": "大正大",
-   "slug": "taisho",
-   "games": 0,
-   "wins": 0,
+   "rank": 1,
+   "team": "上智大",
+   "slug": "sophia",
+   "games": 1,
+   "wins": 1,
    "losses": 0,
    "draws": 0,
    "points": 0,
-   "win_pct": "-"
+   "win_pct": "1.000"
   },
   {
    "rank": 4,
@@ -56,15 +56,15 @@
    "win_pct": ".000"
   },
   {
-   "rank": 6,
+   "rank": 4,
    "team": "順大",
    "slug": "juntendo",
-   "games": 0,
+   "games": 1,
    "wins": 0,
-   "losses": 0,
+   "losses": 1,
    "draws": 0,
    "points": 0,
-   "win_pct": "-"
+   "win_pct": ".000"
   }
  ]
 }

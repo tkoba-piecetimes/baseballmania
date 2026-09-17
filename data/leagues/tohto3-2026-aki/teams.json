@@ -4,14 +4,14 @@
   "slug": "kokushikan",
   "block": "総合"
  },
- "上智大": {
-  "team": "上智大",
-  "slug": "sophia",
-  "block": "総合"
- },
  "大正大": {
   "team": "大正大",
   "slug": "taisho",
+  "block": "総合"
+ },
+ "上智大": {
+  "team": "上智大",
+  "slug": "sophia",
   "block": "総合"
  },
  "成蹊大": {

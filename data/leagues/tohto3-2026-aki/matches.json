@@ -134,9 +134,9 @@
   "home_slug": "taisho",
   "away_slug": "juntendo",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 10,
+  "away_score": 4,
   "note": ""
  },
  {
