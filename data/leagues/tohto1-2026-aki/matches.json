@@ -154,6 +154,48 @@
   "note": ""
  },
  {
+  "id": "2026-09-18-aoyamagakuin-vs-toyo",
+  "date": "2026-09-18",
+  "time": "9:00",
+  "home": "青学大",
+  "away": "東洋大",
+  "home_slug": "aoyamagakuin",
+  "away_slug": "toyo",
+  "venue": "神宮球場",
+  "status": "played",
+  "home_score": 8,
+  "away_score": 2,
+  "note": ""
+ },
+ {
+  "id": "2026-09-18-asia-vs-rissho",
+  "date": "2026-09-18",
+  "time": "11:30",
+  "home": "亜細亜大",
+  "away": "立正大",
+  "home_slug": "asia",
+  "away_slug": "rissho",
+  "venue": "神宮球場",
+  "status": "played",
+  "home_score": 6,
+  "away_score": 0,
+  "note": ""
+ },
+ {
+  "id": "2026-09-18-kokugakuin-vs-chuo",
+  "date": "2026-09-18",
+  "time": "14:00",
+  "home": "國學院大",
+  "away": "中央大",
+  "home_slug": "kokugakuin",
+  "away_slug": "chuo",
+  "venue": "神宮球場",
+  "status": "played",
+  "home_score": 6,
+  "away_score": 1,
+  "note": ""
+ },
+ {
   "id": "2026-09-24-toyo-vs-aoyamagakuin",
   "date": "2026-09-24",
   "time": "9:00",
