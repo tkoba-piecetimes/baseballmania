@@ -112,20 +112,6 @@
   "note": ""
  },
  {
-  "id": "2026-09-16-taisho-vs-juntendo",
-  "date": "2026-09-16",
-  "time": "12:00",
-  "home": "大正大",
-  "away": "順大",
-  "home_slug": "taisho",
-  "away_slug": "juntendo",
-  "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
   "id": "2026-09-17-taisho-vs-juntendo",
   "date": "2026-09-17",
   "time": "12:00",
@@ -190,9 +176,9 @@
   "home_slug": "taisho",
   "away_slug": "sophia",
   "venue": "コトブキヤスタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 8,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -204,9 +190,9 @@
   "home_slug": "kokushikan",
   "away_slug": "juntendo",
   "venue": "コトブキヤスタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 9,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -218,9 +204,9 @@
   "home_slug": "seikei",
   "away_slug": "gakushuin",
   "venue": "コトブキヤスタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 7,
+  "away_score": 4,
   "note": ""
  },
  {

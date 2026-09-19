@@ -134,9 +134,9 @@
   "home_slug": "hitotsubashi",
   "away_slug": "shibaura",
   "venue": "一橋大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -148,9 +148,9 @@
   "home_slug": "tokyo-city",
   "away_slug": "science-tokyo",
   "venue": "一橋大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -168,13 +168,13 @@
   "note": ""
  },
  {
-  "id": "2026-09-20-science-tokyo-vs-tokyo-city",
+  "id": "2026-09-20-tokyo-city-vs-science-tokyo",
   "date": "2026-09-20",
   "time": "12:30",
-  "home": "科学大",
-  "away": "都市大",
-  "home_slug": "science-tokyo",
-  "away_slug": "tokyo-city",
+  "home": "都市大",
+  "away": "科学大",
+  "home_slug": "tokyo-city",
+  "away_slug": "science-tokyo",
   "venue": "一橋大学グラウンド",
   "status": "scheduled",
   "home_score": null,
