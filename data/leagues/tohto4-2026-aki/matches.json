@@ -106,9 +106,9 @@
   "home_slug": "tokyo-city",
   "away_slug": "shibaura",
   "venue": "芝浦工業大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 0,
   "note": ""
  },
  {
