@@ -208,6 +208,22 @@ SERP分析→骨子・執筆→リリース）で別途行う。
 
 自動データ記事: `review-<league>-<year>-<season>-<date>`（週次結果まとめ、更新型）
 
+### 執筆済みKWの消し込み（2026-09-21更新）
+
+在庫表のKWを重複着手しないよう、公開済みのものをここに記録する。着手前に必ず確認すること。
+
+| 在庫番号 | キーワード | 公開済みslug | 公開日 |
+| --- | --- | --- | --- |
+| H1 | 大学野球 強豪 | `daigaku-yakyu-kyogo-guide` | 2026-09-11 |
+| H6 | 東都大学野球 日程 | `tohto-daigaku-yakyu-nittei-guide` | 2026-09 |
+| H10 | 六大学野球 歴代優勝校 | `rikudai-yakyu-rekidai-yushoko-guide` | 2026-09 |
+| H20 | 大学野球 入れ替え戦 | `daigaku-yakyu-irekaesen-guide` | 2026-09-21 |
+| P6 | 野球肩 野球肘 予防 大学生 | `daigaku-yakyubu-yakyukata-yakyuhiji-yobo-guide` | 2026-09 |
+| P14 | 野球 戦術用語 一覧 | `daigaku-yakyu-senjutsu-yogo-guide` | 2026-09 |
+
+（2026-09-21: H1を狙う指示で着手したが `daigaku-yakyu-kyogo-guide` と完全にカニバることが
+判明したため、H20へ差し替えた。経緯は `docs/serp-notes/daigaku-yakyu-irekaesen.md` を参照）
+
 一次データページのURL構成（`pipeline/generate_site.py`）:
 `site/<league-code>/schedule` `/standings` `/teams` `/players`（成績データがあるリーグのみ）
 `/clubs/<slug>` `/matches/<id>`、`site/articles/<slug>`、ポータルトップ `site/index.html`
