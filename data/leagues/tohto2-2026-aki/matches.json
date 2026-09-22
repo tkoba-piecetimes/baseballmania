@@ -120,9 +120,9 @@
   "home_slug": "komazawa",
   "away_slug": "teikyo-heisei",
   "venue": "大田スタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 6,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -134,9 +134,9 @@
   "home_slug": "nihon",
   "away_slug": "tokyo-nodai",
   "venue": "大田スタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -148,9 +148,9 @@
   "home_slug": "teikyo-heisei",
   "away_slug": "komazawa",
   "venue": "大田スタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 0,
   "note": ""
  },
  {

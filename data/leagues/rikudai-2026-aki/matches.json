@@ -162,9 +162,9 @@
   "home_slug": "hosei",
   "away_slug": "rikkyo",
   "venue": "明治神宮野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 3,
   "note": ""
  },
  {
@@ -176,9 +176,9 @@
   "home_slug": "todai",
   "away_slug": "meiji",
   "venue": "明治神宮野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 17,
   "note": ""
  },
  {
