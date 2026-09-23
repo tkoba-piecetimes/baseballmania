@@ -26,12 +26,12 @@
    "rank": 3,
    "team": "駒澤大",
    "slug": "komazawa",
-   "games": 4,
+   "games": 5,
    "wins": 3,
-   "losses": 1,
+   "losses": 2,
    "draws": 0,
    "points": 1,
-   "win_pct": ".750"
+   "win_pct": ".600"
   },
   {
    "rank": 4,
@@ -46,19 +46,19 @@
   },
   {
    "rank": 5,
-   "team": "東農大",
-   "slug": "tokyo-nodai",
-   "games": 3,
-   "wins": 0,
+   "team": "帝平大",
+   "slug": "teikyo-heisei",
+   "games": 4,
+   "wins": 1,
    "losses": 3,
    "draws": 0,
    "points": 0,
-   "win_pct": ".000"
+   "win_pct": ".250"
   },
   {
-   "rank": 5,
-   "team": "帝平大",
-   "slug": "teikyo-heisei",
+   "rank": 6,
+   "team": "東農大",
+   "slug": "tokyo-nodai",
    "games": 3,
    "wins": 0,
    "losses": 3,

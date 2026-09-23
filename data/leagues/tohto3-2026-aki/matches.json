@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-26-taisho-vs-seikei",
+  "date": "2026-09-26",
+  "time": "10:00",
+  "home": "大正大",
+  "away": "成蹊大",
+  "home_slug": "taisho",
+  "away_slug": "seikei",
+  "venue": "大正大学グラウンド",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
   "id": "2026-09-26-sophia-vs-juntendo",
   "date": "2026-09-26",
   "time": "10:30",
@@ -8,20 +22,6 @@
   "home_slug": "sophia",
   "away_slug": "juntendo",
   "venue": "上智大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
-  "id": "2026-09-26-taisho-vs-seikei",
-  "date": "2026-09-26",
-  "time": "12:00",
-  "home": "大正大",
-  "away": "成蹊大",
-  "home_slug": "taisho",
-  "away_slug": "seikei",
-  "venue": "大正大学グラウンド",
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
