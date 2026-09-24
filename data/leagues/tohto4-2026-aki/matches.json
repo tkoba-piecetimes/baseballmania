@@ -142,7 +142,7 @@
  {
   "id": "2026-09-26-tokyo-city-vs-science-tokyo",
   "date": "2026-09-26",
-  "time": "12:30",
+  "time": "13:00",
   "home": "都市大",
   "away": "科学大",
   "home_slug": "tokyo-city",
@@ -156,7 +156,7 @@
  {
   "id": "2026-09-27-shibaura-vs-hitotsubashi",
   "date": "2026-09-27",
-  "time": "10:00",
+  "time": "9:00",
   "home": "芝工大",
   "away": "一橋大",
   "home_slug": "shibaura",
@@ -170,7 +170,7 @@
  {
   "id": "2026-09-27-science-tokyo-vs-tokyo-city",
   "date": "2026-09-27",
-  "time": "12:30",
+  "time": "11:30",
   "home": "科学大",
   "away": "都市大",
   "home_slug": "science-tokyo",
