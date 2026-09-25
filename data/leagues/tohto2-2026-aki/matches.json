@@ -232,9 +232,9 @@
   "home_slug": "takushoku",
   "away_slug": "senshu",
   "venue": "大田スタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 4,
   "note": ""
  },
  {

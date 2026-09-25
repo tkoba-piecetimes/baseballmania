@@ -4,9 +4,9 @@
   "slug": "asia",
   "block": "総合"
  },
- "國學院大": {
-  "team": "國學院大",
-  "slug": "kokugakuin",
+ "中央大": {
+  "team": "中央大",
+  "slug": "chuo",
   "block": "総合"
  },
  "青学大": {
@@ -14,9 +14,9 @@
   "slug": "aoyamagakuin",
   "block": "総合"
  },
- "中央大": {
-  "team": "中央大",
-  "slug": "chuo",
+ "國學院大": {
+  "team": "國學院大",
+  "slug": "kokugakuin",
   "block": "総合"
  },
  "立正大": {

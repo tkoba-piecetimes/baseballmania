@@ -238,6 +238,34 @@
   "note": ""
  },
  {
+  "id": "2026-09-28-keio-vs-rikkyo",
+  "date": "2026-09-28",
+  "time": "11:00",
+  "home": "慶大",
+  "away": "立大",
+  "home_slug": "keio",
+  "away_slug": "rikkyo",
+  "venue": "明治神宮野球場",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
+  "id": "2026-09-28-waseda-vs-meiji",
+  "date": "2026-09-28",
+  "time": "第1試合終了後",
+  "home": "早大",
+  "away": "明大",
+  "home_slug": "waseda",
+  "away_slug": "meiji",
+  "venue": "明治神宮野球場",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
   "id": "2026-10-03-hosei-vs-keio",
   "date": "2026-10-03",
   "time": "10:00",
