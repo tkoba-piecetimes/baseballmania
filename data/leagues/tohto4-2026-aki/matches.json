@@ -168,13 +168,13 @@
   "note": ""
  },
  {
-  "id": "2026-09-27-science-tokyo-vs-tokyo-city",
+  "id": "2026-09-27-tokyo-city-vs-science-tokyo",
   "date": "2026-09-27",
   "time": "11:30",
-  "home": "科学大",
-  "away": "都市大",
-  "home_slug": "science-tokyo",
-  "away_slug": "tokyo-city",
+  "home": "都市大",
+  "away": "科学大",
+  "home_slug": "tokyo-city",
+  "away_slug": "science-tokyo",
   "venue": "芝浦工業大学グラウンド",
   "status": "scheduled",
   "home_score": null,

@@ -8,9 +8,9 @@
   "home_slug": "sophia",
   "away_slug": "juntendo",
   "venue": "上智大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 8,
+  "away_score": 12,
   "note": ""
  },
  {
@@ -36,9 +36,9 @@
   "home_slug": "kokushikan",
   "away_slug": "gakushuin",
   "venue": "上智大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 20,
+  "away_score": 0,
   "note": ""
  },
  {
