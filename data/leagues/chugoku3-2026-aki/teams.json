@@ -1,0 +1,42 @@
+{
+ "くらしき作陽大": {
+  "team": "くらしき作陽大",
+  "slug": "kurashiki-sakuyo",
+  "block": "総合"
+ },
+ "岡山県立大": {
+  "team": "岡山県立大",
+  "slug": "okayama-kenritsu",
+  "block": "総合"
+ },
+ "鳥取大": {
+  "team": "鳥取大",
+  "slug": "tottori",
+  "block": "総合"
+ },
+ "山口大": {
+  "team": "山口大",
+  "slug": "yamaguchi",
+  "block": "総合"
+ },
+ "島根県立大": {
+  "team": "島根県立大",
+  "slug": "shimane-kenritsu",
+  "block": "総合"
+ },
+ "倉敷芸術科学大": {
+  "team": "倉敷芸術科学大",
+  "slug": "kurashiki-geijutsu",
+  "block": "総合"
+ },
+ "尾道市立大": {
+  "team": "尾道市立大",
+  "slug": "onomichi-shiritsu",
+  "block": "総合"
+ },
+ "比治山大": {
+  "team": "比治山大",
+  "slug": "hijiyama",
+  "block": "総合"
+ }
+}

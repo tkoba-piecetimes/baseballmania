@@ -55,8 +55,15 @@ LEAGUE_ORDER = [
     "tohto2-2026-haru", "tohto2-2026-aki",
     "tohto3-2026-haru", "tohto3-2026-aki",
     "tohto4-2026-haru", "tohto4-2026-aki",
+    "shintokyo1-2026-aki", "shintokyo2-2026-aki",
+    "shintokyo3-2026-aki", "shintokyo4-2026-aki",
+    "chugoku1-2026-aki", "chugoku2-2026-aki", "chugoku3-2026-aki",
+    "hanshin1-2026-aki", "hanshin2e-2026-aki", "hanshin2w-2026-aki",
 ]
-COMPETITION_ORDER = ["東京六大学野球連盟", "東都大学野球連盟"]
+COMPETITION_ORDER = [
+    "東京六大学野球連盟", "東都大学野球連盟",
+    "東京新大学野球連盟", "中国地区大学野球連盟", "阪神大学野球連盟",
+]
 SEASON_ORDER = ["春季", "秋季"]
 
 _sitemap_paths: list[str] = []

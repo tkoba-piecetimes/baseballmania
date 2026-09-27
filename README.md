@@ -9,17 +9,30 @@
 - 対象:
   - 東京六大学野球連盟（big6.gr.jp）: 6校総当たり1リーグ（部制なし）
   - 東都大学野球連盟（tohto-bbl.com）: 1部〜4部の4リーグ
-  - いずれも2026年春季・秋季の2シーズン制。データ取得は2026年春季から開始
-    （秋季は日程が公開され次第、結果も自動的に埋まっていく）
+  - 東京新大学野球連盟（new-tokyo-bbl.com）: 1部〜4部の4リーグ（2026年秋季から）
+  - 中国地区大学野球連盟（cubf5589.com）: 1部（中国六大学野球）〜3部の3リーグ
+    （2026年秋季から。新人戦（kind=4）は対象外）
+  - 阪神大学野球連盟（hanshin-bbl.com）: 1部・2部東・2部西の3リーグ
+    （2026年秋季から。日程はPDF配布のみだが、勝敗表（Excel書き出しHTML）に
+    節ごとの結果も含まれているためmatches.jsonも取得できる）
+  - 東京六大学・東都はいずれも2026年春季・秋季の2シーズン制。データ取得は
+    2026年春季から開始（秋季は日程が公開され次第、結果も自動的に埋まっていく）。
+    東京新大学・中国地区・阪神の3連盟は2026年秋季から取得開始（シーズン
+    パラメータ化してあるので春季・翌年以降の追加もfetch_*.py側の定数変更のみで対応可能）
 - 詳細・パース上の注意点は `docs/baseball-sources.md` 参照
 
 ## 仕組み
 
 ```
 big6.gr.jp（東京六大学）/ tohto-bbl.com（東都大学、Shift_JIS）
-  → pipeline/fetch_big6.py / fetch_tohto.py
+  / new-tokyo-bbl.com（東京新大学）/ cubf5589.com（中国地区）
+  / hanshin-bbl.com（阪神、Shift_JIS/CP932）
+  → pipeline/fetch_big6.py / fetch_tohto.py / fetch_shintokyo.py
+    / fetch_chugoku.py / fetch_hanshin.py
     ※ pipeline/common.py に共通ヘルパー（fetch/タグ除去/勝率表記統一）を集約
-  → data/leagues/<code>/  （rikudai-2026-haru, tohto1-2026-haru, ... の10リーグ）
+    ※ pipeline/fetch_all.py が連盟ごとにtry/exceptで囲んで順番に実行
+      （1連盟の失敗が他連盟を止めない）
+  → data/leagues/<code>/  （rikudai-2026-haru, tohto1-2026-haru, ... の全20リーグ）
   → pipeline/generate_site.py
   → site/
 ```

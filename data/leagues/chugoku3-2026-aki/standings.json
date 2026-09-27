@@ -1,0 +1,92 @@
+{
+ "総合": [
+  {
+   "team": "くらしき作陽大",
+   "slug": "kurashiki-sakuyo",
+   "games": 5,
+   "wins": 5,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "1.000",
+   "rank": 1
+  },
+  {
+   "team": "岡山県立大",
+   "slug": "okayama-kenritsu",
+   "games": 4,
+   "wins": 3,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".750",
+   "rank": 2
+  },
+  {
+   "team": "鳥取大",
+   "slug": "tottori",
+   "games": 4,
+   "wins": 3,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".750",
+   "rank": 3
+  },
+  {
+   "team": "山口大",
+   "slug": "yamaguchi",
+   "games": 4,
+   "wins": 3,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".750",
+   "rank": 4
+  },
+  {
+   "team": "島根県立大",
+   "slug": "shimane-kenritsu",
+   "games": 4,
+   "wins": 3,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".750",
+   "rank": 5
+  },
+  {
+   "team": "倉敷芸術科学大",
+   "slug": "kurashiki-geijutsu",
+   "games": 5,
+   "wins": 1,
+   "losses": 4,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".200",
+   "rank": 6
+  },
+  {
+   "team": "尾道市立大",
+   "slug": "onomichi-shiritsu",
+   "games": 5,
+   "wins": 0,
+   "losses": 5,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000",
+   "rank": 7
+  },
+  {
+   "team": "比治山大",
+   "slug": "hijiyama",
+   "games": 5,
+   "wins": 0,
+   "losses": 5,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000",
+   "rank": 8
+  }
+ ]
+}

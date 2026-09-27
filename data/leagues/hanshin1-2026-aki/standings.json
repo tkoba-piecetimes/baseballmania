@@ -1,0 +1,70 @@
+{
+ "総合": [
+  {
+   "team": "大体大",
+   "slug": "osaka-taiiku",
+   "games": 6,
+   "wins": 5,
+   "losses": 1,
+   "draws": 0,
+   "points": 15,
+   "win_pct": ".833",
+   "rank": 1
+  },
+  {
+   "team": "関国大",
+   "slug": "kansai-kokusai",
+   "games": 6,
+   "wins": 5,
+   "losses": 1,
+   "draws": 0,
+   "points": 15,
+   "win_pct": ".833",
+   "rank": 2
+  },
+  {
+   "team": "天理大",
+   "slug": "tenri",
+   "games": 6,
+   "wins": 4,
+   "losses": 2,
+   "draws": 0,
+   "points": 12,
+   "win_pct": ".667",
+   "rank": 3
+  },
+  {
+   "team": "大産大",
+   "slug": "osaka-sangyo",
+   "games": 6,
+   "wins": 3,
+   "losses": 3,
+   "draws": 0,
+   "points": 9,
+   "win_pct": ".500",
+   "rank": 4
+  },
+  {
+   "team": "関外大",
+   "slug": "kansai-gaikokugo",
+   "games": 6,
+   "wins": 1,
+   "losses": 5,
+   "draws": 0,
+   "points": 3,
+   "win_pct": ".167",
+   "rank": 5
+  },
+  {
+   "team": "甲南大",
+   "slug": "konan",
+   "games": 6,
+   "wins": 0,
+   "losses": 6,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000",
+   "rank": 6
+  }
+ ]
+}

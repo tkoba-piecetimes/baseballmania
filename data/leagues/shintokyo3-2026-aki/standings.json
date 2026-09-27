@@ -1,0 +1,70 @@
+{
+ "総合": [
+  {
+   "rank": 1,
+   "team": "淑徳大",
+   "slug": "shukutoku",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000"
+  },
+  {
+   "rank": 1,
+   "team": "日本工大",
+   "slug": "nihon-kogyo",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000"
+  },
+  {
+   "rank": 1,
+   "team": "東京理科大",
+   "slug": "tokyo-rika",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000"
+  },
+  {
+   "rank": 1,
+   "team": "国際基督教大",
+   "slug": "icu",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000"
+  },
+  {
+   "rank": 1,
+   "team": "文京学院大",
+   "slug": "bunkyogakuin",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000"
+  },
+  {
+   "rank": 1,
+   "team": "日大生物資源",
+   "slug": "nihon-seibutsushigen",
+   "games": 0,
+   "wins": 0,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000"
+  }
+ ]
+}

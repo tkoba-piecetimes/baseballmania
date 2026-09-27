@@ -1,0 +1,70 @@
+{
+ "総合": [
+  {
+   "team": "環太平洋大",
+   "slug": "kantaiheiyo",
+   "games": 4,
+   "wins": 4,
+   "losses": 0,
+   "draws": 0,
+   "points": 2,
+   "win_pct": "1.000",
+   "rank": 1
+  },
+  {
+   "team": "周南公立大",
+   "slug": "shunan-kritsu",
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0,
+   "points": 1,
+   "win_pct": ".500",
+   "rank": 2
+  },
+  {
+   "team": "東亜大",
+   "slug": "toa",
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0,
+   "points": 1,
+   "win_pct": ".500",
+   "rank": 3
+  },
+  {
+   "team": "岡山商科大",
+   "slug": "okayama-shoka",
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0,
+   "points": 1,
+   "win_pct": ".500",
+   "rank": 4
+  },
+  {
+   "team": "吉備国際大",
+   "slug": "kibi-kokusai",
+   "games": 5,
+   "wins": 2,
+   "losses": 3,
+   "draws": 0,
+   "points": 1,
+   "win_pct": ".400",
+   "rank": 5
+  },
+  {
+   "team": "広島文化学園大",
+   "slug": "hiroshima-bunka",
+   "games": 5,
+   "wins": 1,
+   "losses": 4,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".200",
+   "rank": 6
+  }
+ ]
+}

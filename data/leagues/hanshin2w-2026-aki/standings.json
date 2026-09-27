@@ -1,0 +1,70 @@
+{
+ "総合": [
+  {
+   "team": "流科大",
+   "slug": "ryutsu-kagaku",
+   "games": 7,
+   "wins": 5,
+   "losses": 0,
+   "draws": 2,
+   "points": 17,
+   "win_pct": "1.000",
+   "rank": 1
+  },
+  {
+   "team": "獨協大",
+   "slug": "himeji-dokkyo",
+   "games": 8,
+   "wins": 5,
+   "losses": 3,
+   "draws": 0,
+   "points": 15,
+   "win_pct": ".625",
+   "rank": 2
+  },
+  {
+   "team": "神国大",
+   "slug": "kobe-kokusai",
+   "games": 7,
+   "wins": 3,
+   "losses": 3,
+   "draws": 1,
+   "points": 10,
+   "win_pct": ".500",
+   "rank": 3
+  },
+  {
+   "team": "兵庫大",
+   "slug": "hyogo",
+   "games": 8,
+   "wins": 3,
+   "losses": 4,
+   "draws": 1,
+   "points": 10,
+   "win_pct": ".429",
+   "rank": 4
+  },
+  {
+   "team": "関福大",
+   "slug": "kansai-fukushi",
+   "games": 7,
+   "wins": 3,
+   "losses": 4,
+   "draws": 0,
+   "points": 9,
+   "win_pct": ".429",
+   "rank": 5
+  },
+  {
+   "team": "宝医大",
+   "slug": "takarazuka-iryo",
+   "games": 7,
+   "wins": 1,
+   "losses": 6,
+   "draws": 0,
+   "points": 3,
+   "win_pct": ".143",
+   "rank": 6
+  }
+ ]
+}

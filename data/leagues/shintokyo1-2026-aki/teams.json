@@ -1,0 +1,32 @@
+{
+ "杏林大": {
+  "team": "杏林大",
+  "slug": "kyorin",
+  "block": "総合"
+ },
+ "創価大": {
+  "team": "創価大",
+  "slug": "soka",
+  "block": "総合"
+ },
+ "東京国際大": {
+  "team": "東京国際大",
+  "slug": "tokyo-kokusai",
+  "block": "総合"
+ },
+ "流経大": {
+  "team": "流経大",
+  "slug": "ryutsu-keizai",
+  "block": "総合"
+ },
+ "共栄大": {
+  "team": "共栄大",
+  "slug": "kyoei",
+  "block": "総合"
+ },
+ "駿河台大": {
+  "team": "駿河台大",
+  "slug": "surugadai",
+  "block": "総合"
+ }
+}
