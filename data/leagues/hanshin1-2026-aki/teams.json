@@ -1,0 +1,32 @@
+{
+ "大体大": {
+  "team": "大体大",
+  "slug": "osaka-taiiku",
+  "block": "総合"
+ },
+ "関国大": {
+  "team": "関国大",
+  "slug": "kansai-kokusai",
+  "block": "総合"
+ },
+ "天理大": {
+  "team": "天理大",
+  "slug": "tenri",
+  "block": "総合"
+ },
+ "大産大": {
+  "team": "大産大",
+  "slug": "osaka-sangyo",
+  "block": "総合"
+ },
+ "関外大": {
+  "team": "関外大",
+  "slug": "kansai-gaikokugo",
+  "block": "総合"
+ },
+ "甲南大": {
+  "team": "甲南大",
+  "slug": "konan",
+  "block": "総合"
+ }
+}

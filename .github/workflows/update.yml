@@ -29,7 +29,7 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install pykakasi
-      - name: Fetch baseball data (東京六大学・東都大学)
+      - name: Fetch baseball data（東京六大学・東都・東京新・中国・阪神）
         run: python pipeline/fetch_all.py
       - name: Generate articles (節レビュー自動生成)
         run: python pipeline/generate_articles.py

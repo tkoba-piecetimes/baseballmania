@@ -1,0 +1,70 @@
+{
+ "総合": [
+  {
+   "rank": 1,
+   "team": "東京外語大",
+   "slug": "tokyo-gaigo",
+   "games": 3,
+   "wins": 3,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "1.000"
+  },
+  {
+   "rank": 1,
+   "team": "東京電機大",
+   "slug": "tokyo-denki",
+   "games": 1,
+   "wins": 1,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "1.000"
+  },
+  {
+   "rank": 3,
+   "team": "電気通信大",
+   "slug": "denki-tsushin",
+   "games": 2,
+   "wins": 1,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".500"
+  },
+  {
+   "rank": 3,
+   "team": "東京農工大",
+   "slug": "tokyo-noko",
+   "games": 2,
+   "wins": 1,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".500"
+  },
+  {
+   "rank": 5,
+   "team": "東京工科大",
+   "slug": "tokyo-koka",
+   "games": 3,
+   "wins": 0,
+   "losses": 3,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000"
+  },
+  {
+   "rank": 5,
+   "team": "東京海洋大",
+   "slug": "tokyo-kaiyo",
+   "games": 1,
+   "wins": 0,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000"
+  }
+ ]
+}

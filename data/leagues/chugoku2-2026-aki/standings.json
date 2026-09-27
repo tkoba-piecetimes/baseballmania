@@ -1,0 +1,70 @@
+{
+ "総合": [
+  {
+   "team": "岡山理科大",
+   "slug": "okayama-rika",
+   "games": 2,
+   "wins": 2,
+   "losses": 0,
+   "draws": 0,
+   "points": 1,
+   "win_pct": "1.000",
+   "rank": 1
+  },
+  {
+   "team": "福山大",
+   "slug": "fukuyama",
+   "games": 2,
+   "wins": 2,
+   "losses": 0,
+   "draws": 0,
+   "points": 1,
+   "win_pct": "1.000",
+   "rank": 2
+  },
+  {
+   "team": "岡山大",
+   "slug": "okayama",
+   "games": 2,
+   "wins": 2,
+   "losses": 0,
+   "draws": 0,
+   "points": 1,
+   "win_pct": "1.000",
+   "rank": 3
+  },
+  {
+   "team": "至誠館大",
+   "slug": "shiseikan",
+   "games": 2,
+   "wins": 0,
+   "losses": 2,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000",
+   "rank": 4
+  },
+  {
+   "team": "川崎医療福祉大",
+   "slug": "kawasaki-iryo-fukushi",
+   "games": 2,
+   "wins": 0,
+   "losses": 2,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000",
+   "rank": 5
+  },
+  {
+   "team": "島根大",
+   "slug": "shimane",
+   "games": 2,
+   "wins": 0,
+   "losses": 2,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000",
+   "rank": 6
+  }
+ ]
+}

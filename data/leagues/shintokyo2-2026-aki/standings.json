@@ -1,0 +1,70 @@
+{
+ "総合": [
+  {
+   "rank": 1,
+   "team": "学芸大",
+   "slug": "gakugei",
+   "games": 3,
+   "wins": 3,
+   "losses": 0,
+   "draws": 0,
+   "points": 0,
+   "win_pct": "1.000"
+  },
+  {
+   "rank": 2,
+   "team": "日本ウェルネス大",
+   "slug": "nihon-wellness",
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".500"
+  },
+  {
+   "rank": 2,
+   "team": "東洋学園大",
+   "slug": "toyogakuen",
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".500"
+  },
+  {
+   "rank": 2,
+   "team": "高千穂大",
+   "slug": "takachiho",
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".500"
+  },
+  {
+   "rank": 5,
+   "team": "工学院大",
+   "slug": "kogakuin",
+   "games": 3,
+   "wins": 1,
+   "losses": 2,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".333"
+  },
+  {
+   "rank": 6,
+   "team": "都立大",
+   "slug": "toritsu",
+   "games": 2,
+   "wins": 0,
+   "losses": 2,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".000"
+  }
+ ]
+}
