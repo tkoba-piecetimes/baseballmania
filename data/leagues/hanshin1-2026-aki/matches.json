@@ -308,6 +308,34 @@
   "note": ""
  },
  {
+  "id": "2026-10-01-osaka-sangyo-vs-konan",
+  "date": "2026-10-01",
+  "time": "未定",
+  "home": "大産大",
+  "away": "甲南大",
+  "home_slug": "osaka-sangyo",
+  "away_slug": "konan",
+  "venue": "南港",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
+  "id": "2026-10-01-tenri-vs-kansai-kokusai",
+  "date": "2026-10-01",
+  "time": "未定",
+  "home": "天理大",
+  "away": "関国大",
+  "home_slug": "tenri",
+  "away_slug": "kansai-kokusai",
+  "venue": "南港",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
   "id": "2026-10-10-tenri-vs-osaka-taiiku",
   "date": "2026-10-10",
   "time": "未定",

@@ -4,14 +4,14 @@
   "slug": "kyorin",
   "block": "総合"
  },
- "創価大": {
-  "team": "創価大",
-  "slug": "soka",
-  "block": "総合"
- },
  "東京国際大": {
   "team": "東京国際大",
   "slug": "tokyo-kokusai",
+  "block": "総合"
+ },
+ "創価大": {
+  "team": "創価大",
+  "slug": "soka",
   "block": "総合"
  },
  "流経大": {
