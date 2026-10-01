@@ -218,9 +218,9 @@
   "home_slug": "aoyamagakuin",
   "away_slug": "asia",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 0,
   "note": ""
  },
  {

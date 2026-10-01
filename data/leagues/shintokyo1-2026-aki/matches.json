@@ -380,15 +380,15 @@
  {
   "id": "gid-2900",
   "date": "2026-09-30",
-  "time": "13:00",
+  "time": "12:52",
   "home": "共栄大",
   "away": "創価大",
   "home_slug": "kyoei",
   "away_slug": "soka",
   "venue": "共栄大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 7,
   "note": ""
  },
  {
