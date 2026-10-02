@@ -260,9 +260,9 @@
   "home_slug": "kansai-kokusai",
   "away_slug": "tenri",
   "venue": "シティ",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 8,
+  "away_score": 8,
   "note": ""
  },
  {
@@ -274,9 +274,9 @@
   "home_slug": "kansai-gaikokugo",
   "away_slug": "osaka-taiiku",
   "venue": "シティ",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 5,
   "note": ""
  },
  {
@@ -288,9 +288,9 @@
   "home_slug": "osaka-sangyo",
   "away_slug": "konan",
   "venue": "南港",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -302,9 +302,9 @@
   "home_slug": "tenri",
   "away_slug": "kansai-kokusai",
   "venue": "南港",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 2,
   "note": ""
  },
  {

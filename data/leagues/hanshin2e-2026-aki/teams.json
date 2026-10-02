@@ -1,12 +1,12 @@
 {
- "桃山大": {
-  "team": "桃山大",
-  "slug": "momoyama",
-  "block": "総合"
- },
  "電通大": {
   "team": "電通大",
   "slug": "osaka-dentsu",
+  "block": "総合"
+ },
+ "桃山大": {
+  "team": "桃山大",
+  "slug": "momoyama",
   "block": "総合"
  },
  "追門大": {
@@ -19,14 +19,14 @@
   "slug": "tezukayama",
   "block": "総合"
  },
- "経法大": {
-  "team": "経法大",
-  "slug": "keiho",
-  "block": "総合"
- },
  "摂南大": {
   "team": "摂南大",
   "slug": "setsunan",
+  "block": "総合"
+ },
+ "経法大": {
+  "team": "経法大",
+  "slug": "keiho",
   "block": "総合"
  }
 }

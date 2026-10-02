@@ -196,20 +196,6 @@
   "note": ""
  },
  {
-  "id": "2026-10-03-tokyo-city-vs-hitotsubashi",
-  "date": "2026-10-03",
-  "time": "11:30",
-  "home": "都市大",
-  "away": "一橋大",
-  "home_slug": "tokyo-city",
-  "away_slug": "hitotsubashi",
-  "venue": "芝浦工業大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
   "id": "2026-10-04-shibaura-vs-science-tokyo",
   "date": "2026-10-04",
   "time": "9:00",

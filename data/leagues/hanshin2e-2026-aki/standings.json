@@ -1,8 +1,8 @@
 {
  "総合": [
   {
-   "team": "桃山大",
-   "slug": "momoyama",
+   "team": "電通大",
+   "slug": "osaka-dentsu",
    "games": 8,
    "wins": 6,
    "losses": 2,
@@ -12,14 +12,14 @@
    "rank": 1
   },
   {
-   "team": "電通大",
-   "slug": "osaka-dentsu",
-   "games": 7,
-   "wins": 5,
+   "team": "桃山大",
+   "slug": "momoyama",
+   "games": 8,
+   "wins": 6,
    "losses": 2,
    "draws": 0,
-   "points": 15,
-   "win_pct": ".714",
+   "points": 18,
+   "win_pct": ".750",
    "rank": 2
   },
   {
@@ -36,34 +36,34 @@
   {
    "team": "帝塚大",
    "slug": "tezukayama",
-   "games": 6,
-   "wins": 2,
-   "losses": 4,
-   "draws": 0,
-   "points": 6,
-   "win_pct": ".333",
-   "rank": 4
-  },
-  {
-   "team": "経法大",
-   "slug": "keiho",
    "games": 7,
    "wins": 2,
    "losses": 5,
    "draws": 0,
    "points": 6,
    "win_pct": ".286",
-   "rank": 5
+   "rank": 4
   },
   {
    "team": "摂南大",
    "slug": "setsunan",
-   "games": 7,
-   "wins": 1,
+   "games": 8,
+   "wins": 2,
    "losses": 6,
    "draws": 0,
-   "points": 3,
-   "win_pct": ".143",
+   "points": 6,
+   "win_pct": ".250",
+   "rank": 5
+  },
+  {
+   "team": "経法大",
+   "slug": "keiho",
+   "games": 8,
+   "wins": 2,
+   "losses": 6,
+   "draws": 0,
+   "points": 6,
+   "win_pct": ".250",
    "rank": 6
   }
  ]
