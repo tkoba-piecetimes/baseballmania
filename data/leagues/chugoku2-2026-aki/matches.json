@@ -126,6 +126,34 @@
   "note": ""
  },
  {
+  "id": "2026-10-03-fukuyama-vs-shimane",
+  "date": "2026-10-03",
+  "time": "未定",
+  "home": "福山大",
+  "away": "島根大",
+  "home_slug": "fukuyama",
+  "away_slug": "shimane",
+  "venue": "やまみ三原市民球場",
+  "status": "played",
+  "home_score": 3,
+  "away_score": 11,
+  "note": ""
+ },
+ {
+  "id": "2026-10-03-okayama-rika-vs-okayama",
+  "date": "2026-10-03",
+  "time": "未定",
+  "home": "岡山理科大",
+  "away": "岡山大",
+  "home_slug": "okayama-rika",
+  "away_slug": "okayama",
+  "venue": "やまみ三原市民球場",
+  "status": "played",
+  "home_score": 6,
+  "away_score": 3,
+  "note": ""
+ },
+ {
   "id": "2026-10-03-shiseikan-vs-kawasaki-iryo-fukushi",
   "date": "2026-10-03",
   "time": "未定",
@@ -135,8 +163,8 @@
   "away_slug": "kawasaki-iryo-fukushi",
   "venue": "やまみ三原市民球場",
   "status": "played",
-  "home_score": 3,
-  "away_score": 0,
+  "home_score": 8,
+  "away_score": 1,
   "note": ""
  }
 ]

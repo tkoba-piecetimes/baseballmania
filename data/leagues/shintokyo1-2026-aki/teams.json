@@ -19,14 +19,14 @@
   "slug": "ryutsu-keizai",
   "block": "総合"
  },
- "駿河台大": {
-  "team": "駿河台大",
-  "slug": "surugadai",
-  "block": "総合"
- },
  "共栄大": {
   "team": "共栄大",
   "slug": "kyoei",
+  "block": "総合"
+ },
+ "駿河台大": {
+  "team": "駿河台大",
+  "slug": "surugadai",
   "block": "総合"
  }
 }

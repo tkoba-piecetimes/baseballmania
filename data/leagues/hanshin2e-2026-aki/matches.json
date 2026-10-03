@@ -344,9 +344,9 @@
   "home_slug": "osaka-dentsu",
   "away_slug": "momoyama",
   "venue": "万博",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 7,
+  "away_score": 7,
   "note": ""
  },
  {
@@ -358,9 +358,9 @@
   "home_slug": "otemon",
   "away_slug": "setsunan",
   "venue": "万博",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 7,
+  "away_score": 1,
   "note": ""
  },
  {

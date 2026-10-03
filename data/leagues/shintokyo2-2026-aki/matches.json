@@ -232,9 +232,9 @@
   "home_slug": "gakugei",
   "away_slug": "kogakuin",
   "venue": "東京都立大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -246,9 +246,9 @@
   "home_slug": "toritsu",
   "away_slug": "nihon-wellness",
   "venue": "東京都立大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 5,
   "note": ""
  },
  {

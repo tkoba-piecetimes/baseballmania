@@ -19,14 +19,14 @@
   "slug": "tezukayama",
   "block": "総合"
  },
- "摂南大": {
-  "team": "摂南大",
-  "slug": "setsunan",
-  "block": "総合"
- },
  "経法大": {
   "team": "経法大",
   "slug": "keiho",
+  "block": "総合"
+ },
+ "摂南大": {
+  "team": "摂南大",
+  "slug": "setsunan",
   "block": "総合"
  }
 }

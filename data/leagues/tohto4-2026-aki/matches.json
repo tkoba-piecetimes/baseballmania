@@ -140,20 +140,6 @@
   "note": ""
  },
  {
-  "id": "2026-09-26-tokyo-city-vs-science-tokyo",
-  "date": "2026-09-26",
-  "time": "13:00",
-  "home": "都市大",
-  "away": "科学大",
-  "home_slug": "tokyo-city",
-  "away_slug": "science-tokyo",
-  "venue": "大正大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
   "id": "2026-09-27-shibaura-vs-hitotsubashi",
   "date": "2026-09-27",
   "time": "9:00",
@@ -191,8 +177,8 @@
   "away_slug": "shibaura",
   "venue": "芝浦工業大学グラウンド",
   "status": "played",
-  "home_score": 0,
-  "away_score": 2,
+  "home_score": 5,
+  "away_score": 9,
   "note": ""
  },
  {
@@ -204,9 +190,9 @@
   "home_slug": "tokyo-city",
   "away_slug": "hitotsubashi",
   "venue": "芝浦工業大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 1,
   "note": ""
  },
  {
