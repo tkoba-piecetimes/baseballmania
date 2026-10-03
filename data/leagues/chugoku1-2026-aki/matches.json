@@ -180,5 +180,19 @@
   "home_score": 6,
   "away_score": 5,
   "note": ""
+ },
+ {
+  "id": "2026-10-03-kibi-kokusai-vs-shunan-kritsu",
+  "date": "2026-10-03",
+  "time": "未定",
+  "home": "吉備国際大",
+  "away": "周南公立大",
+  "home_slug": "kibi-kokusai",
+  "away_slug": "shunan-kritsu",
+  "venue": "オーヴィジョンスタジアム下関",
+  "status": "played",
+  "home_score": 0,
+  "away_score": 0,
+  "note": ""
  }
 ]

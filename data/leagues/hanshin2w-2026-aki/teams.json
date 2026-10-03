@@ -14,14 +14,14 @@
   "slug": "kobe-kokusai",
   "block": "総合"
  },
- "兵庫大": {
-  "team": "兵庫大",
-  "slug": "hyogo",
-  "block": "総合"
- },
  "関福大": {
   "team": "関福大",
   "slug": "kansai-fukushi",
+  "block": "総合"
+ },
+ "兵庫大": {
+  "team": "兵庫大",
+  "slug": "hyogo",
   "block": "総合"
  },
  "宝医大": {

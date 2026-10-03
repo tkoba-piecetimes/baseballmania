@@ -344,9 +344,9 @@
   "home_slug": "ryutsu-kagaku",
   "away_slug": "himeji-dokkyo",
   "venue": "南港",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -358,9 +358,9 @@
   "home_slug": "kobe-kokusai",
   "away_slug": "takarazuka-iryo",
   "venue": "南港",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 13,
+  "away_score": 6,
   "note": ""
  },
  {
@@ -372,9 +372,9 @@
   "home_slug": "hyogo",
   "away_slug": "kansai-fukushi",
   "venue": "南港",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 7,
+  "away_score": 8,
   "note": ""
  },
  {

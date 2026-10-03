@@ -4,11 +4,11 @@
    "rank": 1,
    "team": "亜細亜大",
    "slug": "asia",
-   "games": 5,
-   "wins": 5,
+   "games": 6,
+   "wins": 6,
    "losses": 0,
    "draws": 0,
-   "points": 2,
+   "points": 3,
    "win_pct": "1.000"
   },
   {
@@ -37,12 +37,12 @@
    "rank": 4,
    "team": "青学大",
    "slug": "aoyamagakuin",
-   "games": 6,
+   "games": 7,
    "wins": 3,
-   "losses": 3,
+   "losses": 4,
    "draws": 0,
    "points": 1,
-   "win_pct": ".500"
+   "win_pct": ".429"
   },
   {
    "rank": 5,
