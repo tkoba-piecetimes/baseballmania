@@ -266,6 +266,34 @@
   "note": ""
  },
  {
+  "id": "2026-10-08-toyo-vs-kokugakuin",
+  "date": "2026-10-08",
+  "time": "10:00",
+  "home": "東洋大",
+  "away": "國學院大",
+  "home_slug": "toyo",
+  "away_slug": "kokugakuin",
+  "venue": "神宮球場",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
+  "id": "2026-10-08-rissho-vs-chuo",
+  "date": "2026-10-08",
+  "time": "12:30",
+  "home": "立正大",
+  "away": "中央大",
+  "home_slug": "rissho",
+  "away_slug": "chuo",
+  "venue": "神宮球場",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
   "id": "2026-10-13-chuo-vs-toyo",
   "date": "2026-10-13",
   "time": "9:00",

@@ -428,9 +428,9 @@
   "home_slug": "tokyo-kokusai",
   "away_slug": "ryutsu-keizai",
   "venue": "飯能市民球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 6,
   "note": ""
  },
  {
@@ -441,6 +441,20 @@
   "away": "共栄大",
   "home_slug": "surugadai",
   "away_slug": "kyoei",
+  "venue": "飯能市民球場",
+  "status": "played",
+  "home_score": 2,
+  "away_score": 5,
+  "note": ""
+ },
+ {
+  "id": "gid-2903",
+  "date": "2026-10-05",
+  "time": "13:00",
+  "home": "流経大",
+  "away": "東京国際大",
+  "home_slug": "ryutsu-keizai",
+  "away_slug": "tokyo-kokusai",
   "venue": "飯能市民球場",
   "status": "scheduled",
   "home_score": null,

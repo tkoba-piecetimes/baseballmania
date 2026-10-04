@@ -4,12 +4,12 @@
    "rank": 1,
    "team": "学芸大",
    "slug": "gakugei",
-   "games": 4,
-   "wins": 3,
+   "games": 5,
+   "wins": 4,
    "losses": 1,
    "draws": 0,
    "points": 0,
-   "win_pct": ".750"
+   "win_pct": ".800"
   },
   {
    "rank": 2,
@@ -24,28 +24,6 @@
   },
   {
    "rank": 3,
-   "team": "東洋学園大",
-   "slug": "toyogakuen",
-   "games": 4,
-   "wins": 2,
-   "losses": 2,
-   "draws": 0,
-   "points": 0,
-   "win_pct": ".500"
-  },
-  {
-   "rank": 3,
-   "team": "高千穂大",
-   "slug": "takachiho",
-   "games": 4,
-   "wins": 2,
-   "losses": 2,
-   "draws": 0,
-   "points": 0,
-   "win_pct": ".500"
-  },
-  {
-   "rank": 3,
    "team": "工学院大",
    "slug": "kogakuin",
    "games": 4,
@@ -56,15 +34,37 @@
    "win_pct": ".500"
   },
   {
-   "rank": 6,
-   "team": "都立大",
-   "slug": "toritsu",
-   "games": 3,
-   "wins": 0,
+   "rank": 4,
+   "team": "東洋学園大",
+   "slug": "toyogakuen",
+   "games": 5,
+   "wins": 2,
    "losses": 3,
    "draws": 0,
    "points": 0,
-   "win_pct": ".000"
+   "win_pct": ".400"
+  },
+  {
+   "rank": 4,
+   "team": "高千穂大",
+   "slug": "takachiho",
+   "games": 5,
+   "wins": 2,
+   "losses": 3,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".400"
+  },
+  {
+   "rank": 6,
+   "team": "都立大",
+   "slug": "toritsu",
+   "games": 4,
+   "wins": 1,
+   "losses": 3,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".250"
   }
  ]
 }

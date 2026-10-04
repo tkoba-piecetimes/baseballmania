@@ -82,5 +82,33 @@
   "home_score": 14,
   "away_score": 3,
   "note": ""
+ },
+ {
+  "id": "2026-10-03-tokyo-kaiyo-vs-tokyo-noko",
+  "date": "2026-10-03",
+  "time": "09:55",
+  "home": "東京海洋大",
+  "away": "東京農工大",
+  "home_slug": "tokyo-kaiyo",
+  "away_slug": "tokyo-noko",
+  "venue": "東京国際大学",
+  "status": "played",
+  "home_score": 4,
+  "away_score": 5,
+  "note": ""
+ },
+ {
+  "id": "2026-10-03-tokyo-denki-vs-tokyo-gaigo",
+  "date": "2026-10-03",
+  "time": "13:18",
+  "home": "東京電機大",
+  "away": "東京外語大",
+  "home_slug": "tokyo-denki",
+  "away_slug": "tokyo-gaigo",
+  "venue": "東京国際大学",
+  "status": "played",
+  "home_score": 11,
+  "away_score": 16,
+  "note": ""
  }
 ]

@@ -372,23 +372,9 @@
   "home_slug": "keiho",
   "away_slug": "tezukayama",
   "venue": "桃山大",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
-  "id": "2026-10-04-momoyama-vs-osaka-dentsu",
-  "date": "2026-10-04",
-  "time": "未定",
-  "home": "桃山大",
-  "away": "電通大",
-  "home_slug": "momoyama",
-  "away_slug": "osaka-dentsu",
-  "venue": "桃山大",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 7,
   "note": ""
  },
  {
