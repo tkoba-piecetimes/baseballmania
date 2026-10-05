@@ -276,6 +276,7 @@ def jsonld_sports_event(m, league_name):
 
 def md_inline(s):
     s = escape(s, quote=False)
+    s = s.replace("&lt;!-- index-lane-link --&gt;", "<!-- index-lane-link -->")
     s = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     return s
@@ -803,6 +804,31 @@ def build_portal(leagues, articles, meta):
 
 # ---------------------------------------------------------------- league pages
 
+# インデックス未登録レーンの内部リンク補強（2026-10-05）。
+# (リーグコード, ページ種別) -> (記事slug, アンカー文言, 導入文)。1ページ1リンク。
+LANE_LINKS = {
+    ("rikudai-2026-haru", "index"): ("review-rikudai-2026-haru-20260425", "東京六大学野球 2026年春季リーグ戦 4月25日週の結果まとめ", "春季の節ごとの流れは"),
+    ("rikudai-2026-haru", "standings"): ("review-rikudai-2026-haru-20260502", "東京六大学野球 2026年春季リーグ戦 5月2日週の結果まとめ", "順位がどう動いたかは"),
+    ("tohto4-2026-haru", "index"): ("review-tohto4-2026-haru-20260425", "東都大学野球4部 2026年春季リーグ戦 4月25日週の結果まとめ", "節ごとの結果は"),
+    ("tohto4-2026-haru", "standings"): ("review-tohto4-2026-haru-20260502", "東都大学野球4部 2026年春季リーグ戦 5月2日週の結果まとめ", "順位の推移は"),
+    ("tohto4-2026-haru", "schedule"): ("review-tohto4-2026-haru-20260418", "東都大学野球4部 2026年春季リーグ戦 4月18日週の結果まとめ", "開幕直後の節の結果は"),
+    ("tohto3-2026-haru", "index"): ("review-tohto3-2026-haru-20260503", "東都大学野球3部 2026年春季リーグ戦 5月3日週の結果まとめ", "節ごとの結果は"),
+    ("tohto3-2026-haru", "schedule"): ("review-tohto3-2026-haru-20260425", "東都大学野球3部 2026年春季リーグ戦 4月25日週の結果まとめ", "節ごとの結果は"),
+    ("tohto3-2026-haru", "standings"): ("review-tohto3-2026-haru-20260418", "東都大学野球3部 2026年春季リーグ戦 4月18日週の結果まとめ", "序盤の順位の動きは"),
+    ("tohto2-2026-haru", "index"): ("review-tohto2-2026-haru-20260428", "東都大学野球2部 2026年春季リーグ戦 4月28日週の結果まとめ", "節ごとの結果は"),
+    ("tohto2-2026-haru", "standings"): ("review-tohto2-2026-haru-20260428", "東都大学野球2部 2026年春季リーグ戦 4月28日週の結果まとめ", "順位の動きは"),
+}
+
+
+def lane_link(code, kind, R):
+    v = LANE_LINKS.get((code, kind))
+    if not v:
+        return ""
+    slug, anchor, lead = v
+    return (f'<p class="more"><!-- index-lane-link -->{escape(lead)}'
+            f'<a href="{R}articles/{slug}/index.html">{escape(anchor)}</a>で確認できます。</p>')
+
+
 def build_league(lg, articles):
     code = lg["code"]
     meta, matches, standings = lg["meta"], lg["matches"], lg["standings"]
@@ -844,6 +870,7 @@ def build_league(lg, articles):
     for block, entries in standings.items():
         if entries:
             body += '<section><h2>順位表</h2>' + standings_table(entries, L) + '</section>'
+    body += lane_link(code, "index", R)
     write_page(code, page(R, f'{league_name} 試合結果・日程・順位表 | ベースボールマニア', body, meta,
                           path=f"{code}/",
                           desc=f'{league_name}の試合結果・日程・順位表・チーム戦績を毎日更新。',
@@ -863,6 +890,7 @@ def build_league(lg, articles):
     if awaiting:
         body += ('<section><h2>結果反映待ちの試合</h2>'
                  + match_table("".join(match_row(m, L) for m in awaiting)) + "</section>")
+    body += lane_link(code, "schedule", R)
     write_page(f"{code}/schedule",
                page(R, f'試合日程・結果 | {league_name} | ベースボールマニア', body, meta,
                     path=f"{code}/schedule/", desc=f'{league_name}の全試合日程と結果の一覧。',
@@ -873,6 +901,7 @@ def build_league(lg, articles):
         if entries:
             body += standings_table(entries, L)
     body += '<p class="note">※順位・勝ち点・勝率は連盟公式サイトの発表をそのまま掲載しています（大学野球は同一カード2先勝で勝ち点1がつく勝ち点制のため）。得点・失点・得失点差は試合結果から当サイトが独自に集計した参考値です。</p>'
+    body += lane_link(code, "standings", R)
     write_page(f"{code}/standings",
                page(R, f'順位表 | {league_name} | ベースボールマニア', body, meta,
                     path=f"{code}/standings/", desc=f'{league_name}の順位表。勝点・勝率を毎日更新。',

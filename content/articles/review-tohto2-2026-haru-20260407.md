@@ -39,6 +39,8 @@ cta: sponsor
 - [東農大のページ](../../tohto2-2026-haru/clubs/tokyo-nodai/index.html)
 - [駒澤大のページ](../../tohto2-2026-haru/clubs/komazawa/index.html)
 
+同じ2部の後の節の結果は、[東都大学野球2部 2026年春季リーグ戦 4月28日週の結果まとめ](../review-tohto2-2026-haru-20260428/index.html)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [東都大学野球連盟](http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&SEASONID=01&LEAGUEID=02)

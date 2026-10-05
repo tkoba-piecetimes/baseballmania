@@ -38,6 +38,8 @@ cta: sponsor
 - [学習大のページ](../../tohto3-2026-haru/clubs/gakushuin/index.html)
 - [成蹊大のページ](../../tohto3-2026-haru/clubs/seikei/index.html)
 
+次の節の結果は、[東都大学野球3部 2026年春季リーグ戦 4月18日週の結果まとめ](../review-tohto3-2026-haru-20260418/index.html)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [東都大学野球連盟](http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&SEASONID=01&LEAGUEID=03)

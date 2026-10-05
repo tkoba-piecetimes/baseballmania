@@ -40,6 +40,8 @@ cta: sponsor
 - [立正大のページ](../../tohto1-2026-haru/clubs/rissho/index.html)
 - [青学大のページ](../../tohto1-2026-haru/clubs/aoyamagakuin/index.html)
 
+同じ東都大学野球の下位リーグの様子は、[東都大学野球3部 2026年春季リーグ戦 4月25日週の結果まとめ](../review-tohto3-2026-haru-20260425/index.html)も参考になります。<!-- index-lane-link -->
+
 ## 出典
 
 - [東都大学野球連盟](http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&SEASONID=01&LEAGUEID=01)
