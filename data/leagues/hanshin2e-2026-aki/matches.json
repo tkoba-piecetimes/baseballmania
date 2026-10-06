@@ -238,20 +238,6 @@
   "note": ""
  },
  {
-  "id": "2026-10-08-tezukayama-vs-otemon",
-  "date": "2026-10-08",
-  "time": "未定",
-  "home": "帝塚大",
-  "away": "追門大",
-  "home_slug": "tezukayama",
-  "away_slug": "otemon",
-  "venue": "萩谷",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
   "id": "2026-09-21-setsunan-vs-keiho",
   "date": "2026-09-21",
   "time": "未定",
@@ -386,9 +372,9 @@
   "home_slug": "setsunan",
   "away_slug": "otemon",
   "venue": "萩谷",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 4,
   "note": ""
  },
  {
@@ -399,6 +385,20 @@
   "away": "経法大",
   "home_slug": "tezukayama",
   "away_slug": "keiho",
+  "venue": "萩谷",
+  "status": "played",
+  "home_score": 4,
+  "away_score": 5,
+  "note": ""
+ },
+ {
+  "id": "2026-10-08-momoyama-vs-osaka-dentsu",
+  "date": "2026-10-08",
+  "time": "未定",
+  "home": "桃山大",
+  "away": "電通大",
+  "home_slug": "momoyama",
+  "away_slug": "osaka-dentsu",
   "venue": "萩谷",
   "status": "scheduled",
   "home_score": null,

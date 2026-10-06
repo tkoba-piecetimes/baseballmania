@@ -414,9 +414,9 @@
   "home_slug": "hosei",
   "away_slug": "keio",
   "venue": "明治神宮野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 3,
   "note": ""
  },
  {

@@ -180,5 +180,19 @@
   "home_score": 2,
   "away_score": 1,
   "note": ""
+ },
+ {
+  "id": "2026-10-06-kawasaki-iryo-fukushi-vs-shiseikan",
+  "date": "2026-10-06",
+  "time": "未定",
+  "home": "川崎医療福祉大",
+  "away": "至誠館大",
+  "home_slug": "kawasaki-iryo-fukushi",
+  "away_slug": "shiseikan",
+  "venue": "やまみ三原市民球場",
+  "status": "played",
+  "home_score": 0,
+  "away_score": 12,
+  "note": ""
  }
 ]

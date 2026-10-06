@@ -456,9 +456,9 @@
   "home_slug": "ryutsu-keizai",
   "away_slug": "tokyo-kokusai",
   "venue": "飯能市民球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 8,
   "note": ""
  },
  {

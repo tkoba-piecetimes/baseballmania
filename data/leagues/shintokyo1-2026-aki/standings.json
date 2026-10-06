@@ -13,6 +13,17 @@
   },
   {
    "rank": 2,
+   "team": "東京国際大",
+   "slug": "tokyo-kokusai",
+   "games": 10,
+   "wins": 7,
+   "losses": 3,
+   "draws": 0,
+   "points": 3,
+   "win_pct": ".700"
+  },
+  {
+   "rank": 3,
    "team": "創価大",
    "slug": "soka",
    "games": 9,
@@ -23,26 +34,15 @@
    "win_pct": ".667"
   },
   {
-   "rank": 3,
-   "team": "東京国際大",
-   "slug": "tokyo-kokusai",
-   "games": 9,
-   "wins": 6,
-   "losses": 3,
-   "draws": 0,
-   "points": 2,
-   "win_pct": ".667"
-  },
-  {
    "rank": 4,
    "team": "流経大",
    "slug": "ryutsu-keizai",
-   "games": 9,
+   "games": 10,
    "wins": 4,
-   "losses": 5,
+   "losses": 6,
    "draws": 0,
    "points": 1,
-   "win_pct": ".444"
+   "win_pct": ".400"
   },
   {
    "rank": 5,

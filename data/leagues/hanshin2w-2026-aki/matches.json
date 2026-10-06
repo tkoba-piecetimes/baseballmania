@@ -376,5 +376,19 @@
   "home_score": 7,
   "away_score": 8,
   "note": ""
+ },
+ {
+  "id": "2026-10-07-himeji-dokkyo-vs-ryutsu-kagaku",
+  "date": "2026-10-07",
+  "time": "未定",
+  "home": "獨協大",
+  "away": "流科大",
+  "home_slug": "himeji-dokkyo",
+  "away_slug": "ryutsu-kagaku",
+  "venue": "あじさい",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
  }
 ]

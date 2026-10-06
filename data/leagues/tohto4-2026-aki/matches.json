@@ -168,6 +168,34 @@
   "note": ""
  },
  {
+  "id": "2026-10-07-hitotsubashi-vs-shibaura",
+  "date": "2026-10-07",
+  "time": "12:30",
+  "home": "一橋大",
+  "away": "芝工大",
+  "home_slug": "hitotsubashi",
+  "away_slug": "shibaura",
+  "venue": "国府台スタジアム",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
+  "id": "2026-10-07-science-tokyo-vs-tokyo-city",
+  "date": "2026-10-07",
+  "time": "16:00",
+  "home": "科学大",
+  "away": "都市大",
+  "home_slug": "science-tokyo",
+  "away_slug": "tokyo-city",
+  "venue": "国府台スタジアム",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
   "id": "2026-10-03-science-tokyo-vs-shibaura",
   "date": "2026-10-03",
   "time": "9:00",
