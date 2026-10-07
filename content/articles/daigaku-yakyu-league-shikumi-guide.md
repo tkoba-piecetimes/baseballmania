@@ -54,7 +54,7 @@ cta: sponsor
 
 ### 順位表の見方
 
-大学野球の順位表を見るときは、勝ち数だけでなく「勝ち点」の欄をチェックするのがポイントです。勝ち点が並んでいる場合は勝率で順位が決まるため、下位に見えるチームでも勝ち点次第で優勝が狙える混戦になっていることがあります。直近の順位は、[2026年秋季の東京六大学野球 順位表](https://baseballmania.jp/rikudai-2026-aki/standings/)や[東都大学野球1部 2026年秋季 順位表](https://baseballmania.jp/tohto1-2026-aki/standings/)で確認できます。春季の結果は[東京六大学野球 2026年春季 順位表](https://baseballmania.jp/rikudai-2026-haru/standings/)、[東都大学野球1部 2026年春季 順位表](https://baseballmania.jp/tohto1-2026-haru/standings/)に残っています。
+大学野球の順位表を見るときは、勝ち数だけでなく「勝ち点」の欄をチェックするのがポイントです。勝ち点が並んでいる場合は勝率で順位が決まるため、下位に見えるチームでも勝ち点次第で優勝が狙える混戦になっていることがあります。直近の順位は、[2026年秋季の東京六大学野球 順位表](https://baseballmania.jp/rikudai-2026-aki/standings/)や[東都大学野球1部 2026年秋季 順位表](https://baseballmania.jp/tohto1-2026-aki/standings/)で確認できます。春季の結果は[東京六大学野球 2026年春季 順位表](https://baseballmania.jp/rikudai-2026-haru/standings/)、[東都大学野球1部 2026年春季 順位表](https://baseballmania.jp/tohto1-2026-haru/standings/)に残っています。六大学の春季の週ごとの流れは、[東京六大学野球 2026年春季リーグ戦 5月16日週の結果まとめ](https://baseballmania.jp/articles/review-rikudai-2026-haru-20260516/)でも振り返れます。<!-- index-lane-link -->
 
 ### 日程・結果の確認方法
 
