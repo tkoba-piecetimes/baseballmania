@@ -316,9 +316,9 @@
   "home_slug": "osaka-taiiku",
   "away_slug": "kansai-gaikokugo",
   "venue": "シティ",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -330,9 +330,9 @@
   "home_slug": "konan",
   "away_slug": "osaka-sangyo",
   "venue": "シティ",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 3,
   "note": ""
  },
  {

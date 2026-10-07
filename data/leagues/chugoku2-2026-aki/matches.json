@@ -194,5 +194,33 @@
   "home_score": 0,
   "away_score": 12,
   "note": ""
+ },
+ {
+  "id": "2026-10-06-okayama-vs-okayama-rika",
+  "date": "2026-10-06",
+  "time": "未定",
+  "home": "岡山大",
+  "away": "岡山理科大",
+  "home_slug": "okayama",
+  "away_slug": "okayama-rika",
+  "venue": "やまみ三原市民球場",
+  "status": "played",
+  "home_score": 1,
+  "away_score": 11,
+  "note": ""
+ },
+ {
+  "id": "2026-10-06-shimane-vs-fukuyama",
+  "date": "2026-10-06",
+  "time": "未定",
+  "home": "島根大",
+  "away": "福山大",
+  "home_slug": "shimane",
+  "away_slug": "fukuyama",
+  "venue": "やまみ三原市民球場",
+  "status": "played",
+  "home_score": 1,
+  "away_score": 8,
+  "note": ""
  }
 ]

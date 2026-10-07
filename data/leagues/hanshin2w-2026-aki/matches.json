@@ -390,5 +390,33 @@
   "home_score": null,
   "away_score": null,
   "note": ""
+ },
+ {
+  "id": "2026-10-15-takarazuka-iryo-vs-kobe-kokusai",
+  "date": "2026-10-15",
+  "time": "未定",
+  "home": "宝医大",
+  "away": "神国大",
+  "home_slug": "takarazuka-iryo",
+  "away_slug": "kobe-kokusai",
+  "venue": "あじさい",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
+  "id": "2026-10-15-kansai-fukushi-vs-hyogo",
+  "date": "2026-10-15",
+  "time": "未定",
+  "home": "関福大",
+  "away": "兵庫大",
+  "home_slug": "kansai-fukushi",
+  "away_slug": "hyogo",
+  "venue": "あじさい",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
  }
 ]
