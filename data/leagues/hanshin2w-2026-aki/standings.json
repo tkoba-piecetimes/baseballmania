@@ -3,23 +3,23 @@
   {
    "team": "流科大",
    "slug": "ryutsu-kagaku",
-   "games": 8,
-   "wins": 6,
+   "games": 9,
+   "wins": 7,
    "losses": 0,
    "draws": 2,
-   "points": 20,
+   "points": 23,
    "win_pct": "1.000",
    "rank": 1
   },
   {
    "team": "獨協大",
    "slug": "himeji-dokkyo",
-   "games": 9,
+   "games": 10,
    "wins": 5,
-   "losses": 4,
+   "losses": 5,
    "draws": 0,
    "points": 15,
-   "win_pct": ".556",
+   "win_pct": ".500",
    "rank": 2
   },
   {

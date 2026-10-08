@@ -110,5 +110,19 @@
   "home_score": 11,
   "away_score": 16,
   "note": ""
+ },
+ {
+  "id": "2026-10-04-tokyo-denki-vs-tokyo-koka",
+  "date": "2026-10-04",
+  "time": "10:10",
+  "home": "東京電機大",
+  "away": "東京工科大",
+  "home_slug": "tokyo-denki",
+  "away_slug": "tokyo-koka",
+  "venue": "東京国際大学",
+  "status": "played",
+  "home_score": 14,
+  "away_score": 13,
+  "note": ""
  }
 ]

@@ -13,6 +13,17 @@
   },
   {
    "rank": 2,
+   "team": "専修大",
+   "slug": "senshu",
+   "games": 7,
+   "wins": 5,
+   "losses": 2,
+   "draws": 0,
+   "points": 2,
+   "win_pct": ".714"
+  },
+  {
+   "rank": 3,
    "team": "日本大",
    "slug": "nihon",
    "games": 6,
@@ -20,17 +31,6 @@
    "losses": 2,
    "draws": 0,
    "points": 2,
-   "win_pct": ".667"
-  },
-  {
-   "rank": 3,
-   "team": "専修大",
-   "slug": "senshu",
-   "games": 6,
-   "wins": 4,
-   "losses": 2,
-   "draws": 0,
-   "points": 1,
    "win_pct": ".667"
   },
   {
@@ -56,15 +56,15 @@
    "win_pct": ".286"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "team": "帝平大",
    "slug": "teikyo-heisei",
-   "games": 7,
+   "games": 8,
    "wins": 2,
-   "losses": 5,
+   "losses": 6,
    "draws": 0,
    "points": 0,
-   "win_pct": ".286"
+   "win_pct": ".250"
   }
  ]
 }

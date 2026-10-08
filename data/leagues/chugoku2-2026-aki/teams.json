@@ -9,24 +9,24 @@
   "slug": "fukuyama",
   "block": "総合"
  },
- "岡山大": {
-  "team": "岡山大",
-  "slug": "okayama",
-  "block": "総合"
- },
  "至誠館大": {
   "team": "至誠館大",
   "slug": "shiseikan",
   "block": "総合"
  },
- "川崎医療福祉大": {
-  "team": "川崎医療福祉大",
-  "slug": "kawasaki-iryo-fukushi",
+ "岡山大": {
+  "team": "岡山大",
+  "slug": "okayama",
   "block": "総合"
  },
  "島根大": {
   "team": "島根大",
   "slug": "shimane",
+  "block": "総合"
+ },
+ "川崎医療福祉大": {
+  "team": "川崎医療福祉大",
+  "slug": "kawasaki-iryo-fukushi",
   "block": "総合"
  }
 }

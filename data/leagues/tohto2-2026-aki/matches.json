@@ -288,9 +288,9 @@
   "home_slug": "senshu",
   "away_slug": "teikyo-heisei",
   "venue": "浦安運動公園野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 9,
+  "away_score": 2,
   "note": ""
  },
  {

@@ -168,17 +168,17 @@
   "note": ""
  },
  {
-  "id": "2026-10-07-hitotsubashi-vs-shibaura",
+  "id": "2026-10-07-shibaura-vs-hitotsubashi",
   "date": "2026-10-07",
   "time": "12:30",
-  "home": "一橋大",
-  "away": "芝工大",
-  "home_slug": "hitotsubashi",
-  "away_slug": "shibaura",
+  "home": "芝工大",
+  "away": "一橋大",
+  "home_slug": "shibaura",
+  "away_slug": "hitotsubashi",
   "venue": "国府台スタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 7,
+  "away_score": 3,
   "note": ""
  },
  {
@@ -190,9 +190,9 @@
   "home_slug": "science-tokyo",
   "away_slug": "tokyo-city",
   "venue": "国府台スタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 8,
   "note": ""
  },
  {

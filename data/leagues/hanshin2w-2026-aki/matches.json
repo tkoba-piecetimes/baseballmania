@@ -386,9 +386,9 @@
   "home_slug": "himeji-dokkyo",
   "away_slug": "ryutsu-kagaku",
   "venue": "あじさい",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 5,
   "note": ""
  },
  {

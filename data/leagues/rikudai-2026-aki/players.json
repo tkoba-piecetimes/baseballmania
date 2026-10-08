@@ -49,16 +49,16 @@
    "avg": ".357"
   },
   {
-   "rank": 4,
-   "team": "立大",
-   "slug": "rikkyo",
-   "name": "河野",
-   "games": 4,
-   "at_bats": 14,
-   "hits": 5,
-   "home_runs": 0,
-   "rbi": 0,
-   "avg": ".357"
+   "rank": 5,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "井上和",
+   "games": 9,
+   "at_bats": 31,
+   "hits": 11,
+   "home_runs": 2,
+   "rbi": 5,
+   "avg": ".355"
   },
   {
    "rank": 6,
@@ -86,18 +86,6 @@
   },
   {
    "rank": 8,
-   "team": "法大",
-   "slug": "hosei",
-   "name": "熊谷",
-   "games": 8,
-   "at_bats": 26,
-   "hits": 9,
-   "home_runs": 1,
-   "rbi": 5,
-   "avg": ".346"
-  },
-  {
-   "rank": 8,
    "team": "慶大",
    "slug": "keio",
    "name": "一宮",
@@ -109,7 +97,7 @@
    "avg": ".346"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "team": "明大",
    "slug": "meiji",
    "name": "内海",
@@ -118,6 +106,18 @@
    "hits": 8,
    "home_runs": 0,
    "rbi": 4,
+   "avg": ".333"
+  },
+  {
+   "rank": 9,
+   "team": "明大",
+   "slug": "meiji",
+   "name": "光弘",
+   "games": 5,
+   "at_bats": 15,
+   "hits": 5,
+   "home_runs": 0,
+   "rbi": 3,
    "avg": ".333"
   }
  ],
@@ -160,18 +160,6 @@
   },
   {
    "rank": 4,
-   "team": "立大",
-   "slug": "rikkyo",
-   "name": "田中",
-   "games": 2,
-   "wins": 0,
-   "losses": 1,
-   "innings": "12 2/3",
-   "strikeouts": 6,
-   "era": "2.13"
-  },
-  {
-   "rank": 5,
    "team": "早大",
    "slug": "waseda",
    "name": "髙橋煌",
@@ -183,28 +171,28 @@
    "era": "3.00"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "team": "法大",
    "slug": "hosei",
    "name": "助川",
-   "games": 5,
-   "wins": 1,
+   "games": 6,
+   "wins": 2,
    "losses": 0,
-   "innings": "21 2/3",
-   "strikeouts": 27,
-   "era": "4.15"
+   "innings": "26 2/3",
+   "strikeouts": 30,
+   "era": "3.71"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "team": "立大",
    "slug": "rikkyo",
-   "name": "道本",
-   "games": 2,
+   "name": "田中",
+   "games": 3,
    "wins": 0,
-   "losses": 1,
-   "innings": "8 1/3",
+   "losses": 2,
+   "innings": "20",
    "strikeouts": 12,
-   "era": "9.72"
+   "era": "4.05"
   }
  ]
 }

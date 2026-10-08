@@ -13,6 +13,17 @@
   },
   {
    "rank": 2,
+   "team": "東京電機大",
+   "slug": "tokyo-denki",
+   "games": 3,
+   "wins": 2,
+   "losses": 1,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".667"
+  },
+  {
+   "rank": 2,
    "team": "東京農工大",
    "slug": "tokyo-noko",
    "games": 3,
@@ -23,20 +34,9 @@
    "win_pct": ".667"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "team": "電気通信大",
    "slug": "denki-tsushin",
-   "games": 2,
-   "wins": 1,
-   "losses": 1,
-   "draws": 0,
-   "points": 0,
-   "win_pct": ".500"
-  },
-  {
-   "rank": 3,
-   "team": "東京電機大",
-   "slug": "tokyo-denki",
    "games": 2,
    "wins": 1,
    "losses": 1,
@@ -48,9 +48,9 @@
    "rank": 5,
    "team": "東京工科大",
    "slug": "tokyo-koka",
-   "games": 3,
+   "games": 4,
    "wins": 0,
-   "losses": 3,
+   "losses": 4,
    "draws": 0,
    "points": 0,
    "win_pct": ".000"

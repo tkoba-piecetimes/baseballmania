@@ -4,14 +4,14 @@
   "slug": "komazawa",
   "block": "総合"
  },
- "日本大": {
-  "team": "日本大",
-  "slug": "nihon",
-  "block": "総合"
- },
  "専修大": {
   "team": "専修大",
   "slug": "senshu",
+  "block": "総合"
+ },
+ "日本大": {
+  "team": "日本大",
+  "slug": "nihon",
   "block": "総合"
  },
  "東農大": {

@@ -4,6 +4,11 @@
   "slug": "tokyo-gaigo",
   "block": "総合"
  },
+ "東京電機大": {
+  "team": "東京電機大",
+  "slug": "tokyo-denki",
+  "block": "総合"
+ },
  "東京農工大": {
   "team": "東京農工大",
   "slug": "tokyo-noko",
@@ -12,11 +17,6 @@
  "電気通信大": {
   "team": "電気通信大",
   "slug": "denki-tsushin",
-  "block": "総合"
- },
- "東京電機大": {
-  "team": "東京電機大",
-  "slug": "tokyo-denki",
   "block": "総合"
  },
  "東京工科大": {

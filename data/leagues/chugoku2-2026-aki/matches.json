@@ -222,5 +222,19 @@
   "home_score": 1,
   "away_score": 8,
   "note": ""
+ },
+ {
+  "id": "2026-10-07-fukuyama-vs-shimane",
+  "date": "2026-10-07",
+  "time": "未定",
+  "home": "福山大",
+  "away": "島根大",
+  "home_slug": "fukuyama",
+  "away_slug": "shimane",
+  "venue": "やまみ三原市民球場",
+  "status": "played",
+  "home_score": 12,
+  "away_score": 4,
+  "note": ""
  }
 ]
