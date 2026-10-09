@@ -400,9 +400,9 @@
   "home_slug": "momoyama",
   "away_slug": "osaka-dentsu",
   "venue": "萩谷",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 12,
+  "away_score": 2,
   "note": ""
  }
 ]

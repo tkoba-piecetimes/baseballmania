@@ -4,14 +4,14 @@
   "slug": "otemon",
   "block": "総合"
  },
- "電通大": {
-  "team": "電通大",
-  "slug": "osaka-dentsu",
-  "block": "総合"
- },
  "桃山大": {
   "team": "桃山大",
   "slug": "momoyama",
+  "block": "総合"
+ },
+ "電通大": {
+  "team": "電通大",
+  "slug": "osaka-dentsu",
   "block": "総合"
  },
  "経法大": {
