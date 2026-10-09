@@ -42,6 +42,8 @@ cta: sponsor
 
 春季リーグ戦が進んだ後の3部の様子は、[東都大学野球3部 2026年春季リーグ戦 5月9日週の結果まとめ](../review-tohto3-2026-haru-20260509/index.html)で振り返れます。<!-- index-lane-link -->
 
+3部の終盤戦の結果は、[東都大学野球3部 2026年春季リーグ戦 5月16日週の結果まとめ](../review-tohto3-2026-haru-20260516/index.html)にまとめています。<!-- index-lane-link -->
+
 ## 出典
 
 - [東都大学野球連盟](http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&SEASONID=01&LEAGUEID=03)

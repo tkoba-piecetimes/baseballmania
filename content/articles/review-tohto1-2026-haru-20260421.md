@@ -44,6 +44,8 @@ cta: sponsor
 
 同じ1部の後の節の結果は、[東都大学野球1部 2026年春季リーグ戦 5月5日週の結果まとめ](../review-tohto1-2026-haru-20260505/index.html)で確認できます。<!-- index-lane-link -->
 
+春季リーグ戦の終盤の1部の流れは、[東都大学野球1部 2026年春季リーグ戦 5月19日週の結果まとめ](../review-tohto1-2026-haru-20260519/index.html)で振り返れます。<!-- index-lane-link -->
+
 ## 出典
 
 - [東都大学野球連盟](http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&SEASONID=01&LEAGUEID=01)
