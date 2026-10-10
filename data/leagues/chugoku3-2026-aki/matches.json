@@ -250,5 +250,19 @@
   "home_score": 7,
   "away_score": 1,
   "note": ""
+ },
+ {
+  "id": "2026-10-10-okayama-kenritsu-vs-shimane-kenritsu",
+  "date": "2026-10-10",
+  "time": "未定",
+  "home": "岡山県立大",
+  "away": "島根県立大",
+  "home_slug": "okayama-kenritsu",
+  "away_slug": "shimane-kenritsu",
+  "venue": "JFE旭ヶ丘球場",
+  "status": "played",
+  "home_score": 0,
+  "away_score": 2,
+  "note": ""
  }
 ]

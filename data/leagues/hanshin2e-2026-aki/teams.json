@@ -28,5 +28,10 @@
   "team": "摂南大",
   "slug": "setsunan",
   "block": "総合"
+ },
+ "流科大": {
+  "team": "流科大",
+  "slug": "ryutsu-kagaku",
+  "block": "総合"
  }
 }

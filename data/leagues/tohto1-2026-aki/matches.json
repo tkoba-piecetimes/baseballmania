@@ -294,17 +294,17 @@
   "note": ""
  },
  {
-  "id": "2026-10-09-kokugakuin-vs-toyo",
+  "id": "2026-10-09-toyo-vs-kokugakuin",
   "date": "2026-10-09",
   "time": "12:00",
-  "home": "國學院大",
-  "away": "東洋大",
-  "home_slug": "kokugakuin",
-  "away_slug": "toyo",
+  "home": "東洋大",
+  "away": "國學院大",
+  "home_slug": "toyo",
+  "away_slug": "kokugakuin",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 0,
   "note": ""
  },
  {

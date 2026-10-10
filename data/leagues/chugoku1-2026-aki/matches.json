@@ -264,5 +264,19 @@
   "home_score": 4,
   "away_score": 3,
   "note": ""
+ },
+ {
+  "id": "2026-10-10-okayama-shoka-vs-hiroshima-bunka",
+  "date": "2026-10-10",
+  "time": "未定",
+  "home": "岡山商科大",
+  "away": "広島文化学園大",
+  "home_slug": "okayama-shoka",
+  "away_slug": "hiroshima-bunka",
+  "venue": "ビジコム柳井スタジアム",
+  "status": "played",
+  "home_score": 0,
+  "away_score": 2,
+  "note": ""
  }
 ]

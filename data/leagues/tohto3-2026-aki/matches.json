@@ -344,9 +344,9 @@
   "home_slug": "gakushuin",
   "away_slug": "juntendo",
   "venue": "ゼットエーボールパーク",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 1,
   "note": ""
  },
  {
