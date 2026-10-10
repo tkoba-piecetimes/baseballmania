@@ -45,6 +45,8 @@ cta: sponsor
 
 さらに終盤の2部の勝ち点争いは、[東都大学野球2部 2026年春季リーグ戦 5月19日週の結果まとめ](../review-tohto2-2026-haru-20260519/index.html)で確認できます。<!-- index-lane-link -->
 
+同じ東都大学野球連盟の4部が春季リーグ戦の中盤にどう戦ったかは、[東都大学野球4部 2026年春季リーグ戦 5月9日週の結果まとめ](../review-tohto4-2026-haru-20260509/index.html)で振り返れます。<!-- index-lane-link -->
+
 ## 出典
 
 - [東都大学野球連盟](http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&SEASONID=01&LEAGUEID=02)

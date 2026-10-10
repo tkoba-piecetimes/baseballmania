@@ -809,6 +809,7 @@ def build_portal(leagues, articles, meta):
 LANE_LINKS = {
     ("rikudai-2026-haru", "index"): ("review-rikudai-2026-haru-20260425", "東京六大学野球 2026年春季リーグ戦 4月25日週の結果まとめ", "春季の節ごとの流れは"),
     ("rikudai-2026-haru", "standings"): ("review-rikudai-2026-haru-20260502", "東京六大学野球 2026年春季リーグ戦 5月2日週の結果まとめ", "順位がどう動いたかは"),
+    ("rikudai-2026-haru", "schedule"): ("review-rikudai-2026-haru-20260523", "東京六大学野球 2026年春季リーグ戦 5月23日週の結果まとめ", "終盤の節の結果は"),  # 2026-10-10 追加
     ("tohto4-2026-haru", "index"): ("review-tohto4-2026-haru-20260425", "東都大学野球4部 2026年春季リーグ戦 4月25日週の結果まとめ", "節ごとの結果は"),
     ("tohto4-2026-haru", "standings"): ("review-tohto4-2026-haru-20260502", "東都大学野球4部 2026年春季リーグ戦 5月2日週の結果まとめ", "順位の推移は"),
     ("tohto4-2026-haru", "schedule"): ("review-tohto4-2026-haru-20260418", "東都大学野球4部 2026年春季リーグ戦 4月18日週の結果まとめ", "開幕直後の節の結果は"),

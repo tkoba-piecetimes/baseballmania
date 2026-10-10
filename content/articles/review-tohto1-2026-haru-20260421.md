@@ -46,6 +46,8 @@ cta: sponsor
 
 春季リーグ戦の終盤の1部の流れは、[東都大学野球1部 2026年春季リーグ戦 5月19日週の結果まとめ](../review-tohto1-2026-haru-20260519/index.html)で振り返れます。<!-- index-lane-link -->
 
+東都1部の試合を球場で観てみたい方は、アクセスやチケット、座席の選び方をまとめた[神宮球場での大学野球観戦ガイド](../jingu-kyujo-daigaku-yakyu-kansen-guide/index.html)が参考になります。<!-- index-lane-link -->
+
 ## 出典
 
 - [東都大学野球連盟](http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&SEASONID=01&LEAGUEID=01)
