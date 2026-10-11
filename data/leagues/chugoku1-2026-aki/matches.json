@@ -266,6 +266,20 @@
   "note": ""
  },
  {
+  "id": "2026-10-10-kibi-kokusai-vs-kantaiheiyo",
+  "date": "2026-10-10",
+  "time": "未定",
+  "home": "吉備国際大",
+  "away": "環太平洋大",
+  "home_slug": "kibi-kokusai",
+  "away_slug": "kantaiheiyo",
+  "venue": "ビジコム柳井スタジアム",
+  "status": "played",
+  "home_score": 3,
+  "away_score": 0,
+  "note": ""
+ },
+ {
   "id": "2026-10-10-okayama-shoka-vs-hiroshima-bunka",
   "date": "2026-10-10",
   "time": "未定",
@@ -276,7 +290,35 @@
   "venue": "ビジコム柳井スタジアム",
   "status": "played",
   "home_score": 0,
-  "away_score": 2,
+  "away_score": 3,
+  "note": ""
+ },
+ {
+  "id": "2026-10-10-shunan-kritsu-vs-toa",
+  "date": "2026-10-10",
+  "time": "未定",
+  "home": "周南公立大",
+  "away": "東亜大",
+  "home_slug": "shunan-kritsu",
+  "away_slug": "toa",
+  "venue": "ビジコム柳井スタジアム",
+  "status": "played",
+  "home_score": 1,
+  "away_score": 0,
+  "note": ""
+ },
+ {
+  "id": "2026-10-11-toa-vs-shunan-kritsu",
+  "date": "2026-10-11",
+  "time": "未定",
+  "home": "東亜大",
+  "away": "周南公立大",
+  "home_slug": "toa",
+  "away_slug": "shunan-kritsu",
+  "venue": "周南公立大学須々万野球場",
+  "status": "played",
+  "home_score": 1,
+  "away_score": 0,
   "note": ""
  }
 ]

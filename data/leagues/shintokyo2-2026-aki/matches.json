@@ -280,6 +280,20 @@
   "note": ""
  },
  {
+  "id": "2026-10-10-takachiho-vs-gakugei",
+  "date": "2026-10-10",
+  "time": "09:54",
+  "home": "高千穂大",
+  "away": "学芸大",
+  "home_slug": "takachiho",
+  "away_slug": "gakugei",
+  "venue": "ウェルネスグラウンド",
+  "status": "played",
+  "home_score": 2,
+  "away_score": 9,
+  "note": ""
+ },
+ {
   "id": "2026-10-10-nihon-wellness-vs-kogakuin",
   "date": "2026-10-10",
   "time": "10:00",
@@ -288,9 +302,9 @@
   "home_slug": "nihon-wellness",
   "away_slug": "kogakuin",
   "venue": "東京都立大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -302,9 +316,9 @@
   "home_slug": "toyogakuen",
   "away_slug": "toritsu",
   "venue": "東京都立大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 1,
   "note": ""
  },
  {

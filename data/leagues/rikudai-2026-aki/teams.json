@@ -4,14 +4,14 @@
   "slug": "keio",
   "block": "総合"
  },
- "法大": {
-  "team": "法大",
-  "slug": "hosei",
-  "block": "総合"
- },
  "早大": {
   "team": "早大",
   "slug": "waseda",
+  "block": "総合"
+ },
+ "法大": {
+  "team": "法大",
+  "slug": "hosei",
   "block": "総合"
  },
  "明大": {

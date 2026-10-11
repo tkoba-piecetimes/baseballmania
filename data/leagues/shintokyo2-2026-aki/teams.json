@@ -9,14 +9,14 @@
   "slug": "nihon-wellness",
   "block": "総合"
  },
- "工学院大": {
-  "team": "工学院大",
-  "slug": "kogakuin",
-  "block": "総合"
- },
  "東洋学園大": {
   "team": "東洋学園大",
   "slug": "toyogakuen",
+  "block": "総合"
+ },
+ "工学院大": {
+  "team": "工学院大",
+  "slug": "kogakuin",
   "block": "総合"
  },
  "高千穂大": {

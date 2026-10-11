@@ -4,6 +4,16 @@
   "slug": "shukutoku",
   "block": "総合"
  },
+ "文京学院大": {
+  "team": "文京学院大",
+  "slug": "bunkyogakuin",
+  "block": "総合"
+ },
+ "日大生物資源": {
+  "team": "日大生物資源",
+  "slug": "nihon-seibutsushigen",
+  "block": "総合"
+ },
  "日本工大": {
   "team": "日本工大",
   "slug": "nihon-kogyo",
@@ -17,16 +27,6 @@
  "国際基督教大": {
   "team": "国際基督教大",
   "slug": "icu",
-  "block": "総合"
- },
- "文京学院大": {
-  "team": "文京学院大",
-  "slug": "bunkyogakuin",
-  "block": "総合"
- },
- "日大生物資源": {
-  "team": "日大生物資源",
-  "slug": "nihon-seibutsushigen",
   "block": "総合"
  }
 }
