@@ -446,5 +446,33 @@
   "home_score": null,
   "away_score": null,
   "note": ""
+ },
+ {
+  "id": "2026-11-06-konan-vs-mitei",
+  "date": "2026-11-06",
+  "time": "未定",
+  "home": "甲南大",
+  "away": "未定",
+  "home_slug": "konan",
+  "away_slug": "mitei",
+  "venue": "ほっともっと",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
+  "id": "2026-11-08-mitei-vs-konan",
+  "date": "2026-11-08",
+  "time": "未定",
+  "home": "未定",
+  "away": "甲南大",
+  "home_slug": "mitei",
+  "away_slug": "konan",
+  "venue": "ほっともっと",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
  }
 ]

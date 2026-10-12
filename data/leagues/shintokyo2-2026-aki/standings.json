@@ -15,12 +15,12 @@
    "rank": 2,
    "team": "日本ウェルネス大",
    "slug": "nihon-wellness",
-   "games": 6,
-   "wins": 4,
+   "games": 7,
+   "wins": 5,
    "losses": 2,
    "draws": 0,
    "points": 0,
-   "win_pct": ".667"
+   "win_pct": ".714"
   },
   {
    "rank": 3,
@@ -35,19 +35,19 @@
   },
   {
    "rank": 4,
-   "team": "工学院大",
-   "slug": "kogakuin",
-   "games": 5,
-   "wins": 2,
-   "losses": 3,
+   "team": "高千穂大",
+   "slug": "takachiho",
+   "games": 7,
+   "wins": 3,
+   "losses": 4,
    "draws": 0,
    "points": 0,
-   "win_pct": ".400"
+   "win_pct": ".429"
   },
   {
    "rank": 5,
-   "team": "高千穂大",
-   "slug": "takachiho",
+   "team": "工学院大",
+   "slug": "kogakuin",
    "games": 6,
    "wins": 2,
    "losses": 4,
@@ -59,12 +59,12 @@
    "rank": 6,
    "team": "都立大",
    "slug": "toritsu",
-   "games": 5,
+   "games": 6,
    "wins": 1,
-   "losses": 4,
+   "losses": 5,
    "draws": 0,
    "points": 0,
-   "win_pct": ".200"
+   "win_pct": ".167"
   }
  ]
 }

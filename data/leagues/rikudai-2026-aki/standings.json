@@ -13,6 +13,17 @@
   },
   {
    "rank": 2,
+   "team": "明大",
+   "slug": "meiji",
+   "games": 7,
+   "wins": 5,
+   "losses": 2,
+   "draws": 0,
+   "points": 2,
+   "win_pct": ".714"
+  },
+  {
+   "rank": 3,
    "team": "早大",
    "slug": "waseda",
    "games": 8,
@@ -23,45 +34,34 @@
    "win_pct": ".625"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "team": "法大",
    "slug": "hosei",
-   "games": 10,
+   "games": 11,
    "wins": 5,
-   "losses": 4,
+   "losses": 5,
    "draws": 1,
    "points": 2,
-   "win_pct": ".556"
-  },
-  {
-   "rank": 4,
-   "team": "明大",
-   "slug": "meiji",
-   "games": 6,
-   "wins": 4,
-   "losses": 2,
-   "draws": 0,
-   "points": 1,
-   "win_pct": ".667"
+   "win_pct": ".500"
   },
   {
    "rank": 5,
    "team": "立大",
    "slug": "rikkyo",
-   "games": 6,
-   "wins": 1,
+   "games": 7,
+   "wins": 2,
    "losses": 4,
    "draws": 1,
-   "points": 0,
-   "win_pct": ".200"
+   "points": 1,
+   "win_pct": ".333"
   },
   {
    "rank": 6,
    "team": "東大",
    "slug": "todai",
-   "games": 7,
+   "games": 8,
    "wins": 0,
-   "losses": 7,
+   "losses": 8,
    "draws": 0,
    "points": 0,
    "win_pct": ".000"

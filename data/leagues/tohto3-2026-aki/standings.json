@@ -4,67 +4,67 @@
    "rank": 1,
    "team": "国士大",
    "slug": "kokushikan",
-   "games": 8,
-   "wins": 8,
+   "games": 9,
+   "wins": 9,
    "losses": 0,
    "draws": 0,
-   "points": 3,
+   "points": 4,
    "win_pct": "1.000"
   },
   {
    "rank": 2,
    "team": "順大",
    "slug": "juntendo",
-   "games": 8,
+   "games": 9,
    "wins": 5,
-   "losses": 3,
+   "losses": 4,
    "draws": 0,
    "points": 2,
-   "win_pct": ".625"
+   "win_pct": ".556"
   },
   {
    "rank": 3,
    "team": "大正大",
    "slug": "taisho",
-   "games": 7,
+   "games": 8,
    "wins": 4,
-   "losses": 3,
+   "losses": 4,
    "draws": 0,
    "points": 1,
-   "win_pct": ".571"
+   "win_pct": ".500"
   },
   {
    "rank": 4,
    "team": "上智大",
    "slug": "sophia",
-   "games": 7,
-   "wins": 2,
+   "games": 8,
+   "wins": 3,
    "losses": 5,
    "draws": 0,
-   "points": 0,
-   "win_pct": ".286"
+   "points": 1,
+   "win_pct": ".375"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "team": "成蹊大",
    "slug": "seikei",
-   "games": 7,
+   "games": 8,
    "wins": 2,
-   "losses": 5,
-   "draws": 0,
-   "points": 0,
-   "win_pct": ".286"
-  },
-  {
-   "rank": 6,
-   "team": "学習大",
-   "slug": "gakushuin",
-   "games": 7,
-   "wins": 1,
    "losses": 6,
    "draws": 0,
    "points": 0,
-   "win_pct": ".143"
+   "win_pct": ".250"
+  },
+  {
+   "rank": 5,
+   "team": "学習大",
+   "slug": "gakushuin",
+   "games": 8,
+   "wins": 2,
+   "losses": 6,
+   "draws": 0,
+   "points": 0,
+   "win_pct": ".250"
   }
  ]
 }

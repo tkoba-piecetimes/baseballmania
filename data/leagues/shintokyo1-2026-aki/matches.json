@@ -498,9 +498,9 @@
   "home_slug": "surugadai",
   "away_slug": "soka",
   "venue": "TOKIWAスタジアム龍ヶ崎",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 8,
   "note": ""
  },
  {
@@ -512,9 +512,9 @@
   "home_slug": "tokyo-kokusai",
   "away_slug": "kyorin",
   "venue": "TOKIWAスタジアム龍ヶ崎",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 8,
+  "away_score": 0,
   "note": ""
  },
  {

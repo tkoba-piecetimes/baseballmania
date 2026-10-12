@@ -29,14 +29,14 @@
   "slug": "kurashiki-geijutsu",
   "block": "総合"
  },
- "尾道市立大": {
-  "team": "尾道市立大",
-  "slug": "onomichi-shiritsu",
-  "block": "総合"
- },
  "比治山大": {
   "team": "比治山大",
   "slug": "hijiyama",
+  "block": "総合"
+ },
+ "尾道市立大": {
+  "team": "尾道市立大",
+  "slug": "onomichi-shiritsu",
   "block": "総合"
  }
 }

@@ -1,9 +1,4 @@
 {
- "杏林大": {
-  "team": "杏林大",
-  "slug": "kyorin",
-  "block": "総合"
- },
  "東京国際大": {
   "team": "東京国際大",
   "slug": "tokyo-kokusai",
@@ -12,6 +7,11 @@
  "創価大": {
   "team": "創価大",
   "slug": "soka",
+  "block": "総合"
+ },
+ "杏林大": {
+  "team": "杏林大",
+  "slug": "kyorin",
   "block": "総合"
  },
  "流経大": {
