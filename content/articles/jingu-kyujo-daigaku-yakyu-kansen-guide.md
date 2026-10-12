@@ -73,7 +73,7 @@ cta: sponsor
 
 ## 観戦をもっと楽しむために
 
-観戦するカードを選ぶ際は、事前に順位表や直近の試合結果をチェックしておくと、優勝争いや入れ替え戦のかかった好カードを見逃さずに済みます。[ベースボールマニアの東京六大学野球 順位表](https://baseballmania.jp/rikudai-2026-haru/standings/)や[東都大学野球1部 順位表](https://baseballmania.jp/tohto1-2026-haru/standings/)では、各校の勝敗や勝ち点の状況を毎日更新しています。また、[東京六大学野球 日程・結果](https://baseballmania.jp/rikudai-2026-haru/schedule/)から今後の対戦カードを確認しておけば、応援したい大学の試合日程に合わせて観戦計画を立てやすくなります。
+観戦するカードを選ぶ際は、事前に順位表や直近の試合結果をチェックしておくと、優勝争いや入れ替え戦のかかった好カードを見逃さずに済みます。[ベースボールマニアの東京六大学野球 順位表](https://baseballmania.jp/rikudai-2026-haru/standings/)や[東都大学野球1部 順位表](https://baseballmania.jp/tohto1-2026-haru/standings/)では、各校の勝敗や勝ち点の状況を毎日更新しています。また、[東京六大学野球 日程・結果](https://baseballmania.jp/rikudai-2026-haru/schedule/)から今後の対戦カードを確認しておけば、応援したい大学の試合日程に合わせて観戦計画を立てやすくなります。春季の六大学の試合の流れは、[東京六大学野球 2026年春季リーグ戦 5月30日週の結果まとめ](https://baseballmania.jp/articles/review-rikudai-2026-haru-20260530/)で振り返れます。<!-- index-lane-link -->
 
 ## まとめ
 

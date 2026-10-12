@@ -69,6 +69,8 @@ cta: shukatsu
 
 体育会学生に特化した就活支援サービスの利用を検討する場合は、[ツナカレ](https://shukatsu.tunakare.jp/)のように野球部を含む体育会出身者の就活に詳しいサービスに、引退が近づいた段階で一度相談してみるのも一つの方法です。エージェントを使うタイミングや選び方は[野球部員の就活エージェント活用法](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-agent-katsuyo-guide/)、自己PRへの落とし込み方は[体育会経験を強みに変える自己PRガイド](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-jikopr-guide/)で解説しています。学年ごとのやることを部活全般の視点で確認したい場合は、ツナカレ就活の[体育会の就活やることリスト](https://shukatsu.tunakare.jp/articles/taiikukai-shukatsu-itsukara)も参考になります。
 
+主将や副将を務めた人が引退後の就活・転職で経験をどう伝えるかは、[大学野球部の主将・キャプテン経験は転職でどう評価される？](https://baseballmania.jp/articles/daigaku-yakyubu-shucho-captain-tenshoku-guide/)で整理しています。<!-- index-lane-link -->
+
 ## よくある質問
 
 ### 引退後から就活を始めても間に合いますか？

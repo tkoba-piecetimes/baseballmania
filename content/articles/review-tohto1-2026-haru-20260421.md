@@ -48,6 +48,8 @@ cta: sponsor
 
 東都1部の試合を球場で観てみたい方は、アクセスやチケット、座席の選び方をまとめた[神宮球場での大学野球観戦ガイド](../jingu-kyujo-daigaku-yakyu-kansen-guide/index.html)が参考になります。<!-- index-lane-link -->
 
+1部から数えて最も下の4部が春季リーグ戦のシーズン終盤にどう戦ったかは、[東都大学野球4部 2026年春季リーグ戦 5月30日週の結果まとめ](../review-tohto4-2026-haru-20260530/index.html)で振り返れます。<!-- index-lane-link -->
+
 ## 出典
 
 - [東都大学野球連盟](http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&SEASONID=01&LEAGUEID=01)

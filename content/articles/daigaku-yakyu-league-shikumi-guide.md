@@ -60,6 +60,8 @@ cta: sponsor
 
 応援したい大学が決まったら、次のカードがいつ・どこで行われるかを事前に確認しておくと観戦の予定が立てやすくなります。[2026年秋季の東京六大学野球 日程・結果](https://baseballmania.jp/rikudai-2026-aki/schedule/)（[春季](https://baseballmania.jp/rikudai-2026-haru/schedule/)も閲覧可）では、カードごとの試合日程と結果をまとめて確認できます。東都大学野球についても、2部・3部・4部までそれぞれの部の日程・順位を掲載しているので、応援校が今どの部に所属しているかわからない場合はあわせてチェックしてみてください。1部の週ごとの流れは、[東都大学野球1部 2026年春季リーグ戦 4月21日週の結果まとめ](https://baseballmania.jp/articles/review-tohto1-2026-haru-20260421/)のように、スコアと勝ち点の動きをまとめた記事でも振り返れます。入れ替え戦が関わる下位の部の流れを見たい場合は、[東都大学野球4部 2026年春季リーグ戦 4月18日週の結果まとめ](https://baseballmania.jp/articles/review-tohto4-2026-haru-20260418/)も参考になります。<!-- index-lane-link -->4部が春季リーグ戦の終盤にどんな順位争いをしていたかは、[東都大学野球4部 2026年春季リーグ戦 5月16日週の結果まとめ](https://baseballmania.jp/articles/review-tohto4-2026-haru-20260516/)で確認できます。<!-- index-lane-link -->
 
+最下位の4部で春季リーグ戦の終盤にあたる5月23日週にどんな試合があったかは、[東都大学野球4部 2026年春季リーグ戦 5月23日週の結果まとめ](https://baseballmania.jp/articles/review-tohto4-2026-haru-20260523/)で確認できます。<!-- index-lane-link -->
+
 ## まとめ
 
 東京六大学野球連盟は6校固定の総当たり戦・勝ち点制、東都大学野球連盟は1部〜4部の部制度と入れ替え戦がある実力主義のリーグという違いがあります。どちらも「勝ち点」で順位が決まる点は共通していますが、東都大学野球ではシーズンごとに部の顔ぶれが入れ替わる緊張感も見どころのひとつです。球場で観る場合は[神宮球場で大学野球を観戦するには](https://baseballmania.jp/articles/jingu-kyujo-daigaku-yakyu-kansen-guide/)、自宅で追う場合は[大学野球をテレビ・ネットで見る方法](https://baseballmania.jp/articles/daigaku-yakyu-chukei-haishin-guide/)が参考になります。まずは[ベースボールマニアのトップページ](https://baseballmania.jp/)で、応援したい大学が今シーズンどのリーグ・何位にいるかを確認し、観戦の第一歩にしてみてください。
