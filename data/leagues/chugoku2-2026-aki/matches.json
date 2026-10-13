@@ -320,5 +320,19 @@
   "home_score": 3,
   "away_score": 5,
   "note": ""
+ },
+ {
+  "id": "2026-10-12-kawasaki-iryo-fukushi-vs-okayama",
+  "date": "2026-10-12",
+  "time": "未定",
+  "home": "川崎医療福祉大",
+  "away": "岡山大",
+  "home_slug": "kawasaki-iryo-fukushi",
+  "away_slug": "okayama",
+  "venue": "福山大学野球場",
+  "status": "played",
+  "home_score": 5,
+  "away_score": 7,
+  "note": ""
  }
 ]

@@ -4,14 +4,14 @@
   "slug": "kantaiheiyo",
   "block": "総合"
  },
- "周南公立大": {
-  "team": "周南公立大",
-  "slug": "shunan-kritsu",
-  "block": "総合"
- },
  "東亜大": {
   "team": "東亜大",
   "slug": "toa",
+  "block": "総合"
+ },
+ "周南公立大": {
+  "team": "周南公立大",
+  "slug": "shunan-kritsu",
   "block": "総合"
  },
  "岡山商科大": {

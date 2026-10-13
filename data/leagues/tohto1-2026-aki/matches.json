@@ -316,9 +316,9 @@
   "home_slug": "chuo",
   "away_slug": "toyo",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 6,
   "note": ""
  },
  {

@@ -15,12 +15,12 @@
    "rank": 2,
    "team": "中央大",
    "slug": "chuo",
-   "games": 8,
+   "games": 9,
    "wins": 4,
-   "losses": 4,
+   "losses": 5,
    "draws": 0,
    "points": 2,
-   "win_pct": ".500"
+   "win_pct": ".444"
   },
   {
    "rank": 3,
@@ -59,12 +59,12 @@
    "rank": 6,
    "team": "東洋大",
    "slug": "toyo",
-   "games": 7,
-   "wins": 2,
+   "games": 8,
+   "wins": 3,
    "losses": 5,
    "draws": 0,
    "points": 1,
-   "win_pct": ".286"
+   "win_pct": ".375"
   }
  ]
 }

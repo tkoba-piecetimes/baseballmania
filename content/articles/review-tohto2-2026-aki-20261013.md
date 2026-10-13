@@ -1,0 +1,34 @@
+---
+title: 【東都大学野球2部 2026年秋季リーグ戦】10月13日週の結果まとめ
+description: 10月13日週は1試合が行われた。拓殖大と帝平大の一戦は1-1の引き分けとなった。
+date: 2026-10-13
+category: 週末レビュー
+cta: sponsor
+---
+東都大学野球2部 2026年秋季リーグ戦では、10月13日（火）1試合が行われました。現在の首位は駒澤大（勝ち点3）です。拓殖大と帝平大の一戦は1-1の引き分けとなった。
+
+## 今節の結果
+
+| 日付 | 対戦 | スコア |
+| --- | --- | --- |
+| 10月13日（火） | [拓殖大 vs 帝平大](../../tohto2-2026-aki/matches/2026-10-13-takushoku-vs-teikyo-heisei/index.html) | 1 - 1 |
+
+## 現在の順位表
+
+| 順位 | チーム | 勝敗 | 勝点 |
+| --- | --- | --- | --- |
+| 1 | [駒澤大](../../tohto2-2026-aki/clubs/komazawa/index.html) | 6勝2敗0分 | 3 |
+| 2 | [専修大](../../tohto2-2026-aki/clubs/senshu/index.html) | 5勝2敗0分 | 2 |
+| 3 | [日本大](../../tohto2-2026-aki/clubs/nihon/index.html) | 4勝2敗0分 | 2 |
+| 4 | [東農大](../../tohto2-2026-aki/clubs/tokyo-nodai/index.html) | 2勝4敗0分 | 1 |
+| 5 | [拓殖大](../../tohto2-2026-aki/clubs/takushoku/index.html) | 2勝5敗0分 | 0 |
+| 6 | [帝平大](../../tohto2-2026-aki/clubs/teikyo-heisei/index.html) | 2勝6敗0分 | 0 |
+
+## 対戦カードのチームページ
+
+- [帝平大のページ](../../tohto2-2026-aki/clubs/teikyo-heisei/index.html)
+- [拓殖大のページ](../../tohto2-2026-aki/clubs/takushoku/index.html)
+
+## 出典
+
+- [東都大学野球連盟](http://www.tohto-bbl.com/gameinfo/schedule.php?YEAR=2026&SEASONID=02&LEAGUEID=02)
