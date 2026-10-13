@@ -555,6 +555,13 @@ def cta_lane(label, url, event, *, outline=False, position="sponsor_block"):
             f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">{escape(label)} →</a></p>')
 
 
+def contact_feature_cta(rel):
+    """チーム・大学ページ向け: 部の紹介記事（無料）の依頼導線。location=team-feature で計測。"""
+    return ('<p class="contact-cta">この部の関係者の方へ：部の紹介記事を無料で作成します。'
+            f'<a href="{rel}contact/index.html?type=feature" data-cta="contact_click" data-cta-location="team-feature" '
+            'onclick="window.gtag&&gtag(\'event\',\'contact_click\',{location:\'team-feature\'})">依頼する →</a></p>')
+
+
 def contact_cta(rel, location):
     """データページ末尾の問い合わせ案内（自サイト内リンクのためPR表記なし）。
     location: standings|schedule|match|team。クリックはGA4 contact_clickで計測。"""
@@ -983,6 +990,7 @@ def build_league(lg, articles):
             body += (f'<section><h2>読みもの</h2><ul>{art_links}</ul>'
                      f'<p class="more"><a href="{R}articles/index.html">読みもの一覧へ →</a></p></section>')
         body += contact_cta(R, "team")
+        body += contact_feature_cta(R)
         body += sponsor_block()
         write_page(f"{code}/clubs/{slug}",
                    page(R, f'{name} 試合結果・日程・戦績 | ベースボールマニア', body, meta,
@@ -1114,11 +1122,23 @@ CONTACT_FORM_HTML = """<noscript><p class="form-message">このフォームの�
 </form>
 <p id="cf-message" class="form-message" role="status" aria-live="polite"></p>"""
 
+CONTACT_OFFER_HTML = """<div class="contact-offer">
+<h2>部・チームの紹介記事を無料で作成します</h2>
+<p>部員・マネージャー・OBOGの方からのご依頼を受け付けています。いただいた情報をもとに編集部が紹介記事を作成し、当サイトに掲載します。費用はかかりません。ご依頼は順次対応します。</p>
+<p class="note">下のフォームで種別『取材・情報提供』を選び、大学名・部名と『紹介記事希望』とお書きください。</p>
+</div>"""
+
 CONTACT_FORM_JS = """<script>
 (function () {
   var form = document.getElementById('contact-form');
   if (!form) return;
   var msg = document.getElementById('cf-message');
+  var offerFeature = false;
+  try { offerFeature = new URLSearchParams(window.location.search).get('type') === 'feature'; } catch (e) {}
+  if (offerFeature) {
+    form.type.value = '取材・情報提供';
+    if (!form.body.value) { form.body.value = '【紹介記事希望】\\n大学名・部名：\\n'; }
+  }
   form.addEventListener('submit', function (ev) {
     ev.preventDefault();
     var payload = {
@@ -1146,7 +1166,11 @@ CONTACT_FORM_JS = """<script>
       return res.json().catch(function () { return { ok: false }; });
     }).then(function (data) {
       if (data && data.ok) {
-        if (typeof gtag === 'function') { gtag('event', 'generate_lead', { form: 'contact', inquiry_type: payload.type }); }
+        if (typeof gtag === 'function') {
+          var lead = { form: 'contact', inquiry_type: payload.type };
+          if (offerFeature) { lead.offer = 'feature'; }
+          gtag('event', 'generate_lead', lead);
+        }
         form.style.display = 'none';
         msg.textContent = '送信しました。3営業日以内にご返信します。';
         msg.className = 'form-message form-message-ok';
@@ -1170,6 +1194,7 @@ def build_contact(meta):
     body = ('<h1>お問い合わせ</h1>'
             '<p class="lead">取材・情報提供、掲載・広告のご相談を受け付けています。'
             '3営業日以内にメールでご返信します。</p>')
+    body += CONTACT_OFFER_HTML
     body += CONTACT_FORM_HTML
     body += CONTACT_FORM_JS.replace("__MEDIA_KEY__", CONTACT_MEDIA_KEY).replace("__RELAY_URL__", CONTACT_RELAY_URL)
     write_page("contact",
@@ -1409,6 +1434,9 @@ table.detail td { white-space:normal; }
 .sponsor-lane { margin:.7rem 0; }
 .contact-cta { margin:1.4rem 0 .6rem; padding:.55rem .8rem; border:1px solid var(--line, #d8dde6); border-radius:6px; font-size:.8rem; color:var(--sub); }
 .contact-cta a { margin-left:.5em; white-space:nowrap; }
+.contact-offer { margin:1.2rem 0; padding:.7rem .9rem; border:1px solid var(--line); border-radius:6px; font-size:.9rem; }
+.contact-offer h2 { font-size:1rem; margin:0 0 .4rem; }
+.contact-offer p { margin:.3rem 0; }
 .cta-outline { background:transparent; color:var(--navy-2); border:1.5px solid var(--navy-2); }
 .cta-outline:hover { background:var(--navy-2); color:#fff; }
 
