@@ -360,7 +360,7 @@
   "venue": "神宮球場",
   "status": "played",
   "home_score": 0,
-  "away_score": 0,
+  "away_score": 5,
   "note": ""
  },
  {
@@ -372,9 +372,9 @@
   "home_slug": "asia",
   "away_slug": "kokugakuin",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 5,
+  "away_score": 3,
   "note": ""
  },
  {
@@ -385,6 +385,20 @@
   "away": "青学大",
   "home_slug": "rissho",
   "away_slug": "aoyamagakuin",
+  "venue": "神宮球場",
+  "status": "played",
+  "home_score": 6,
+  "away_score": 10,
+  "note": ""
+ },
+ {
+  "id": "2026-10-15-chuo-vs-toyo",
+  "date": "2026-10-15",
+  "time": "12:00",
+  "home": "中央大",
+  "away": "東洋大",
+  "home_slug": "chuo",
+  "away_slug": "toyo",
   "venue": "神宮球場",
   "status": "scheduled",
   "home_score": null,

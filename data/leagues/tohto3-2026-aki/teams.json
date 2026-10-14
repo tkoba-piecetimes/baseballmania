@@ -19,14 +19,14 @@
   "slug": "sophia",
   "block": "総合"
  },
- "成蹊大": {
-  "team": "成蹊大",
-  "slug": "seikei",
-  "block": "総合"
- },
  "学習大": {
   "team": "学習大",
   "slug": "gakushuin",
+  "block": "総合"
+ },
+ "成蹊大": {
+  "team": "成蹊大",
+  "slug": "seikei",
   "block": "総合"
  }
 }

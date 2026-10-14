@@ -14,14 +14,14 @@
   "slug": "nihon",
   "block": "総合"
  },
- "東農大": {
-  "team": "東農大",
-  "slug": "tokyo-nodai",
-  "block": "総合"
- },
  "拓殖大": {
   "team": "拓殖大",
   "slug": "takushoku",
+  "block": "総合"
+ },
+ "東農大": {
+  "team": "東農大",
+  "slug": "tokyo-nodai",
   "block": "総合"
  },
  "帝平大": {
