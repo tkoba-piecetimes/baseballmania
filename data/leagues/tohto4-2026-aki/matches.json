@@ -56,6 +56,20 @@
   "note": ""
  },
  {
+  "id": "2026-10-15-hitotsubashi-vs-tokyo-city",
+  "date": "2026-10-15",
+  "time": "10:00",
+  "home": "一橋大",
+  "away": "都市大",
+  "home_slug": "hitotsubashi",
+  "away_slug": "tokyo-city",
+  "venue": "一橋大学グラウンド",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
   "id": "2026-09-12-hitotsubashi-vs-science-tokyo",
   "date": "2026-09-12",
   "time": "11:00",

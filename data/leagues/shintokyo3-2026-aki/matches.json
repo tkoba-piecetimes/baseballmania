@@ -390,5 +390,61 @@
   "home_score": 9,
   "away_score": 0,
   "note": ""
+ },
+ {
+  "id": "2026-10-11-tokyo-rika-vs-nihon-kogyo",
+  "date": "2026-10-11",
+  "time": "09:55",
+  "home": "東京理科大",
+  "away": "日本工大",
+  "home_slug": "tokyo-rika",
+  "away_slug": "nihon-kogyo",
+  "venue": "淑徳大学耕心記念グランド",
+  "status": "played",
+  "home_score": 6,
+  "away_score": 5,
+  "note": ""
+ },
+ {
+  "id": "2026-10-11-icu-vs-shukutoku",
+  "date": "2026-10-11",
+  "time": "13:24",
+  "home": "国際基督教大",
+  "away": "淑徳大",
+  "home_slug": "icu",
+  "away_slug": "shukutoku",
+  "venue": "淑徳大学耕心記念グランド",
+  "status": "played",
+  "home_score": 3,
+  "away_score": 17,
+  "note": ""
+ },
+ {
+  "id": "2026-10-12-icu-vs-bunkyogakuin",
+  "date": "2026-10-12",
+  "time": "09:56",
+  "home": "国際基督教大",
+  "away": "文京学院大",
+  "home_slug": "icu",
+  "away_slug": "bunkyogakuin",
+  "venue": "淑徳大学耕心記念グランド",
+  "status": "played",
+  "home_score": 3,
+  "away_score": 10,
+  "note": ""
+ },
+ {
+  "id": "2026-10-12-nihon-kogyo-vs-nihon-seibutsushigen",
+  "date": "2026-10-12",
+  "time": "12:40",
+  "home": "日本工大",
+  "away": "日大生物資源",
+  "home_slug": "nihon-kogyo",
+  "away_slug": "nihon-seibutsushigen",
+  "venue": "淑徳大学耕心記念グランド",
+  "status": "played",
+  "home_score": 3,
+  "away_score": 2,
+  "note": ""
  }
 ]

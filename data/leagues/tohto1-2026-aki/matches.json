@@ -330,9 +330,9 @@
   "home_slug": "kokugakuin",
   "away_slug": "asia",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 4,
   "note": ""
  },
  {
@@ -344,9 +344,9 @@
   "home_slug": "aoyamagakuin",
   "away_slug": "rissho",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 5,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -358,9 +358,9 @@
   "home_slug": "toyo",
   "away_slug": "chuo",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 0,
   "note": ""
  },
  {
