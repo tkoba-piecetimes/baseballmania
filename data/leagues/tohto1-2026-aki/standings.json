@@ -13,6 +13,17 @@
   },
   {
    "rank": 2,
+   "team": "中央大",
+   "slug": "chuo",
+   "games": 11,
+   "wins": 6,
+   "losses": 5,
+   "draws": 0,
+   "points": 3,
+   "win_pct": ".545"
+  },
+  {
+   "rank": 3,
    "team": "青学大",
    "slug": "aoyamagakuin",
    "games": 9,
@@ -21,17 +32,6 @@
    "draws": 0,
    "points": 2,
    "win_pct": ".556"
-  },
-  {
-   "rank": 3,
-   "team": "中央大",
-   "slug": "chuo",
-   "games": 10,
-   "wins": 5,
-   "losses": 5,
-   "draws": 0,
-   "points": 2,
-   "win_pct": ".500"
   },
   {
    "rank": 4,
@@ -56,15 +56,15 @@
    "win_pct": ".333"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "team": "東洋大",
    "slug": "toyo",
-   "games": 9,
+   "games": 10,
    "wins": 3,
-   "losses": 6,
+   "losses": 7,
    "draws": 0,
    "points": 1,
-   "win_pct": ".333"
+   "win_pct": ".300"
   }
  ]
 }

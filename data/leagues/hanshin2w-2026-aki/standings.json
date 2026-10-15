@@ -14,12 +14,12 @@
   {
    "team": "神国大",
    "slug": "kobe-kokusai",
-   "games": 9,
-   "wins": 5,
+   "games": 10,
+   "wins": 6,
    "losses": 3,
    "draws": 1,
-   "points": 16,
-   "win_pct": ".625",
+   "points": 19,
+   "win_pct": ".667",
    "rank": 2
   },
   {
@@ -36,34 +36,34 @@
   {
    "team": "関福大",
    "slug": "kansai-fukushi",
-   "games": 9,
-   "wins": 4,
+   "games": 10,
+   "wins": 5,
    "losses": 5,
    "draws": 0,
-   "points": 12,
-   "win_pct": ".444",
+   "points": 15,
+   "win_pct": ".500",
    "rank": 4
   },
   {
    "team": "兵庫大",
    "slug": "hyogo",
-   "games": 9,
+   "games": 10,
    "wins": 3,
-   "losses": 5,
+   "losses": 6,
    "draws": 1,
    "points": 10,
-   "win_pct": ".375",
+   "win_pct": ".333",
    "rank": 5
   },
   {
    "team": "宝医大",
    "slug": "takarazuka-iryo",
-   "games": 9,
+   "games": 10,
    "wins": 2,
-   "losses": 7,
+   "losses": 8,
    "draws": 0,
    "points": 6,
-   "win_pct": ".222",
+   "win_pct": ".200",
    "rank": 6
   }
  ]

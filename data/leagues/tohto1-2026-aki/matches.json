@@ -392,17 +392,17 @@
   "note": ""
  },
  {
-  "id": "2026-10-15-chuo-vs-toyo",
+  "id": "2026-10-15-toyo-vs-chuo",
   "date": "2026-10-15",
   "time": "12:00",
-  "home": "中央大",
-  "away": "東洋大",
-  "home_slug": "chuo",
-  "away_slug": "toyo",
+  "home": "東洋大",
+  "away": "中央大",
+  "home_slug": "toyo",
+  "away_slug": "chuo",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 7,
+  "away_score": 8,
   "note": ""
  },
  {
