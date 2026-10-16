@@ -428,9 +428,9 @@
   "home_slug": "otemon",
   "away_slug": "ryutsu-kagaku",
   "venue": "南港",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 0,
   "note": ""
  },
  {
