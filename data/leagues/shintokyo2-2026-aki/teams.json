@@ -9,14 +9,14 @@
   "slug": "gakugei",
   "block": "総合"
  },
- "高千穂大": {
-  "team": "高千穂大",
-  "slug": "takachiho",
-  "block": "総合"
- },
  "東洋学園大": {
   "team": "東洋学園大",
   "slug": "toyogakuen",
+  "block": "総合"
+ },
+ "高千穂大": {
+  "team": "高千穂大",
+  "slug": "takachiho",
   "block": "総合"
  },
  "工学院大": {

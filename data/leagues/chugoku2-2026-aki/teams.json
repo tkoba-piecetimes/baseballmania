@@ -9,14 +9,14 @@
   "slug": "shiseikan",
   "block": "総合"
  },
- "福山大": {
-  "team": "福山大",
-  "slug": "fukuyama",
-  "block": "総合"
- },
  "岡山大": {
   "team": "岡山大",
   "slug": "okayama",
+  "block": "総合"
+ },
+ "福山大": {
+  "team": "福山大",
+  "slug": "fukuyama",
   "block": "総合"
  },
  "川崎医療福祉大": {

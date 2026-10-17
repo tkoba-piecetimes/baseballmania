@@ -2,6 +2,17 @@
  "総合": [
   {
    "rank": 1,
+   "team": "創価大",
+   "slug": "soka",
+   "games": 12,
+   "wins": 9,
+   "losses": 3,
+   "draws": 0,
+   "points": 4,
+   "win_pct": ".750"
+  },
+  {
+   "rank": 2,
    "team": "東京国際大",
    "slug": "tokyo-kokusai",
    "games": 12,
@@ -12,31 +23,20 @@
    "win_pct": ".750"
   },
   {
-   "rank": 2,
-   "team": "創価大",
-   "slug": "soka",
-   "games": 11,
-   "wins": 8,
-   "losses": 3,
-   "draws": 0,
-   "points": 4,
-   "win_pct": ".727"
-  },
-  {
    "rank": 3,
    "team": "杏林大",
    "slug": "kyorin",
-   "games": 9,
+   "games": 10,
    "wins": 6,
-   "losses": 3,
+   "losses": 4,
    "draws": 0,
    "points": 3,
-   "win_pct": ".667"
+   "win_pct": ".600"
   },
   {
    "rank": 4,
-   "team": "流経大",
-   "slug": "ryutsu-keizai",
+   "team": "共栄大",
+   "slug": "kyoei",
    "games": 10,
    "wins": 4,
    "losses": 6,
@@ -46,14 +46,14 @@
   },
   {
    "rank": 5,
-   "team": "共栄大",
-   "slug": "kyoei",
-   "games": 9,
-   "wins": 3,
-   "losses": 6,
+   "team": "流経大",
+   "slug": "ryutsu-keizai",
+   "games": 11,
+   "wins": 4,
+   "losses": 7,
    "draws": 0,
    "points": 1,
-   "win_pct": ".333"
+   "win_pct": ".364"
   },
   {
    "rank": 6,

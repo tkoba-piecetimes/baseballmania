@@ -386,9 +386,9 @@
   "home_slug": "toritsu",
   "away_slug": "gakugei",
   "venue": "東京都立大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 11,
   "note": ""
  },
  {
@@ -400,9 +400,9 @@
   "home_slug": "kogakuin",
   "away_slug": "toyogakuen",
   "venue": "東京都立大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 6,
+  "away_score": 11,
   "note": ""
  },
  {

@@ -526,9 +526,9 @@
   "home_slug": "kyoei",
   "away_slug": "ryutsu-keizai",
   "venue": "県営大宮公園野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -540,9 +540,9 @@
   "home_slug": "kyorin",
   "away_slug": "soka",
   "venue": "県営大宮公園野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 10,
   "note": ""
  },
  {

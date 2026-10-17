@@ -334,5 +334,47 @@
   "home_score": 11,
   "away_score": 8,
   "note": ""
+ },
+ {
+  "id": "2026-10-17-hijiyama-vs-kurashiki-sakuyo",
+  "date": "2026-10-17",
+  "time": "未定",
+  "home": "比治山大",
+  "away": "くらしき作陽大",
+  "home_slug": "hijiyama",
+  "away_slug": "kurashiki-sakuyo",
+  "venue": "岡山県野球場",
+  "status": "played",
+  "home_score": 0,
+  "away_score": 18,
+  "note": ""
+ },
+ {
+  "id": "2026-10-17-onomichi-shiritsu-vs-kurashiki-geijutsu",
+  "date": "2026-10-17",
+  "time": "未定",
+  "home": "尾道市立大",
+  "away": "倉敷芸術科学大",
+  "home_slug": "onomichi-shiritsu",
+  "away_slug": "kurashiki-geijutsu",
+  "venue": "岡山県野球場",
+  "status": "played",
+  "home_score": 7,
+  "away_score": 3,
+  "note": ""
+ },
+ {
+  "id": "2026-10-17-yamaguchi-vs-shimane-kenritsu",
+  "date": "2026-10-17",
+  "time": "未定",
+  "home": "山口大",
+  "away": "島根県立大",
+  "home_slug": "yamaguchi",
+  "away_slug": "shimane-kenritsu",
+  "venue": "岡山県野球場",
+  "status": "played",
+  "home_score": 7,
+  "away_score": 0,
+  "note": ""
  }
 ]
