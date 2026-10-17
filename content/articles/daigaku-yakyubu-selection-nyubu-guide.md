@@ -46,7 +46,7 @@ cta: none
 
 入部が決まった後は、グローブやスパイク、練習着など個人で用意する用具をそろえる費用もかかります。保護者の方と進路を相談する際は、[大学野球部の用具にかかる費用と予算の立て方](https://baseballmania.jp/articles/daigaku-yakyubu-yogu-hiyou-guide/)もあわせて確認しておくと、入学後の出費を見通しやすくなります。<!-- index-lane-link -->
 
-入部後は用具だけでなく、部費や遠征費といった部の運営費も毎年かかります。部費がどこに使われ、足りない場合にどんな資金調達の選択肢があるかは、[大学野球部の部費・遠征費、どう集める？主務・会計向け資金調達ガイド](https://baseballmania.jp/articles/daigaku-yakyubu-shikin-chotatsu-guide/)で整理しています。<!-- index-lane-link -->
+入部後は用具だけでなく、部費や遠征費といった部の運営費も毎年かかります。部費がどこに使われ、足りない場合にどんな資金調達の選択肢があるかは、[大学野球部の部費・遠征費、どう集める？主務・会計向け資金調達ガイド](https://baseballmania.jp/articles/daigaku-yakyubu-shikin-chotatsu-guide/)で整理しています。<!-- index-lane-link -->遠征や合宿にかかる費用の目安は、[大学野球部の遠征費・合宿費はどれくらいかかる？](https://baseballmania.jp/articles/daigaku-yakyubu-ensei-gasshuku-hiyou-guide/)で確認できます。<!-- index-lane-link -->
 
 ## 選手以外の関わり方も視野に入れる
 

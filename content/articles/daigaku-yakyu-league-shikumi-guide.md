@@ -60,7 +60,7 @@ cta: sponsor
 
 応援したい大学が決まったら、次のカードがいつ・どこで行われるかを事前に確認しておくと観戦の予定が立てやすくなります。[2026年秋季の東京六大学野球 日程・結果](https://baseballmania.jp/rikudai-2026-aki/schedule/)（[春季](https://baseballmania.jp/rikudai-2026-haru/schedule/)も閲覧可）では、カードごとの試合日程と結果をまとめて確認できます。東都大学野球についても、2部・3部・4部までそれぞれの部の日程・順位を掲載しているので、応援校が今どの部に所属しているかわからない場合はあわせてチェックしてみてください。1部の週ごとの流れは、[東都大学野球1部 2026年春季リーグ戦 4月21日週の結果まとめ](https://baseballmania.jp/articles/review-tohto1-2026-haru-20260421/)のように、スコアと勝ち点の動きをまとめた記事でも振り返れます。入れ替え戦が関わる下位の部の流れを見たい場合は、[東都大学野球4部 2026年春季リーグ戦 4月18日週の結果まとめ](https://baseballmania.jp/articles/review-tohto4-2026-haru-20260418/)も参考になります。<!-- index-lane-link -->4部が春季リーグ戦の終盤にどんな順位争いをしていたかは、[東都大学野球4部 2026年春季リーグ戦 5月16日週の結果まとめ](https://baseballmania.jp/articles/review-tohto4-2026-haru-20260516/)で確認できます。<!-- index-lane-link -->
 
-最下位の4部で春季リーグ戦の終盤にあたる5月23日週にどんな試合があったかは、[東都大学野球4部 2026年春季リーグ戦 5月23日週の結果まとめ](https://baseballmania.jp/articles/review-tohto4-2026-haru-20260523/)で確認できます。<!-- index-lane-link -->
+最下位の4部で春季リーグ戦の終盤にあたる5月23日週にどんな試合があったかは、[東都大学野球4部 2026年春季リーグ戦 5月23日週の結果まとめ](https://baseballmania.jp/articles/review-tohto4-2026-haru-20260523/)で確認できます。<!-- index-lane-link -->秋季リーグ戦の4部の序盤の動きは、[東都大学野球4部 2026年秋季リーグ戦 9月5日週の結果まとめ](https://baseballmania.jp/articles/review-tohto4-2026-aki-20260905/)で振り返れます。<!-- index-lane-link -->
 
 ## まとめ
 
