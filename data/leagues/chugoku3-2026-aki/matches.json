@@ -376,5 +376,19 @@
   "home_score": 7,
   "away_score": 0,
   "note": ""
+ },
+ {
+  "id": "2026-10-18-okayama-kenritsu-vs-tottori",
+  "date": "2026-10-18",
+  "time": "未定",
+  "home": "岡山県立大",
+  "away": "鳥取大",
+  "home_slug": "okayama-kenritsu",
+  "away_slug": "tottori",
+  "venue": "岡山県野球場",
+  "status": "played",
+  "home_score": 4,
+  "away_score": 2,
+  "note": ""
  }
 ]

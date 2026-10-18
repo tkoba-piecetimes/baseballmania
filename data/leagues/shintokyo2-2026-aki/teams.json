@@ -19,14 +19,14 @@
   "slug": "takachiho",
   "block": "総合"
  },
- "工学院大": {
-  "team": "工学院大",
-  "slug": "kogakuin",
-  "block": "総合"
- },
  "都立大": {
   "team": "都立大",
   "slug": "toritsu",
+  "block": "総合"
+ },
+ "工学院大": {
+  "team": "工学院大",
+  "slug": "kogakuin",
   "block": "総合"
  }
 }

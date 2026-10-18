@@ -14,14 +14,14 @@
   "slug": "kyorin",
   "block": "総合"
  },
- "共栄大": {
-  "team": "共栄大",
-  "slug": "kyoei",
-  "block": "総合"
- },
  "流経大": {
   "team": "流経大",
   "slug": "ryutsu-keizai",
+  "block": "総合"
+ },
+ "共栄大": {
+  "team": "共栄大",
+  "slug": "kyoei",
   "block": "総合"
  },
  "駿河台大": {

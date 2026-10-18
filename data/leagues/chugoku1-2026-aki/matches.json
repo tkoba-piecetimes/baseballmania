@@ -432,5 +432,47 @@
   "home_score": 2,
   "away_score": 3,
   "note": ""
+ },
+ {
+  "id": "2026-10-18-kantaiheiyo-vs-okayama-shoka",
+  "date": "2026-10-18",
+  "time": "未定",
+  "home": "環太平洋大",
+  "away": "岡山商科大",
+  "home_slug": "kantaiheiyo",
+  "away_slug": "okayama-shoka",
+  "venue": "マスカットスタジアム",
+  "status": "played",
+  "home_score": 6,
+  "away_score": 2,
+  "note": ""
+ },
+ {
+  "id": "2026-10-18-shunan-kritsu-vs-hiroshima-bunka",
+  "date": "2026-10-18",
+  "time": "未定",
+  "home": "周南公立大",
+  "away": "広島文化学園大",
+  "home_slug": "shunan-kritsu",
+  "away_slug": "hiroshima-bunka",
+  "venue": "マスカットスタジアム",
+  "status": "played",
+  "home_score": 5,
+  "away_score": 3,
+  "note": ""
+ },
+ {
+  "id": "2026-10-18-toa-vs-kibi-kokusai",
+  "date": "2026-10-18",
+  "time": "未定",
+  "home": "東亜大",
+  "away": "吉備国際大",
+  "home_slug": "toa",
+  "away_slug": "kibi-kokusai",
+  "venue": "マスカットスタジアム",
+  "status": "played",
+  "home_score": 8,
+  "away_score": 0,
+  "note": ""
  }
 ]

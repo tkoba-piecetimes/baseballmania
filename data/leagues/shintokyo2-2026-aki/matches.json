@@ -414,9 +414,9 @@
   "home_slug": "takachiho",
   "away_slug": "nihon-wellness",
   "venue": "工学院大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 8,
   "note": ""
  },
  {
@@ -428,9 +428,9 @@
   "home_slug": "kogakuin",
   "away_slug": "toritsu",
   "venue": "工学院大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 7,
   "note": ""
  },
  {

@@ -554,9 +554,9 @@
   "home_slug": "soka",
   "away_slug": "kyorin",
   "venue": "岩槻川通公園野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 5,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -568,9 +568,9 @@
   "home_slug": "kyoei",
   "away_slug": "ryutsu-keizai",
   "venue": "岩槻川通公園野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 9,
   "note": ""
  }
 ]
