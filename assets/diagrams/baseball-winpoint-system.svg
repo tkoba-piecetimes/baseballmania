@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" width="640" height="440" role="img">
+<title>勝ち点制の仕組み。同じ相手と試合を続け、先に2勝したチームに勝ち点1。2勝0敗でも2勝1敗でも勝ち点は同じ。順位は勝ち点、次に勝率で決める</title>
+<rect width="640" height="440" fill="#ffffff"/>
+<g font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic','Meiryo',sans-serif">
+<text x="20" y="34" font-size="19" font-weight="700" fill="#1f2a44">同じ相手と戦い、先に2勝したほうが勝ち点1</text>
+<g font-size="16" fill="#1f2a44">
+<text x="20" y="90">例1　A大が2連勝</text>
+<text x="20" y="150">例2　A大が2勝1敗</text>
+<text x="20" y="210">例3　1勝1敗</text>
+</g>
+<g font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">
+<circle cx="215" cy="85" r="20" fill="#2f6fd6"/><text x="215" y="91">勝</text>
+<circle cx="265" cy="85" r="20" fill="#2f6fd6"/><text x="265" y="91">勝</text>
+<circle cx="215" cy="145" r="20" fill="#2f6fd6"/><text x="215" y="151">勝</text>
+<circle cx="265" cy="145" r="20" fill="#d64545"/><text x="265" y="151">負</text>
+<circle cx="315" cy="145" r="20" fill="#2f6fd6"/><text x="315" y="151">勝</text>
+<circle cx="215" cy="205" r="20" fill="#2f6fd6"/><text x="215" y="211">勝</text>
+<circle cx="265" cy="205" r="20" fill="#d64545"/><text x="265" y="211">負</text>
+<circle cx="315" cy="205" r="20" fill="#ffffff" stroke="#9aa3b2" stroke-width="2" stroke-dasharray="4 3"/><text x="315" y="212" fill="#9aa3b2" font-size="18">？</text>
+</g>
+<g fill="none" stroke="#1f2a44" stroke-width="2.5"><path d="M345 85 H385"/><path d="M345 145 H385"/><path d="M345 205 H385"/></g>
+<g fill="#1f2a44"><path d="M392 85 l-9 -6 v12 z"/><path d="M392 145 l-9 -6 v12 z"/><path d="M392 205 l-9 -6 v12 z"/></g>
+<g stroke-width="2">
+<rect x="402" y="62" width="218" height="46" rx="8" fill="#fff8e1" stroke="#f2a900"/>
+<rect x="402" y="122" width="218" height="46" rx="8" fill="#fff8e1" stroke="#f2a900"/>
+<rect x="402" y="182" width="218" height="46" rx="8" fill="#f3f5f8" stroke="#9aa3b2"/>
+</g>
+<g font-size="16" fill="#1f2a44" font-weight="700">
+<text x="414" y="83">A大に勝ち点1</text><text x="414" y="143">A大に勝ち点1</text><text x="414" y="203">3試合目へ</text>
+</g>
+<g font-size="14" fill="#1f2a44">
+<text x="414" y="101">2試合で決着</text><text x="414" y="161">3試合目で決着</text><text x="414" y="221">先に2勝するまで続く</text>
+</g>
+<rect x="20" y="246" width="600" height="182" rx="10" fill="#f3f5f8" stroke="#9aa3b2" stroke-width="1.5"/>
+<g fill="#1f2a44" font-size="16">
+<text x="36" y="276" font-weight="700" font-size="17">順位の決め方</text>
+<text x="36" y="305">① 勝ち点が多いチームが上位</text>
+<text x="36" y="333">② 勝ち点が同じなら、勝率が高いチームが上位（引き分けは数えない）</text>
+<text x="36" y="361">③ 1位が勝ち点も勝率も同じなら、優勝決定戦を1試合行う</text>
+<text x="36" y="395" font-size="14">試合は基本的に土曜・日曜に行い、決まらなければ月曜以降に続けます。</text>
+<text x="36" y="416" font-size="14">（東京六大学野球連盟の規定）</text>
+</g>
+</g>
+</svg>

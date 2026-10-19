@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img">
+<title>選手を支える学生スタッフの主な役割。主務・マネージャーは部の運営の実務、学生コーチは競技面の指導、アナリストはデータの分析、学生トレーナーは体のケアを担当する</title>
+<rect width="640" height="400" fill="#ffffff"/>
+<g font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic','Meiryo',sans-serif">
+<text x="20" y="34" font-size="19" font-weight="700" fill="#1f2a44">選手を支える学生スタッフの主な役割</text>
+<rect x="20" y="56" width="295" height="126" rx="10" fill="#f3f5f8" stroke="#9aa3b2" stroke-width="1.5"/>
+<path d="M20 98 V66 a10 10 0 0 1 10 -10 H305 a10 10 0 0 1 10 10 V98 Z" fill="#2f6fd6"/>
+<text x="34" y="85" font-size="19" font-weight="700" fill="#ffffff">主務・マネージャー</text>
+<text x="34" y="124" font-size="16" font-weight="700" fill="#2f6fd6">部の運営の実務</text>
+<text x="34" y="150" font-size="16" fill="#1f2a44">連盟との連絡、試合の運営</text>
+<text x="34" y="173" font-size="16" fill="#1f2a44">遠征・合宿の手配、会計、広報</text>
+<rect x="325" y="56" width="295" height="126" rx="10" fill="#f3f5f8" stroke="#9aa3b2" stroke-width="1.5"/>
+<path d="M325 98 V66 a10 10 0 0 1 10 -10 H610 a10 10 0 0 1 10 10 V98 Z" fill="#2f6fd6"/>
+<text x="339" y="85" font-size="19" font-weight="700" fill="#ffffff">学生コーチ</text>
+<text x="339" y="124" font-size="16" font-weight="700" fill="#2f6fd6">競技面の指導</text>
+<text x="339" y="150" font-size="16" fill="#1f2a44">練習メニューの立案、ノック</text>
+<text x="339" y="173" font-size="16" fill="#1f2a44">投手の練習の手伝い</text>
+<rect x="20" y="196" width="295" height="126" rx="10" fill="#f3f5f8" stroke="#9aa3b2" stroke-width="1.5"/>
+<path d="M20 238 V206 a10 10 0 0 1 10 -10 H305 a10 10 0 0 1 10 10 V238 Z" fill="#2f6fd6"/>
+<text x="34" y="225" font-size="19" font-weight="700" fill="#ffffff">アナリスト</text>
+<text x="34" y="264" font-size="16" font-weight="700" fill="#2f6fd6">データの分析</text>
+<text x="34" y="290" font-size="16" fill="#1f2a44">映像や計測データを分析</text>
+<text x="34" y="313" font-size="16" fill="#1f2a44">選手の起用や作戦づくりに活用</text>
+<rect x="325" y="196" width="295" height="126" rx="10" fill="#f3f5f8" stroke="#9aa3b2" stroke-width="1.5"/>
+<path d="M325 238 V206 a10 10 0 0 1 10 -10 H610 a10 10 0 0 1 10 10 V238 Z" fill="#2f6fd6"/>
+<text x="339" y="225" font-size="19" font-weight="700" fill="#ffffff">学生トレーナー</text>
+<text x="339" y="264" font-size="16" font-weight="700" fill="#2f6fd6">体のケア</text>
+<text x="339" y="290" font-size="16" fill="#1f2a44">選手の体調・トレーニング管理</text>
+<text x="339" y="313" font-size="16" fill="#1f2a44">ケガの予防やケア</text>
+<text x="20" y="360" font-size="16" fill="#1f2a44">呼び名や、募集しているかどうかは大学ごとに違います。</text>
+<text x="20" y="384" font-size="16" fill="#1f2a44">志望校の野球部の公式情報で確認しましょう。</text>
+</g>
+</svg>
