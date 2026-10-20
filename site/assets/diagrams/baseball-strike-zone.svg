@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" width="640" height="440" role="img">
+<title>ストライクゾーンの範囲。打者の肩の上とズボンの上の中間を上限、ひざ頭の下を下限とする、本塁の上の空間</title>
+<rect width="640" height="440" fill="#ffffff"/>
+<g font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic','Meiryo',sans-serif">
+<g transform="translate(-30 0)"><g fill="#9aa3b2" stroke="#1f2a44" stroke-width="2">
+<circle cx="150" cy="62" r="24" fill="#e8ecf2"/>
+<rect x="115" y="100" width="70" height="115" rx="10" fill="#e8ecf2"/>
+<rect x="118" y="210" width="30" height="150" rx="8" fill="#cfd5df"/>
+<rect x="152" y="210" width="30" height="150" rx="8" fill="#cfd5df"/>
+</g>
+<rect x="250" y="160" width="150" height="140" fill="#f2a900" fill-opacity="0.22" stroke="#f2a900" stroke-width="3" stroke-dasharray="8 5"/>
+<g stroke="#1f2a44" stroke-width="2" stroke-dasharray="3 4">
+<path d="M185 112 H450"/><path d="M185 212 H450"/>
+</g>
+<g stroke="#d64545" stroke-width="3"><path d="M250 162 H400"/></g>
+<g stroke="#2f6fd6" stroke-width="3"><path d="M250 300 H400"/></g>
+<g stroke="#d64545" stroke-width="2" stroke-dasharray="3 4"><path d="M185 162 H250"/></g>
+<g stroke="#2f6fd6" stroke-width="2" stroke-dasharray="3 4"><path d="M185 300 H250"/></g>
+<g fill="#1f2a44" font-size="17" font-weight="700" text-anchor="middle">
+<text x="325" y="252">ストライク</text><text x="325" y="276">ゾーン</text>
+</g>
+</g>
+<g fill="#1f2a44" font-size="16">
+<text x="420" y="118">肩の上</text>
+<text x="420" y="218">ズボンの上</text>
+<text x="420" y="158" fill="#d64545" font-weight="700">上限：</text><text x="420" y="180" fill="#d64545" font-weight="700">肩の上とズボンの上の中間</text>
+<text x="420" y="298" fill="#2f6fd6" font-weight="700">下限：</text><text x="420" y="320" fill="#2f6fd6" font-weight="700">ひざ頭の下</text>
+<text x="295" y="335" text-anchor="middle" font-size="15">本塁の上を通る空間</text>
+<text x="320" y="396" text-anchor="middle">ボールが少しでもこの空間を通れば、ストライクの対象です</text>
+<text x="320" y="420" text-anchor="middle" font-size="15">ストライクかどうかの判定は、審判員が行います</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" width="640" height="500" role="img">
+<title>東都大学野球連盟の部制度と入れ替え戦。1部から4部まであり、上の部の最下位と下の部の優勝チームが戦い、勝った側が次のシーズンに上の部に入る</title>
+<defs><marker id="up" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2f6fd6"/></marker><marker id="dn" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#d64545"/></marker></defs>
+<rect width="640" height="500" fill="#ffffff"/>
+<g font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic','Meiryo',sans-serif">
+<rect x="40" y="24" width="220" height="62" rx="10" fill="#2f6fd6" stroke="#2f6fd6" stroke-width="2"/><text x="150" y="64" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">1部リーグ</text>
+<rect x="40" y="132" width="220" height="62" rx="10" fill="#e8eefb" stroke="#2f6fd6" stroke-width="2"/><text x="150" y="172" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a44">2部リーグ</text>
+<rect x="40" y="240" width="220" height="62" rx="10" fill="#e8eefb" stroke="#2f6fd6" stroke-width="2"/><text x="150" y="280" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a44">3部リーグ</text>
+<rect x="40" y="348" width="220" height="62" rx="10" fill="#e8eefb" stroke="#2f6fd6" stroke-width="2"/><text x="150" y="388" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a44">4部リーグ</text>
+<path d="M100 90 V126" stroke="#d64545" stroke-width="4" marker-end="url(#dn)"/><text x="114" y="114" font-size="14" fill="#d64545" font-weight="700">降格</text>
+<path d="M200 128 V92" stroke="#2f6fd6" stroke-width="4" marker-end="url(#up)"/><text x="214" y="114" font-size="14" fill="#2f6fd6" font-weight="700">昇格</text>
+<text x="290" y="107" font-size="17" font-weight="700" fill="#1f2a44">1部の最下位 × 2部の優勝</text><text x="290" y="129" font-size="15" fill="#1f2a44">入れ替え戦（2戦先勝）</text>
+<path d="M100 198 V234" stroke="#d64545" stroke-width="4" marker-end="url(#dn)"/><text x="114" y="222" font-size="14" fill="#d64545" font-weight="700">降格</text>
+<path d="M200 236 V200" stroke="#2f6fd6" stroke-width="4" marker-end="url(#up)"/><text x="214" y="222" font-size="14" fill="#2f6fd6" font-weight="700">昇格</text>
+<text x="290" y="215" font-size="17" font-weight="700" fill="#1f2a44">2部の最下位 × 3部の優勝</text><text x="290" y="237" font-size="15" fill="#1f2a44">入れ替え戦（2戦先勝）</text>
+<path d="M100 306 V342" stroke="#d64545" stroke-width="4" marker-end="url(#dn)"/><text x="114" y="330" font-size="14" fill="#d64545" font-weight="700">降格</text>
+<path d="M200 344 V308" stroke="#2f6fd6" stroke-width="4" marker-end="url(#up)"/><text x="214" y="330" font-size="14" fill="#2f6fd6" font-weight="700">昇格</text>
+<text x="290" y="323" font-size="17" font-weight="700" fill="#1f2a44">3部の最下位 × 4部の優勝</text><text x="290" y="345" font-size="15" fill="#1f2a44">入れ替え戦（2戦先勝）</text>
+<text x="40" y="440" font-size="16" fill="#1f2a44">各部でリーグ戦を行い、最終順位から入れ替え戦に出るチームが決まります</text><text x="40" y="466" font-size="16" fill="#1f2a44">勝った側が、次のシーズンに上の部に入ります</text>
+<text x="40" y="492" font-size="14" fill="#1f2a44">東京六大学野球は部がなく、入れ替え戦もありません</text>
+</g>
+</svg>

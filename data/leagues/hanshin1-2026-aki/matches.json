@@ -420,13 +420,13 @@
   "note": ""
  },
  {
-  "id": "2026-11-06-konan-vs-mitei",
+  "id": "2026-11-06-konan-vs-otemon",
   "date": "2026-11-06",
   "time": "未定",
   "home": "甲南大",
-  "away": "未定",
+  "away": "追門大",
   "home_slug": "konan",
-  "away_slug": "mitei",
+  "away_slug": "otemon",
   "venue": "ほっともっと",
   "status": "scheduled",
   "home_score": null,
@@ -434,12 +434,12 @@
   "note": ""
  },
  {
-  "id": "2026-11-08-mitei-vs-konan",
+  "id": "2026-11-08-otemon-vs-konan",
   "date": "2026-11-08",
   "time": "未定",
-  "home": "未定",
+  "home": "追門大",
   "away": "甲南大",
-  "home_slug": "mitei",
+  "home_slug": "otemon",
   "away_slug": "konan",
   "venue": "ほっともっと",
   "status": "scheduled",

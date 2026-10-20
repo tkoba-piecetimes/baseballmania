@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img">
+<title>東京六大学野球と東都大学野球の仕組みの違い。六大学は6校固定の総当たりで部も入れ替え戦もない。東都は1部から4部に分かれ、部の間で入れ替え戦がある</title>
+<rect width="640" height="400" fill="#ffffff"/>
+<g font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic','Meiryo',sans-serif">
+<path d="M320 20 V380" stroke="#9aa3b2" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="160" y="34" font-size="20" font-weight="700" text-anchor="middle" fill="#1f2a44">東京六大学野球</text>
+<text x="480" y="34" font-size="20" font-weight="700" text-anchor="middle" fill="#1f2a44">東都大学野球</text>
+<g stroke="#9aa3b2" stroke-width="1.5">
+<path d="M160 88 L222 124"/>
+<path d="M160 88 L222 196"/>
+<path d="M160 88 L160 232"/>
+<path d="M160 88 L98 196"/>
+<path d="M160 88 L98 124"/>
+<path d="M222 124 L222 196"/>
+<path d="M222 124 L160 232"/>
+<path d="M222 124 L98 196"/>
+<path d="M222 124 L98 124"/>
+<path d="M222 196 L160 232"/>
+<path d="M222 196 L98 196"/>
+<path d="M222 196 L98 124"/>
+<path d="M160 232 L98 196"/>
+<path d="M160 232 L98 124"/>
+<path d="M98 196 L98 124"/>
+</g>
+<circle cx="160" cy="88" r="21" fill="#2f6fd6" stroke="#ffffff" stroke-width="2"/><text x="160" y="95" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">早</text>
+<circle cx="222" cy="124" r="21" fill="#2f6fd6" stroke="#ffffff" stroke-width="2"/><text x="222" y="131" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">慶</text>
+<circle cx="222" cy="196" r="21" fill="#2f6fd6" stroke="#ffffff" stroke-width="2"/><text x="222" y="203" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">明</text>
+<circle cx="160" cy="232" r="21" fill="#2f6fd6" stroke="#ffffff" stroke-width="2"/><text x="160" y="239" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">法</text>
+<circle cx="98" cy="196" r="21" fill="#2f6fd6" stroke="#ffffff" stroke-width="2"/><text x="98" y="203" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">立</text>
+<circle cx="98" cy="124" r="21" fill="#2f6fd6" stroke="#ffffff" stroke-width="2"/><text x="98" y="131" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">東</text>
+<rect x="380" y="64" width="200" height="32" rx="8" fill="#2f6fd6" stroke="#2f6fd6" stroke-width="2"/><text x="480" y="87" font-size="18" font-weight="700" text-anchor="middle" fill="#ffffff">1部</text>
+<text x="480" y="113" font-size="14" text-anchor="middle" fill="#d64545" font-weight="700">▲▼ 入れ替え戦</text>
+<rect x="380" y="118" width="200" height="32" rx="8" fill="#e8eefb" stroke="#2f6fd6" stroke-width="2"/><text x="480" y="141" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2a44">2部</text>
+<text x="480" y="167" font-size="14" text-anchor="middle" fill="#d64545" font-weight="700">▲▼ 入れ替え戦</text>
+<rect x="380" y="172" width="200" height="32" rx="8" fill="#e8eefb" stroke="#2f6fd6" stroke-width="2"/><text x="480" y="195" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2a44">3部</text>
+<text x="480" y="221" font-size="14" text-anchor="middle" fill="#d64545" font-weight="700">▲▼ 入れ替え戦</text>
+<rect x="380" y="226" width="200" height="32" rx="8" fill="#e8eefb" stroke="#2f6fd6" stroke-width="2"/><text x="480" y="249" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2a44">4部</text>
+<text x="160" y="272" font-size="14" text-anchor="middle" fill="#1f2a44">早・慶・明・法・立・東は6校の頭文字</text>
+<g font-size="16" fill="#1f2a44">
+<text x="40" y="304">・6校が固定。部はなし</text><text x="40" y="332">・6校の総当たり、勝ち点制</text><text x="40" y="360">・入れ替え戦はなし</text>
+<text x="360" y="304">・1部から4部の4リーグ</text><text x="360" y="332">・各部で勝ち点制のリーグ戦</text><text x="360" y="360">・部の間で入れ替え戦あり</text>
+</g>
+</g>
+</svg>

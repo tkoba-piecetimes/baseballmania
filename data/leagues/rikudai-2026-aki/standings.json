@@ -4,23 +4,23 @@
    "rank": 1,
    "team": "慶大",
    "slug": "keio",
-   "games": 9,
+   "games": 10,
    "wins": 7,
-   "losses": 2,
-   "draws": 0,
-   "points": 3,
-   "win_pct": ".778"
-  },
-  {
-   "rank": 2,
-   "team": "明大",
-   "slug": "meiji",
-   "games": 9,
-   "wins": 6,
    "losses": 3,
    "draws": 0,
-   "points": 2,
-   "win_pct": ".667"
+   "points": 3,
+   "win_pct": ".700"
+  },
+  {
+   "rank": 1,
+   "team": "明大",
+   "slug": "meiji",
+   "games": 10,
+   "wins": 7,
+   "losses": 3,
+   "draws": 0,
+   "points": 3,
+   "win_pct": ".700"
   },
   {
    "rank": 3,
