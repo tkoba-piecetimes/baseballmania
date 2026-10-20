@@ -9,14 +9,14 @@
   "slug": "komazawa",
   "block": "総合"
  },
- "日本大": {
-  "team": "日本大",
-  "slug": "nihon",
-  "block": "総合"
- },
  "東農大": {
   "team": "東農大",
   "slug": "tokyo-nodai",
+  "block": "総合"
+ },
+ "日本大": {
+  "team": "日本大",
+  "slug": "nihon",
   "block": "総合"
  },
  "拓殖大": {

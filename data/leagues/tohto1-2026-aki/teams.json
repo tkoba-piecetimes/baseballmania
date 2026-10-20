@@ -19,14 +19,14 @@
   "slug": "kokugakuin",
   "block": "総合"
  },
- "立正大": {
-  "team": "立正大",
-  "slug": "rissho",
-  "block": "総合"
- },
  "東洋大": {
   "team": "東洋大",
   "slug": "toyo",
+  "block": "総合"
+ },
+ "立正大": {
+  "team": "立正大",
+  "slug": "rissho",
   "block": "総合"
  }
 }
