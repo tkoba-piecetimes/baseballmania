@@ -26,12 +26,12 @@
    "rank": 3,
    "team": "東農大",
    "slug": "tokyo-nodai",
-   "games": 9,
-   "wins": 5,
+   "games": 10,
+   "wins": 6,
    "losses": 4,
    "draws": 0,
-   "points": 2,
-   "win_pct": ".556"
+   "points": 3,
+   "win_pct": ".600"
   },
   {
    "rank": 4,
@@ -59,12 +59,12 @@
    "rank": 6,
    "team": "帝平大",
    "slug": "teikyo-heisei",
-   "games": 11,
+   "games": 12,
    "wins": 2,
-   "losses": 9,
+   "losses": 10,
    "draws": 0,
    "points": 0,
-   "win_pct": ".182"
+   "win_pct": ".167"
   }
  ]
 }
