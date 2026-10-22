@@ -498,9 +498,9 @@
   "home_slug": "rissho",
   "away_slug": "toyo",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 5,
   "note": ""
  },
  {
@@ -512,9 +512,9 @@
   "home_slug": "kokugakuin",
   "away_slug": "aoyamagakuin",
   "venue": "神宮球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 8,
   "note": ""
  }
 ]

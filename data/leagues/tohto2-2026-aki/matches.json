@@ -512,9 +512,9 @@
   "home_slug": "takushoku",
   "away_slug": "nihon",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 4,
   "note": ""
  },
  {
@@ -525,6 +525,20 @@
   "away": "専修大",
   "home_slug": "komazawa",
   "away_slug": "senshu",
+  "venue": "等々力球場",
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
+  "note": ""
+ },
+ {
+  "id": "2026-10-29-nihon-vs-takushoku",
+  "date": "2026-10-29",
+  "time": "12:00",
+  "home": "日本大",
+  "away": "拓殖大",
+  "home_slug": "nihon",
+  "away_slug": "takushoku",
   "venue": "等々力球場",
   "status": "scheduled",
   "home_score": null,

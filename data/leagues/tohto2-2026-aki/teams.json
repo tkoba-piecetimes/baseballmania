@@ -1,9 +1,4 @@
 {
- "専修大": {
-  "team": "専修大",
-  "slug": "senshu",
-  "block": "総合"
- },
  "駒澤大": {
   "team": "駒澤大",
   "slug": "komazawa",
@@ -12,6 +7,11 @@
  "東農大": {
   "team": "東農大",
   "slug": "tokyo-nodai",
+  "block": "総合"
+ },
+ "専修大": {
+  "team": "専修大",
+  "slug": "senshu",
   "block": "総合"
  },
  "日本大": {
