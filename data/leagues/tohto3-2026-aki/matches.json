@@ -182,20 +182,6 @@
   "note": ""
  },
  {
-  "id": "2026-10-25-sophia-vs-gakushuin",
-  "date": "2026-10-25",
-  "time": "10:30",
-  "home": "上智大",
-  "away": "学習大",
-  "home_slug": "sophia",
-  "away_slug": "gakushuin",
-  "venue": "上智大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
-  "note": ""
- },
- {
   "id": "2026-09-19-taisho-vs-sophia",
   "date": "2026-09-19",
   "time": "9:00",
@@ -280,8 +266,8 @@
   "note": ""
  },
  {
-  "id": "2026-10-24-taisho-vs-sophia",
-  "date": "2026-10-24",
+  "id": "2026-10-25-taisho-vs-sophia",
+  "date": "2026-10-25",
   "time": "10:30",
   "home": "大正大",
   "away": "上智大",
@@ -294,8 +280,8 @@
   "note": ""
  },
  {
-  "id": "2026-10-24-seikei-vs-gakushuin",
-  "date": "2026-10-24",
+  "id": "2026-10-25-seikei-vs-gakushuin",
+  "date": "2026-10-25",
   "time": "13:00",
   "home": "成蹊大",
   "away": "学習大",
