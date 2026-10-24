@@ -126,6 +126,20 @@
   "note": ""
  },
  {
+  "id": "2026-10-04-denki-tsushin-vs-tokyo-kaiyo",
+  "date": "2026-10-04",
+  "time": "13:56",
+  "home": "電気通信大",
+  "away": "東京海洋大",
+  "home_slug": "denki-tsushin",
+  "away_slug": "tokyo-kaiyo",
+  "venue": "東京国際大学",
+  "status": "played",
+  "home_score": 10,
+  "away_score": 0,
+  "note": ""
+ },
+ {
   "id": "2026-10-10-denki-tsushin-vs-tokyo-noko",
   "date": "2026-10-10",
   "time": "10:01",
@@ -151,6 +165,48 @@
   "status": "played",
   "home_score": 10,
   "away_score": 24,
+  "note": ""
+ },
+ {
+  "id": "2026-10-11-tokyo-koka-vs-tokyo-noko",
+  "date": "2026-10-11",
+  "time": "10:06",
+  "home": "東京工科大",
+  "away": "東京農工大",
+  "home_slug": "tokyo-koka",
+  "away_slug": "tokyo-noko",
+  "venue": "東京農工大学",
+  "status": "played",
+  "home_score": 6,
+  "away_score": 5,
+  "note": ""
+ },
+ {
+  "id": "2026-10-11-tokyo-kaiyo-vs-tokyo-gaigo",
+  "date": "2026-10-11",
+  "time": "13:09",
+  "home": "東京海洋大",
+  "away": "東京外語大",
+  "home_slug": "tokyo-kaiyo",
+  "away_slug": "tokyo-gaigo",
+  "venue": "東京農工大学",
+  "status": "played",
+  "home_score": 0,
+  "away_score": 15,
+  "note": ""
+ },
+ {
+  "id": "2026-10-17-tokyo-kaiyo-vs-tokyo-denki",
+  "date": "2026-10-17",
+  "time": "10:15",
+  "home": "東京海洋大",
+  "away": "東京電機大",
+  "home_slug": "tokyo-kaiyo",
+  "away_slug": "tokyo-denki",
+  "venue": "流通経済大学",
+  "status": "played",
+  "home_score": 3,
+  "away_score": 13,
   "note": ""
  }
 ]

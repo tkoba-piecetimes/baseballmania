@@ -574,6 +574,20 @@
   "note": ""
  },
  {
+  "id": "2026-10-26-hosei-vs-todai",
+  "date": "2026-10-26",
+  "time": "13:00",
+  "home": "法大",
+  "away": "東大",
+  "home_slug": "hosei",
+  "away_slug": "todai",
+  "venue": "明治神宮野球場",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
   "id": "2026-10-31-rikkyo-vs-meiji",
   "date": "2026-10-31",
   "time": "13:00",
