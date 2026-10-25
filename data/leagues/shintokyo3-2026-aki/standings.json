@@ -15,12 +15,12 @@
    "rank": 2,
    "team": "東京理科大",
    "slug": "tokyo-rika",
-   "games": 8,
-   "wins": 5,
+   "games": 9,
+   "wins": 6,
    "losses": 3,
    "draws": 0,
    "points": 0,
-   "win_pct": ".625"
+   "win_pct": ".667"
   },
   {
    "rank": 3,
@@ -59,9 +59,9 @@
    "rank": 6,
    "team": "国際基督教大",
    "slug": "icu",
-   "games": 8,
+   "games": 9,
    "wins": 0,
-   "losses": 8,
+   "losses": 9,
    "draws": 0,
    "points": 0,
    "win_pct": ".000"

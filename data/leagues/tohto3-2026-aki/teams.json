@@ -9,6 +9,11 @@
   "slug": "taisho",
   "block": "総合"
  },
+ "上智大": {
+  "team": "上智大",
+  "slug": "sophia",
+  "block": "総合"
+ },
  "順大": {
   "team": "順大",
   "slug": "juntendo",
@@ -17,11 +22,6 @@
  "学習大": {
   "team": "学習大",
   "slug": "gakushuin",
-  "block": "総合"
- },
- "上智大": {
-  "team": "上智大",
-  "slug": "sophia",
   "block": "総合"
  },
  "成蹊大": {

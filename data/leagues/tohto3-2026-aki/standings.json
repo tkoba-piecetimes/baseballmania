@@ -15,12 +15,23 @@
    "rank": 2,
    "team": "大正大",
    "slug": "taisho",
-   "games": 11,
+   "games": 12,
    "wins": 6,
-   "losses": 5,
+   "losses": 6,
    "draws": 0,
    "points": 2,
-   "win_pct": ".545"
+   "win_pct": ".500"
+  },
+  {
+   "rank": 3,
+   "team": "上智大",
+   "slug": "sophia",
+   "games": 11,
+   "wins": 5,
+   "losses": 6,
+   "draws": 0,
+   "points": 2,
+   "win_pct": ".455"
   },
   {
    "rank": 3,
@@ -34,7 +45,7 @@
    "win_pct": ".455"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "team": "学習大",
    "slug": "gakushuin",
    "games": 11,
@@ -43,17 +54,6 @@
    "draws": 0,
    "points": 1,
    "win_pct": ".455"
-  },
-  {
-   "rank": 5,
-   "team": "上智大",
-   "slug": "sophia",
-   "games": 10,
-   "wins": 4,
-   "losses": 6,
-   "draws": 0,
-   "points": 1,
-   "win_pct": ".400"
   },
   {
    "rank": 6,
