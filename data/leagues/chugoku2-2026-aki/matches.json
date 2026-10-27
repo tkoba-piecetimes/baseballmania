@@ -460,5 +460,19 @@
   "home_score": 10,
   "away_score": 11,
   "note": ""
+ },
+ {
+  "id": "2026-10-27-kawasaki-iryo-fukushi-vs-shimane",
+  "date": "2026-10-27",
+  "time": "未定",
+  "home": "川崎医療福祉大",
+  "away": "島根大",
+  "home_slug": "kawasaki-iryo-fukushi",
+  "away_slug": "shimane",
+  "venue": "岡山県野球場",
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
+  "note": ""
  }
 ]

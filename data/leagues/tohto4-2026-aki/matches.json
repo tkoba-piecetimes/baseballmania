@@ -418,5 +418,19 @@
   "home_score": 9,
   "away_score": 10,
   "note": ""
+ },
+ {
+  "id": "2026-10-31-science-tokyo-vs-tokyo-city",
+  "date": "2026-10-31",
+  "time": "13:00",
+  "home": "科学大",
+  "away": "都市大",
+  "home_slug": "science-tokyo",
+  "away_slug": "tokyo-city",
+  "venue": "東洋大学グラウンド",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
  }
 ]
