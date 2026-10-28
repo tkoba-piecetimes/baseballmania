@@ -204,9 +204,9 @@
   "home_slug": "senshu",
   "away_slug": "takushoku",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 6,
+  "away_score": 8,
   "note": ""
  },
  {

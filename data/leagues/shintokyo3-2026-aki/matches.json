@@ -544,5 +544,19 @@
   "home_score": 8,
   "away_score": 7,
   "note": ""
+ },
+ {
+  "id": "2026-10-25-bunkyogakuin-vs-nihon-seibutsushigen",
+  "date": "2026-10-25",
+  "time": "12:40",
+  "home": "文京学院大",
+  "away": "日大生物資源",
+  "home_slug": "bunkyogakuin",
+  "away_slug": "nihon-seibutsushigen",
+  "venue": "淑徳大学耕心記念グランド",
+  "status": "played",
+  "home_score": 1,
+  "away_score": 4,
+  "note": ""
  }
 ]

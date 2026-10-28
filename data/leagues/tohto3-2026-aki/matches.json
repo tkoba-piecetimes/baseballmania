@@ -302,9 +302,9 @@
   "home_slug": "seikei",
   "away_slug": "gakushuin",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 7,
   "note": ""
  },
  {

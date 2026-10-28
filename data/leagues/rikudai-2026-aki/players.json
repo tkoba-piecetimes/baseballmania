@@ -38,6 +38,18 @@
   },
   {
    "rank": 4,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "井上和",
+   "games": 13,
+   "at_bats": 48,
+   "hits": 19,
+   "home_runs": 2,
+   "rbi": 5,
+   "avg": ".396"
+  },
+  {
+   "rank": 5,
    "team": "立大",
    "slug": "rikkyo",
    "name": "河野",
@@ -47,18 +59,6 @@
    "home_runs": 0,
    "rbi": 2,
    "avg": ".389"
-  },
-  {
-   "rank": 5,
-   "team": "法大",
-   "slug": "hosei",
-   "name": "井上和",
-   "games": 12,
-   "at_bats": 42,
-   "hits": 16,
-   "home_runs": 2,
-   "rbi": 5,
-   "avg": ".381"
   },
   {
    "rank": 6,
@@ -86,18 +86,6 @@
   },
   {
    "rank": 8,
-   "team": "法大",
-   "slug": "hosei",
-   "name": "藤森",
-   "games": 12,
-   "at_bats": 41,
-   "hits": 14,
-   "home_runs": 0,
-   "rbi": 3,
-   "avg": ".341"
-  },
-  {
-   "rank": 9,
    "team": "慶大",
    "slug": "keio",
    "name": "小原",
@@ -109,7 +97,7 @@
    "avg": ".333"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "team": "早大",
    "slug": "waseda",
    "name": "尾形",
@@ -119,6 +107,18 @@
    "home_runs": 0,
    "rbi": 3,
    "avg": ".333"
+  },
+  {
+   "rank": 10,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "藤森",
+   "games": 13,
+   "at_bats": 46,
+   "hits": 15,
+   "home_runs": 0,
+   "rbi": 3,
+   "avg": ".326"
   }
  ],
  "pitching": [
@@ -205,18 +205,6 @@
    "innings": "19 2/3",
    "strikeouts": 22,
    "era": "6.41"
-  },
-  {
-   "rank": 8,
-   "team": "東大",
-   "slug": "todai",
-   "name": "松本慎",
-   "games": 5,
-   "wins": 0,
-   "losses": 5,
-   "innings": "19 1/3",
-   "strikeouts": 10,
-   "era": "7.45"
   }
  ]
 }

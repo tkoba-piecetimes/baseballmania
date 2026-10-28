@@ -596,9 +596,9 @@
   "home_slug": "hosei",
   "away_slug": "todai",
   "venue": "明治神宮野球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 15,
+  "away_score": 0,
   "note": ""
  },
  {
