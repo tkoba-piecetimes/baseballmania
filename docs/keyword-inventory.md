@@ -221,6 +221,7 @@ SERP分析→骨子・執筆→リリース）で別途行う。
 | P6 | 野球肩 野球肘 予防 大学生 | `daigaku-yakyubu-yakyukata-yakyuhiji-yobo-guide` | 2026-09 |
 | P14 | 野球 戦術用語 一覧 | `daigaku-yakyu-senjutsu-yogo-guide` | 2026-09 |
 | P1 | 大学野球 投手 球速アップ トレーニング | `daigaku-yakyu-toshu-kyusoku-up-training-guide` | 2026-09-23 |
+| P4 | 野球 内野手 外野手 コンバート | `daigaku-yakyu-convert-naiya-gaiya-guide` | 2026-10-28 |
 
 （2026-09-21: H1を狙う指示で着手したが `daigaku-yakyu-kyogo-guide` と完全にカニバることが
 判明したため、H20へ差し替えた。経緯は `docs/serp-notes/daigaku-yakyu-irekaesen.md` を参照）
