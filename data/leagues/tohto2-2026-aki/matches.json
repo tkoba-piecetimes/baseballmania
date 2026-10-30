@@ -540,9 +540,9 @@
   "home_slug": "nihon",
   "away_slug": "takushoku",
   "venue": "等々力球場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 3,
   "note": ""
  }
 ]

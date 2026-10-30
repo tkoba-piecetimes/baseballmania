@@ -34,20 +34,20 @@
    "win_pct": ".538"
   },
   {
-   "rank": 4,
-   "team": "日本大",
-   "slug": "nihon",
-   "games": 11,
-   "wins": 6,
-   "losses": 5,
+   "rank": 3,
+   "team": "拓殖大",
+   "slug": "takushoku",
+   "games": 13,
+   "wins": 7,
+   "losses": 6,
    "draws": 0,
-   "points": 2,
-   "win_pct": ".545"
+   "points": 3,
+   "win_pct": ".538"
   },
   {
    "rank": 5,
-   "team": "拓殖大",
-   "slug": "takushoku",
+   "team": "日本大",
+   "slug": "nihon",
    "games": 12,
    "wins": 6,
    "losses": 6,
