@@ -13,25 +13,25 @@
   },
   {
    "rank": 2,
-   "team": "大正大",
-   "slug": "taisho",
-   "games": 12,
-   "wins": 6,
-   "losses": 6,
-   "draws": 0,
-   "points": 2,
-   "win_pct": ".500"
-  },
-  {
-   "rank": 2,
    "team": "学習大",
    "slug": "gakushuin",
-   "games": 12,
-   "wins": 6,
+   "games": 13,
+   "wins": 7,
    "losses": 6,
    "draws": 0,
+   "points": 3,
+   "win_pct": ".538"
+  },
+  {
+   "rank": 3,
+   "team": "大正大",
+   "slug": "taisho",
+   "games": 13,
+   "wins": 6,
+   "losses": 7,
+   "draws": 0,
    "points": 2,
-   "win_pct": ".500"
+   "win_pct": ".462"
   },
   {
    "rank": 4,
