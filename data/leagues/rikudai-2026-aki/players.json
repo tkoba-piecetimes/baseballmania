@@ -5,36 +5,36 @@
    "team": "立大",
    "slug": "rikkyo",
    "name": "越後",
-   "games": 8,
-   "at_bats": 22,
-   "hits": 11,
+   "games": 9,
+   "at_bats": 26,
+   "hits": 12,
    "home_runs": 0,
    "rbi": 4,
-   "avg": ".500"
+   "avg": ".462"
   },
   {
    "rank": 2,
    "team": "立大",
    "slug": "rikkyo",
-   "name": "落合",
-   "games": 8,
-   "at_bats": 28,
-   "hits": 12,
-   "home_runs": 1,
-   "rbi": 7,
-   "avg": ".429"
+   "name": "本間",
+   "games": 9,
+   "at_bats": 33,
+   "hits": 14,
+   "home_runs": 3,
+   "rbi": 6,
+   "avg": ".424"
   },
   {
    "rank": 3,
    "team": "立大",
    "slug": "rikkyo",
-   "name": "本間",
-   "games": 8,
-   "at_bats": 30,
+   "name": "落合",
+   "games": 9,
+   "at_bats": 29,
    "hits": 12,
-   "home_runs": 3,
-   "rbi": 6,
-   "avg": ".400"
+   "home_runs": 1,
+   "rbi": 7,
+   "avg": ".414"
   },
   {
    "rank": 4,
@@ -62,6 +62,18 @@
   },
   {
    "rank": 6,
+   "team": "明大",
+   "slug": "meiji",
+   "name": "田上",
+   "games": 11,
+   "at_bats": 44,
+   "hits": 16,
+   "home_runs": 3,
+   "rbi": 15,
+   "avg": ".364"
+  },
+  {
+   "rank": 7,
    "team": "早大",
    "slug": "waseda",
    "name": "德丸",
@@ -71,18 +83,6 @@
    "home_runs": 2,
    "rbi": 5,
    "avg": ".361"
-  },
-  {
-   "rank": 7,
-   "team": "明大",
-   "slug": "meiji",
-   "name": "田上",
-   "games": 10,
-   "at_bats": 39,
-   "hits": 14,
-   "home_runs": 3,
-   "rbi": 14,
-   "avg": ".359"
   },
   {
    "rank": 8,
@@ -98,6 +98,18 @@
   },
   {
    "rank": 8,
+   "team": "明大",
+   "slug": "meiji",
+   "name": "光弘",
+   "games": 11,
+   "at_bats": 33,
+   "hits": 11,
+   "home_runs": 1,
+   "rbi": 9,
+   "avg": ".333"
+  },
+  {
+   "rank": 8,
    "team": "早大",
    "slug": "waseda",
    "name": "尾形",
@@ -107,18 +119,6 @@
    "home_runs": 0,
    "rbi": 3,
    "avg": ".333"
-  },
-  {
-   "rank": 10,
-   "team": "法大",
-   "slug": "hosei",
-   "name": "藤森",
-   "games": 13,
-   "at_bats": 46,
-   "hits": 15,
-   "home_runs": 0,
-   "rbi": 3,
-   "avg": ".326"
   }
  ],
  "pitching": [
@@ -160,6 +160,18 @@
   },
   {
    "rank": 4,
+   "team": "立大",
+   "slug": "rikkyo",
+   "name": "田中",
+   "games": 5,
+   "wins": 0,
+   "losses": 2,
+   "innings": "35",
+   "strikeouts": 20,
+   "era": "2.83"
+  },
+  {
+   "rank": 5,
    "team": "慶大",
    "slug": "keio",
    "name": "渡辺和",
@@ -168,18 +180,6 @@
    "losses": 1,
    "innings": "28",
    "strikeouts": 28,
-   "era": "2.89"
-  },
-  {
-   "rank": 4,
-   "team": "立大",
-   "slug": "rikkyo",
-   "name": "田中",
-   "games": 4,
-   "wins": 0,
-   "losses": 2,
-   "innings": "28",
-   "strikeouts": 16,
    "era": "2.89"
   },
   {
@@ -196,15 +196,15 @@
   },
   {
    "rank": 7,
-   "team": "立大",
-   "slug": "rikkyo",
-   "name": "道本",
-   "games": 4,
-   "wins": 1,
+   "team": "明大",
+   "slug": "meiji",
+   "name": "平嶋",
+   "games": 5,
+   "wins": 0,
    "losses": 1,
-   "innings": "19 2/3",
-   "strikeouts": 22,
-   "era": "6.41"
+   "innings": "22 2/3",
+   "strikeouts": 11,
+   "era": "5.16"
   }
  ]
 }

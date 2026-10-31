@@ -2,19 +2,19 @@
  "総合": [
   {
    "rank": 1,
-   "team": "慶大",
-   "slug": "keio",
-   "games": 10,
-   "wins": 7,
+   "team": "明大",
+   "slug": "meiji",
+   "games": 11,
+   "wins": 8,
    "losses": 3,
    "draws": 0,
    "points": 3,
-   "win_pct": ".700"
+   "win_pct": ".727"
   },
   {
-   "rank": 1,
-   "team": "明大",
-   "slug": "meiji",
+   "rank": 2,
+   "team": "慶大",
+   "slug": "keio",
    "games": 10,
    "wins": 7,
    "losses": 3,
@@ -35,17 +35,6 @@
   },
   {
    "rank": 4,
-   "team": "立大",
-   "slug": "rikkyo",
-   "games": 9,
-   "wins": 4,
-   "losses": 4,
-   "draws": 1,
-   "points": 2,
-   "win_pct": ".500"
-  },
-  {
-   "rank": 4,
    "team": "早大",
    "slug": "waseda",
    "games": 10,
@@ -54,6 +43,17 @@
    "draws": 0,
    "points": 2,
    "win_pct": ".500"
+  },
+  {
+   "rank": 5,
+   "team": "立大",
+   "slug": "rikkyo",
+   "games": 10,
+   "wins": 4,
+   "losses": 5,
+   "draws": 1,
+   "points": 2,
+   "win_pct": ".444"
   },
   {
    "rank": 6,

@@ -428,9 +428,9 @@
   "home_slug": "science-tokyo",
   "away_slug": "tokyo-city",
   "venue": "東洋大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 7,
+  "away_score": 14,
   "note": ""
  }
 ]

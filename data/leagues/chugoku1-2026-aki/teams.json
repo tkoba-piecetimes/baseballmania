@@ -28,5 +28,10 @@
   "team": "広島文化学園大",
   "slug": "hiroshima-bunka",
   "block": "総合"
+ },
+ "松山大学": {
+  "team": "松山大学",
+  "slug": "matsuyama",
+  "block": "総合"
  }
 }

@@ -190,9 +190,9 @@
   "home_slug": "sophia",
   "away_slug": "gakushuin",
   "venue": "上智大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 7,
+  "away_score": 1,
   "note": ""
  },
  {
