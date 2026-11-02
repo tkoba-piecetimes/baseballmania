@@ -33,5 +33,10 @@
   "team": "松山大学",
   "slug": "matsuyama",
   "block": "総合"
+ },
+ "広島経済大学": {
+  "team": "広島経済大学",
+  "slug": "hiroshimakeizai",
+  "block": "総合"
  }
 }

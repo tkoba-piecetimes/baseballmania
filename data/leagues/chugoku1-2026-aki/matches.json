@@ -474,5 +474,19 @@
   "home_score": 0,
   "away_score": 8,
   "note": ""
+ },
+ {
+  "id": "2026-11-01-hiroshimakeizai-vs-kantaiheiyo",
+  "date": "2026-11-01",
+  "time": "未定",
+  "home": "広島経済大学",
+  "away": "環太平洋大",
+  "home_slug": "hiroshimakeizai",
+  "away_slug": "kantaiheiyo",
+  "venue": "レクザムボールパーク丸亀（香川県）",
+  "status": "played",
+  "home_score": 2,
+  "away_score": 9,
+  "note": ""
  }
 ]

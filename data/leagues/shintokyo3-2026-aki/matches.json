@@ -558,5 +558,33 @@
   "home_score": 1,
   "away_score": 4,
   "note": ""
+ },
+ {
+  "id": "2026-10-31-nihon-kogyo-vs-shukutoku",
+  "date": "2026-10-31",
+  "time": "09:56",
+  "home": "日本工大",
+  "away": "淑徳大",
+  "home_slug": "nihon-kogyo",
+  "away_slug": "shukutoku",
+  "venue": "淑徳大学耕心記念グランド",
+  "status": "played",
+  "home_score": 9,
+  "away_score": 13,
+  "note": ""
+ },
+ {
+  "id": "2026-10-31-icu-vs-tokyo-rika",
+  "date": "2026-10-31",
+  "time": "13:34",
+  "home": "国際基督教大",
+  "away": "東京理科大",
+  "home_slug": "icu",
+  "away_slug": "tokyo-rika",
+  "venue": "淑徳大学耕心記念グランド",
+  "status": "played",
+  "home_score": 4,
+  "away_score": 14,
+  "note": ""
  }
 ]
