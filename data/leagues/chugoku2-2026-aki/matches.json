@@ -488,5 +488,19 @@
   "home_score": 3,
   "away_score": 0,
   "note": ""
+ },
+ {
+  "id": "2026-11-03-kurashiki-sakuyo-vs-kawasaki-iryo-fukushi",
+  "date": "2026-11-03",
+  "time": "未定",
+  "home": "くらしき作陽大",
+  "away": "川崎医療福祉大",
+  "home_slug": "kurashiki-sakuyo",
+  "away_slug": "kawasaki-iryo-fukushi",
+  "venue": "和気ベースボールパーク",
+  "status": "played",
+  "home_score": 7,
+  "away_score": 3,
+  "note": ""
  }
 ]
