@@ -960,6 +960,12 @@ LANE_LINKS = {
     ("rikudai-2026-aki", "standings"): ("daigaku-yakyu-senjutsu-yogo-guide", "野球の戦術用語一覧｜大学野球の勝ち点制・タイブレークも解説", "勝ち点制など順位表の用語は"),
     ("tohto3-2026-aki", "index"): ("review-tohto3-2026-aki-20260913", "東都大学野球3部 2026年秋季リーグ戦 9月13日週の結果まとめ", "開幕週の結果は"),
     ("tohto2-2026-aki", "index"): ("review-tohto4-2026-aki-20260912", "東都大学野球4部 2026年秋季リーグ戦 9月12日週の結果まとめ", "最下位の4部の開幕週の動きは"),
+    # 2026-11-04 追加（インデックス未登録レーン）
+    ("rikudai-2026-aki", "schedule"): ("review-rikudai-2026-aki-20260919", "東京六大学野球 2026年秋季リーグ戦 9月19日週の結果まとめ", "開幕2週目の結果は"),
+    ("tohto1-2026-aki", "index"): ("review-tohto4-2026-aki-20260919", "東都大学野球4部 2026年秋季リーグ戦 9月19日週の結果まとめ", "東都の最下位リーグである4部の秋季の動きは"),
+    ("tohto1-2026-haru", "index"): ("daigaku-yakyu-irekaesen-guide", "大学野球の入れ替え戦とは｜東都1部〜4部の仕組みと直近3シーズンの結果", "シーズン終了後の1部・2部の入れ替え戦の仕組みと結果は"),
+    ("tohto1-2026-haru", "teams"): ("daigaku-yakyubu-manager-nyubu-guide", "大学野球部のマネージャーになるには？東京六大学・東都大学野球部の入部方法と募集の探し方", "選手以外でチームを支えるマネージャーとして入部する方法は"),
+    ("tohto1-2026-aki", "teams"): ("daigaku-yakyubu-tokutaisei-seido-guide", "大学野球部の特待生制度とは？スポーツ推薦との違いと学費免除の実態を高校球児向けに解説", "各チームへ進学する際の特待生制度の扱いは"),
 }
 
 
@@ -1057,6 +1063,7 @@ def build_league(lg, articles):
         f'<li><a href="{L}clubs/{t["slug"]}/index.html">{escape(full_name_for(t["team"]))}</a></li>'
         for t in sorted(lg["teams"].values(), key=lambda x: x["team"]))
     body += f'<ul class="team-list">{links}</ul>'
+    body += lane_link(code, "teams", R)
     write_page(f"{code}/teams",
                page(R, f'チーム一覧 | {league_name} | ベースボールマニア', body, meta,
                     path=f"{code}/teams/", desc=f'{league_name}参加全チームの一覧。',
