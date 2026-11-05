@@ -502,5 +502,19 @@
   "home_score": 5,
   "away_score": 2,
   "note": ""
+ },
+ {
+  "id": "2026-11-04-okayama-rika-vs-hiroshima-bunka",
+  "date": "2026-11-04",
+  "time": "未定",
+  "home": "岡山理科大",
+  "away": "広島文化学園大",
+  "home_slug": "okayama-rika",
+  "away_slug": "hiroshima-bunka",
+  "venue": "ツネイシスタジアム",
+  "status": "played",
+  "home_score": 0,
+  "away_score": 3,
+  "note": ""
  }
 ]
