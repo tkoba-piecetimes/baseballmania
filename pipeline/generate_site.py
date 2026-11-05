@@ -967,15 +967,33 @@ LANE_LINKS = {
     ("tohto1-2026-haru", "teams"): ("daigaku-yakyubu-manager-nyubu-guide", "大学野球部のマネージャーになるには？東京六大学・東都大学野球部の入部方法と募集の探し方", "選手以外でチームを支えるマネージャーとして入部する方法は"),
     ("tohto1-2026-aki", "teams"): ("daigaku-yakyubu-tokutaisei-seido-guide", "大学野球部の特待生制度とは？スポーツ推薦との違いと学費免除の実態を高校球児向けに解説", "各チームへ進学する際の特待生制度の扱いは"),
 }
+# 2026-11-05 追加（インデックス未登録レーン・同一ページに複数リンクを許容）
+def _add_lane(code, kind, link):
+    cur = LANE_LINKS.get((code, kind))
+    LANE_LINKS[(code, kind)] = ([cur] if isinstance(cur, tuple) else list(cur or [])) + [link]
+
+_add_lane("rikudai-2026-aki", "index", ("review-rikudai-2026-aki-20260922", "東京六大学野球 2026年秋季リーグ戦 9月22日週の結果まとめ", "開幕3週目あたりの勝ち点の動きは"))
+_add_lane("rikudai-2026-aki", "schedule", ("review-rikudai-2026-aki-20260922", "東京六大学野球 2026年秋季リーグ戦 9月22日週の結果まとめ", "9月下旬の節のスコアは"))
+_add_lane("tohto1-2026-aki", "index", ("review-tohto1-2026-aki-20260908", "東都大学野球1部 2026年秋季リーグ戦 9月8日週の結果まとめ", "1部の開幕週の結果は"))
+_add_lane("tohto1-2026-haru", "index", ("review-tohto1-2026-aki-20260908", "東都大学野球1部 2026年秋季リーグ戦 9月8日週の結果まとめ", "春季に続く秋季の1部の開幕週は"))
+_add_lane("tohto2-2026-aki", "index", ("review-tohto2-2026-aki-20260922", "東都大学野球2部 2026年秋季リーグ戦 9月22日週の結果まとめ", "2部の9月下旬の節の結果は"))
+_add_lane("tohto2-2026-haru", "index", ("review-tohto2-2026-aki-20260922", "東都大学野球2部 2026年秋季リーグ戦 9月22日週の結果まとめ", "春季に続く秋季の2部の動きは"))
+_add_lane("tohto3-2026-aki", "index", ("review-tohto4-2026-aki-20260922", "東都大学野球4部 2026年秋季リーグ戦 9月22日週の結果まとめ", "3部の下に位置する4部の9月下旬の節は"))
+_add_lane("tohto3-2026-haru", "index", ("review-tohto4-2026-aki-20260922", "東都大学野球4部 2026年秋季リーグ戦 9月22日週の結果まとめ", "最下位の4部の秋季の動きは"))
+
 
 
 def lane_link(code, kind, R):
     v = LANE_LINKS.get((code, kind))
     if not v:
         return ""
-    slug, anchor, lead = v
-    return (f'<p class="more"><!-- index-lane-link -->{escape(lead)}'
-            f'<a href="{R}articles/{slug}/index.html">{escape(anchor)}</a>で確認できます。</p>')
+    if isinstance(v, tuple):
+        v = [v]
+    out = ""
+    for slug, anchor, lead in v:
+        out += (f'<p class="more"><!-- index-lane-link -->{escape(lead)}'
+                f'<a href="{R}articles/{slug}/index.html">{escape(anchor)}</a>で確認できます。</p>')
+    return out
 
 
 def build_league(lg, articles):
