@@ -502,5 +502,19 @@
   "home_score": 7,
   "away_score": 3,
   "note": ""
+ },
+ {
+  "id": "2026-11-07-kawasaki-iryo-fukushi-vs-kurashiki-sakuyo",
+  "date": "2026-11-07",
+  "time": "未定",
+  "home": "川崎医療福祉大",
+  "away": "くらしき作陽大",
+  "home_slug": "kawasaki-iryo-fukushi",
+  "away_slug": "kurashiki-sakuyo",
+  "venue": "JFE旭丘球場",
+  "status": "played",
+  "home_score": 4,
+  "away_score": 2,
+  "note": ""
  }
 ]

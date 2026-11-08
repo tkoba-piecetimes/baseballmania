@@ -65,12 +65,12 @@
    "team": "早大",
    "slug": "waseda",
    "name": "德丸",
-   "games": 10,
-   "at_bats": 36,
-   "hits": 13,
+   "games": 11,
+   "at_bats": 40,
+   "hits": 14,
    "home_runs": 2,
    "rbi": 5,
-   "avg": ".361"
+   "avg": ".350"
   },
   {
    "rank": 7,
@@ -98,53 +98,41 @@
   },
   {
    "rank": 8,
-   "team": "慶大",
-   "slug": "keio",
-   "name": "小原",
-   "games": 10,
-   "at_bats": 39,
-   "hits": 13,
-   "home_runs": 1,
-   "rbi": 9,
+   "team": "早大",
+   "slug": "waseda",
+   "name": "湯浅",
+   "games": 9,
+   "at_bats": 30,
+   "hits": 10,
+   "home_runs": 0,
+   "rbi": 2,
    "avg": ".333"
   },
   {
-   "rank": 8,
-   "team": "早大",
-   "slug": "waseda",
-   "name": "尾形",
-   "games": 9,
-   "at_bats": 27,
-   "hits": 9,
+   "rank": 10,
+   "team": "法大",
+   "slug": "hosei",
+   "name": "藤森",
+   "games": 13,
+   "at_bats": 46,
+   "hits": 15,
    "home_runs": 0,
    "rbi": 3,
-   "avg": ".333"
+   "avg": ".326"
   }
  ],
  "pitching": [
   {
    "rank": 1,
-   "team": "慶大",
-   "slug": "keio",
-   "name": "広池",
-   "games": 4,
-   "wins": 1,
-   "losses": 0,
-   "innings": "21 2/3",
-   "strikeouts": 28,
-   "era": "2.08"
-  },
-  {
-   "rank": 2,
    "team": "早大",
    "slug": "waseda",
    "name": "髙橋煌",
-   "games": 5,
-   "wins": 2,
+   "games": 6,
+   "wins": 3,
    "losses": 3,
-   "innings": "32",
-   "strikeouts": 30,
-   "era": "2.53"
+   "innings": "38",
+   "strikeouts": 32,
+   "era": "2.13"
   },
   {
    "rank": 2,
@@ -159,7 +147,7 @@
    "era": "2.53"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "team": "慶大",
    "slug": "keio",
    "name": "渡辺和",
@@ -171,7 +159,19 @@
    "era": "2.89"
   },
   {
-   "rank": 5,
+   "rank": 4,
+   "team": "慶大",
+   "slug": "keio",
+   "name": "広池",
+   "games": 5,
+   "wins": 1,
+   "losses": 1,
+   "innings": "24 2/3",
+   "strikeouts": 31,
+   "era": "2.92"
+  },
+  {
+   "rank": 4,
    "team": "立大",
    "slug": "rikkyo",
    "name": "田中",
