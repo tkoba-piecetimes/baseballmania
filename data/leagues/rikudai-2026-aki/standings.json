@@ -15,15 +15,15 @@
    "rank": 2,
    "team": "慶大",
    "slug": "keio",
-   "games": 11,
+   "games": 12,
    "wins": 7,
-   "losses": 4,
+   "losses": 5,
    "draws": 0,
    "points": 3,
-   "win_pct": ".636"
+   "win_pct": ".583"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "team": "法大",
    "slug": "hosei",
    "games": 13,
@@ -34,15 +34,15 @@
    "win_pct": ".583"
   },
   {
-   "rank": 4,
+   "rank": 2,
    "team": "早大",
    "slug": "waseda",
-   "games": 11,
-   "wins": 6,
+   "games": 12,
+   "wins": 7,
    "losses": 5,
    "draws": 0,
-   "points": 2,
-   "win_pct": ".545"
+   "points": 3,
+   "win_pct": ".583"
   },
   {
    "rank": 5,

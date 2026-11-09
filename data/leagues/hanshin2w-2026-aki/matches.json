@@ -470,9 +470,9 @@
   "home_slug": "otemon",
   "away_slug": "konan",
   "venue": "ほっともっと",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 8,
   "note": ""
  }
 ]
