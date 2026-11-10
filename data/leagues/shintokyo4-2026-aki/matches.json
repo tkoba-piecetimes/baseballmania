@@ -348,5 +348,33 @@
   "home_score": 7,
   "away_score": 4,
   "note": ""
+ },
+ {
+  "id": "2026-11-07-tokyo-koka-vs-tokyo-gaigo",
+  "date": "2026-11-07",
+  "time": "09:00",
+  "home": "東京工科大",
+  "away": "東京外語大",
+  "home_slug": "tokyo-koka",
+  "away_slug": "tokyo-gaigo",
+  "venue": "東京国際大学",
+  "status": "played",
+  "home_score": 0,
+  "away_score": 16,
+  "note": ""
+ },
+ {
+  "id": "2026-11-07-denki-tsushin-vs-tokyo-denki",
+  "date": "2026-11-07",
+  "time": "11:33",
+  "home": "電気通信大",
+  "away": "東京電機大",
+  "home_slug": "denki-tsushin",
+  "away_slug": "tokyo-denki",
+  "venue": "東京国際大学",
+  "status": "played",
+  "home_score": 10,
+  "away_score": 1,
+  "note": ""
  }
 ]

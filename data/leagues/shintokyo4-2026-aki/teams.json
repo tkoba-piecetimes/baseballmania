@@ -9,14 +9,14 @@
   "slug": "tokyo-denki",
   "block": "総合"
  },
- "東京農工大": {
-  "team": "東京農工大",
-  "slug": "tokyo-noko",
-  "block": "総合"
- },
  "電気通信大": {
   "team": "電気通信大",
   "slug": "denki-tsushin",
+  "block": "総合"
+ },
+ "東京農工大": {
+  "team": "東京農工大",
+  "slug": "tokyo-noko",
   "block": "総合"
  },
  "東京工科大": {
