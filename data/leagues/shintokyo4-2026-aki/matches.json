@@ -376,5 +376,33 @@
   "home_score": 10,
   "away_score": 1,
   "note": ""
+ },
+ {
+  "id": "2026-11-08-tokyo-koka-vs-denki-tsushin",
+  "date": "2026-11-08",
+  "time": "09:51",
+  "home": "東京工科大",
+  "away": "電気通信大",
+  "home_slug": "tokyo-koka",
+  "away_slug": "denki-tsushin",
+  "venue": "東京農工大学",
+  "status": "played",
+  "home_score": 13,
+  "away_score": 14,
+  "note": ""
+ },
+ {
+  "id": "2026-11-08-tokyo-denki-vs-tokyo-noko",
+  "date": "2026-11-08",
+  "time": "13:20",
+  "home": "東京電機大",
+  "away": "東京農工大",
+  "home_slug": "tokyo-denki",
+  "away_slug": "tokyo-noko",
+  "venue": "東京農工大学",
+  "status": "played",
+  "home_score": 10,
+  "away_score": 8,
+  "note": ""
  }
 ]
