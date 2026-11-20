@@ -516,5 +516,19 @@
   "home_score": 0,
   "away_score": 3,
   "note": ""
+ },
+ {
+  "id": "2026-11-19-kantaiheiyo-vs-koubeiryoumirai",
+  "date": "2026-11-19",
+  "time": "未定",
+  "home": "環太平洋大",
+  "away": "神戸医療未来大学",
+  "home_slug": "kantaiheiyo",
+  "away_slug": "koubeiryoumirai",
+  "venue": "明治神宮野球場",
+  "status": "played",
+  "home_score": 0,
+  "away_score": 2,
+  "note": ""
  }
 ]
