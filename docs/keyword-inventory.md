@@ -224,6 +224,9 @@ SERP分析→骨子・執筆→リリース）で別途行う。
 | P4 | 野球 内野手 外野手 コンバート | `daigaku-yakyu-convert-naiya-gaiya-guide` | 2026-10-28 |
 | P23 | 大学野球部 合宿 練習メニュー 内容 | `daigaku-yakyubu-gasshuku-renshu-menu-naiyo-guide` | 2026-11-10 |
 | K11 | 大学野球部 年間カレンダー（新歓〜引退まで） | `daigaku-yakyubu-nenkan-calendar-guide` | 2026-11-16 |
+| K3 | 東都大学野球1部 優勝回数ランキング | `tohto-daigaku-yakyu-yusho-kaisu-ranking` | 2026-11-23 |
+
+（2026-11-23追記: H7・K1・H21は消し込み表に未記載だったが公開済み＝`puro-yakyu-daigaku-shusshin-guide`・`daigaku-yakyu-buinsu-ranking`・`daigaku-yakyu-tiebreak-rule-guide`。重複着手しないこと。K4・K13はH7記事と意図が近いため着手前に要検討）
 
 （2026-09-21: H1を狙う指示で着手したが `daigaku-yakyu-kyogo-guide` と完全にカニバることが
 判明したため、H20へ差し替えた。経緯は `docs/serp-notes/daigaku-yakyu-irekaesen.md` を参照）
