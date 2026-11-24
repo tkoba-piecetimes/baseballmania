@@ -979,6 +979,18 @@ _add_lane("tohto2-2026-aki", "index", ("review-tohto2-2026-aki-20260922", "東�
 _add_lane("tohto2-2026-haru", "index", ("review-tohto2-2026-aki-20260922", "東都大学野球2部 2026年秋季リーグ戦 9月22日週の結果まとめ", "春季に続く秋季の2部の動きは"))
 _add_lane("tohto3-2026-aki", "index", ("review-tohto4-2026-aki-20260922", "東都大学野球4部 2026年秋季リーグ戦 9月22日週の結果まとめ", "3部の下に位置する4部の9月下旬の節は"))
 _add_lane("tohto3-2026-haru", "index", ("review-tohto4-2026-aki-20260922", "東都大学野球4部 2026年秋季リーグ戦 9月22日週の結果まとめ", "最下位の4部の秋季の動きは"))
+# 2026-11-24 追加（インデックス未登録レーン）
+_add_lane("tohto4-2026-aki", "index", ("review-tohto4-2026-aki-20261003", "東都大学野球4部 2026年秋季リーグ戦 10月3日週の結果まとめ", "秋季中盤の10月第1週の結果は"))
+_add_lane("tohto4-2026-aki", "index", ("review-tohto4-2026-aki-20261010", "東都大学野球4部 2026年秋季リーグ戦 10月10日週の結果まとめ", "続く10月10日週の動きは"))
+_add_lane("tohto3-2026-aki", "index", ("review-tohto3-2026-aki-20261003", "東都大学野球3部 2026年秋季リーグ戦 10月3日週の結果まとめ", "10月第1週の3部の結果は"))
+_add_lane("tohto3-2026-haru", "index", ("review-tohto3-2026-aki-20260926", "東都大学野球3部 2026年秋季リーグ戦 9月26日週の結果まとめ", "春季に続く秋季の3部の動きは"))
+_add_lane("rikudai-2026-aki", "index", ("review-rikudai-2026-aki-20261003", "東京六大学野球 2026年秋季リーグ戦 10月3日週の結果まとめ", "10月に入ってからの勝ち点の動きは"))
+_add_lane("rikudai-2026-aki", "schedule", ("review-rikudai-2026-aki-20261010", "東京六大学野球 2026年秋季リーグ戦 10月10日週の結果まとめ", "10月中旬の節のスコアは"))
+_add_lane("rikudai-2026-haru", "index", ("review-rikudai-2026-aki-20261010", "東京六大学野球 2026年秋季リーグ戦 10月10日週の結果まとめ", "春季に続く秋季の終盤戦の動きは"))
+_add_lane("tohto4-2026-haru", "index", ("review-tohto4-2026-aki-20261010", "東都大学野球4部 2026年秋季リーグ戦 10月10日週の結果まとめ", "春季に続く秋季の4部の動きは"))
+_add_lane("tohto1-2026-haru", "teams", ("puro-yakyu-daigaku-shusshin-guide", "プロ野球選手の大学出身は多い？2025年ドラフトの指名内訳と大学からプロへの3ルート", "各チームの選手がプロへ進むルートの実態は"))
+_add_lane("tohto1-2026-aki", "teams", ("daigaku-yakyu-zenkoku-renmei-ichiran-guide", "東京六大学・東都以外にも大学野球リーグはある？全国の大学野球連盟一覧と選び方", "東都以外の全国の大学野球連盟は"))
+_add_lane("tohto2-2026-aki", "index", ("daigaku-yakyu-zenkoku-renmei-ichiran-guide", "東京六大学・東都以外にも大学野球リーグはある？全国の大学野球連盟一覧と選び方", "東都以外の大学野球リーグについては"))
 
 
 
