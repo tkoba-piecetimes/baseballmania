@@ -51,7 +51,7 @@ cta: shukatsu
 | 体育会特化型エージェント | 体育会学生の実績が豊富な企業の紹介、面談を通じた個別マッチング | 無料（学生負担なし） | 業界・企業の選択肢を広げたいとき、面接日程をリーグ戦と調整したいとき |
 | 逆求人・スカウト型サイト | プロフィールを登録し、企業側からオファーを受け取る | 無料（学生負担なし） | 自分から探す時間が取りにくいシーズン中に、効率よく接点を増やしたいとき |
 
-体育会特化型エージェントの選び方・使うタイミングは[野球部員の就活エージェント活用法](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-agent-katsuyo-guide/)、逆求人・スカウト型サイトの具体的な使い方は[野球部員の就活、逆求人・スカウト型サイトの使い方](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-gyakukyujin-scout-guide/)で詳しく解説しています。<!-- index-lane-link -->
+体育会特化型エージェントの選び方・使うタイミングは[野球部員の就活エージェント活用法](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-agent-katsuyo-guide/)、逆求人・スカウト型サイトの具体的な使い方は[野球部員の就活、逆求人・スカウト型サイトの使い方](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-gyakukyujin-scout-guide/)で詳しく解説しています。<!-- index-lane-link -->卒業後に転職を考える段階になった場合のエージェントの違いは、[大学野球部出身者の転職エージェント選び](https://baseballmania.jp/articles/yakyubu-ob-tenshoku-agent-erabikata-guide/)で総合型と特化型の違いを整理しています。<!-- index-lane-link -->
 
 ### 併用するときの優先順位の考え方
 
