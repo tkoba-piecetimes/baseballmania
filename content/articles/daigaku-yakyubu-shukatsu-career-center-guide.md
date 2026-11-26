@@ -61,7 +61,7 @@ cta: shukatsu
 2. **体育会特化型エージェントに登録し、企業選びの選択肢を広げる**
 3. **逆求人・スカウト型サイトにプロフィールを登録し、オファーを待つ時間も活用する**
 
-ESの書き方そのものに不安がある場合は[野球部員の就活エントリーシート(ES)の書き方](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-es-kakikata-guide/)、面接の想定質問と答え方は[野球部員の就活面接対策](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-mensetsu-taisaku-guide/)もあわせて確認すると、キャリアセンターでの相談がより具体的になります。<!-- index-lane-link -->
+ESの書き方そのものに不安がある場合は[野球部員の就活エントリーシート(ES)の書き方](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-es-kakikata-guide/)、面接の想定質問と答え方は[野球部員の就活面接対策](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-mensetsu-taisaku-guide/)もあわせて確認すると、キャリアセンターでの相談がより具体的になります。<!-- index-lane-link -->選考で集団面接やグループディスカッションが課される場合は、[野球部員の就活グループディスカッション対策](https://baseballmania.jp/articles/daigaku-yakyubu-shukatsu-gd-taisaku-guide/)で役割の選び方を確認しておくと、事前に練習したい点を相談しやすくなります。<!-- index-lane-link -->
 
 ## キャリアセンターを使い始めるタイミング
 
