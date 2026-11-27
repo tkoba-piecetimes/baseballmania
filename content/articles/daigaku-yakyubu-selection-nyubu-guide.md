@@ -47,6 +47,8 @@ level: 入門
 3. **志望動機を言語化しておく**：「なぜこのチームを選んだのか」を具体的に語れるようにしておくと、面談の場でも説得力が増します
 4. **怪我の予防・コンディション管理**：セレクションや練習参加の機会は限られていることが多く、万全の状態で臨めるようにしておく
 
+投手として実技に臨む場合は、球速の土台となる下半身・体幹のトレーニングを事前に整えておくと安心です。具体的な進め方は、[大学野球 投手の球速アップトレーニング](https://baseballmania.jp/articles/daigaku-yakyu-toshu-kyusoku-up-training-guide/)で解説しています。<!-- index-lane-link -->
+
 入部が決まった後は、グローブやスパイク、練習着など個人で用意する用具をそろえる費用もかかります。保護者の方と進路を相談する際は、[大学野球部の用具にかかる費用と予算の立て方](https://baseballmania.jp/articles/daigaku-yakyubu-yogu-hiyou-guide/)もあわせて確認しておくと、入学後の出費を見通しやすくなります。<!-- index-lane-link -->保護者がチームを支える立場になる場合の後援会や保護者会の仕組みは、[大学野球部の後援会とは？保護者会との違いと運営費を支える仕組み](https://baseballmania.jp/articles/daigaku-yakyubu-koenkai-hogoshakai-guide/)で確認できます。<!-- index-lane-link -->練習や試合でのケガに備える保険の仕組みは、[大学野球部の保険はどう選ぶ？ケガ・事故に備える学研災とスポーツ安全保険](https://baseballmania.jp/articles/daigaku-yakyubu-hoken-kega-jiko-guide/)<!-- index-lane-link -->で整理しています。
 
 入部後は用具だけでなく、部費や遠征費といった部の運営費も毎年かかります。部費がどこに使われ、足りない場合にどんな資金調達の選択肢があるかは、[大学野球部の部費・遠征費、どう集める？主務・会計向け資金調達ガイド](https://baseballmania.jp/articles/daigaku-yakyubu-shikin-chotatsu-guide/)で整理しています。<!-- index-lane-link -->遠征や合宿にかかる費用の目安は、[大学野球部の遠征費・合宿費はどれくらいかかる？](https://baseballmania.jp/articles/daigaku-yakyubu-ensei-gasshuku-hiyou-guide/)で確認できます。<!-- index-lane-link -->
